@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import Divider from '@mui/material/Divider';
 import Menu from '@mui/material/Menu';
@@ -9,7 +9,9 @@ import MenuSharpIcon from '@mui/icons-material/MenuSharp';
 import '../../../assets/css/components/header/header.css'
 import Logo from '../../../assets/Air Drumming Logo/AirDrumming_logo.svg';
 
-const Header = () => {
+    const Header = () => {
+    const audioRef = useRef(null);
+    const [audioStarted, setAudioStarted] = useState(false);
     const [mainOpen, setMainopen] = useState(null);
     const [anchorEl, setAnchorEl] = useState(null);
     const [subopen, setSubOpen] = useState(null);
@@ -50,12 +52,55 @@ const Header = () => {
     };
 
     useEffect(() => {
+        
         window.addEventListener('scroll', handleScroll);
 
         return () => {
             window.removeEventListener('scroll', handleScroll);
         };
     }, [lastScrollY]);
+
+    useEffect(() => {
+        const audio = audioRef.current;
+        audio.loop = true;
+        audio.muted = true;
+    
+        // Fade-in effect for audio
+        const fadeInAudio = () => {
+          audio.volume = 0;
+          let fadeInInterval = setInterval(() => {
+            if (audio.volume < 1) {
+              audio.volume = Math.min(audio.volume + 0.05, 1); 
+            } else {
+              clearInterval(fadeInInterval); 
+            }
+          }, 100);
+        };
+ 
+        const playAudioOnInteraction = () => {
+          const audio = audioRef.current;
+
+          if (!audio.muted && !audio.paused) {
+            return; 
+          }
+
+          if (audio.muted) {
+            audio.muted = false; 
+            audio.play().then(() => {
+              fadeInAudio(); 
+              setAudioStarted(true); 
+            }).catch((error) => {
+              console.error("Audio play failed:", error);
+            });
+          }
+        };
+
+        window.addEventListener('click', playAudioOnInteraction);
+
+        return () => {
+            window.removeEventListener('click', playAudioOnInteraction);
+        };
+      }, [audioStarted]);
 
     return (
         <header className={`main-header ${showHeader ? 'visible' : 'hidden'}`}>
@@ -159,6 +204,7 @@ const Header = () => {
                 <Link to="/community"><MenuItem onClick={handleClose}>AIR+ Community</MenuItem></Link>
                 <Link to="/contact"><MenuItem onClick={handleClose}>Contact Us</MenuItem></Link>
             </Menu>
+            <audio ref={audioRef} src="/assets/Audio/6303082381980996619.mp3" loop />
         </header >
     );
 };
