@@ -13,11 +13,11 @@
 }
 
 input::placeholder {
-    color: #979797;       /* Set the color */
+    color: #979797;      
 }
 
 textarea::placeholder {
-    color: #979797;       /* Set the color */
+    color: #979797;      
 }
 
 .get-in-touch {

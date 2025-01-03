@@ -91,10 +91,8 @@ a:visited {
   margin-top: 10px;
   width: 100%;
   height: 280px;
-  /*background-image: url("../../assets/Air Drumming Logo/AirDrumming_Logo-03.png");*/
   background: linear-gradient(140deg, #182e82, #1b0c4d);
   background-size: 100% 100%;
-  /*background-color: transparent;*/
   border: none;
 }
 
@@ -108,7 +106,6 @@ a:visited {
 .citing {
   border-radius: 35px;
   margin-top: 10px;
-  /*margin-left: 15px;*/
   width: 100%;
   height: 280px;
   background: linear-gradient(160deg, #7dfe97, #4fe6ff);
@@ -147,7 +144,6 @@ a:visited {
   height: 280px;
   background-image: url("../../assets/01_Home Page/Home_Section 2/PhoneScene_01.png");
   background-size: 100% 100%;
-  /*background-size: cover;*/
   background-position: center;
 }
 
@@ -190,7 +186,6 @@ a:visited {
   height: 280px;
   background-image: url("../../assets/01_Home Page/Home_Section 2/PhoneScene_02.png");
   background-size: 100% 100%;
-  /*background-size: cover;*/
   background-position: center;
 }
 
@@ -199,12 +194,10 @@ a:visited {
   position: relative;
   border-radius: 35px;
   margin-top: 10px;
-  /*margin-left: 15px;*/
   width: 100%;
   height: 280px;
   background: linear-gradient(140deg, #f0c5fe, #bf4cc7);
   background-size: 100% 100%;
-  /*background-color: transparent;*/
   border: none;
 }
 .feel-text{
@@ -227,7 +220,6 @@ a:visited {
   height: 280px;
   background: linear-gradient(140deg, #61e6bd, #257436);
   background-size: 100% 100%;
-  /*background-color: transparent;*/
   border: none;
 }
 .learn-text h1{
@@ -242,7 +234,6 @@ a:visited {
   position: relative;
   border-radius: 35px;
   margin-top: 13px;
-  /*margin-left: 15px;*/
   width: 100%;
   height: 280px;
   background: linear-gradient(160deg, #e498e7, #6264fd);
@@ -251,7 +242,6 @@ a:visited {
 }
 .drumplay-content {
   display: flex;
-  /*gap: 10px;*/
   align-items: center;
   width: 100%;
   height: 100%;
@@ -280,41 +270,39 @@ a:visited {
   height: 280px;
   background-image: url("../../assets/01_Home Page/Home_Section 2/PhoneScene_03.png");
   background-size: 100% 100%;
-  /*background-size: cover;*/
   background-position: center;
 }
 */
 .about {
   height: 100vh;
-  /*background-image: url(../images/About/section_4/Section_04_back.png);*/
   background-size: 100% 100%;
 }
 
 
 ::-webkit-scrollbar {
-  width: 10px; /* width of the scrollbar */
+  width: 10px; 
   border-radius: 50px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #f1f1f1; /* color of the track */
+  background: #f1f1f1; 
   border-radius: 50px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #888; /* color of the scrollbar */
+  background: #888; 
   border-radius: 50px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #555; /* color when hovering */
+  background: #555; 
   border-radius: 50px;
 }
 
-/* For Firefox */
+
 .scrollable {
-  scrollbar-width: thin; /* options: auto, thin */
-  scrollbar-color: #888 #f1f1f1; /* scrollbar color and track color */
+  scrollbar-width: thin; 
+  scrollbar-color: #888 #f1f1f1; 
 }
 
 .MuiPopover-root {

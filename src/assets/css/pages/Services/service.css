@@ -6,7 +6,6 @@
   }
 
 .service_container {
-    /*background-image: url(../../assets/images/services/services_back.png);*/
     background-size: 100% 100%;
 }
 
@@ -26,7 +25,6 @@
 }
 
 .schools-intro {
-    /*background-image: url(../../assets/images/services/school/school.png);*/
     border-radius: 35px;
     background: linear-gradient(140deg, #f1c7ff, #bd49c5);
     background-size: 100% 100%;
@@ -38,7 +36,6 @@
 }
 
 .schools-provide {
-    /*background-image: url(../../assets/images/services/school/provide.png);*/
     border-radius: 35px;
     background: linear-gradient(140deg, #fcefb1, #ed486f);
     background-size: 100% 100%;
@@ -68,7 +65,6 @@
 }
 
 .schools-worked {
-    /*background-image: url(../../assets/images/services/school/worked.png);*/
     position: relative;
     z-index: 99;
     border-radius: 35px;
@@ -101,7 +97,6 @@
 }
 
 .corporate-intro {
-    /*background-image: url(../../assets/images/services/corporate/corporate_1.png);*/
     border-radius: 35px;
     background: linear-gradient(140deg, #f9ea63, #f4d800);
     background-size: 100% 100%;
@@ -111,7 +106,6 @@
 }
 
 .corporate-provide {
-    /*background-image: url(../../assets/images/services/corporate/corporate_2.png);*/
     border-radius: 35px;
     background: linear-gradient(140deg, #4b92eb, #4fe8ff);
     background-size: 100% 100%;
@@ -121,7 +115,6 @@
 }
 
 .corporate-worked {
-    /*background-image: url(../../assets/images/services/corporate/corporate_3.png);*/
     border-radius: 35px;
     background: linear-gradient(140deg, #f69854, #f0ce53);
     background-size: 100% 100%;
@@ -158,7 +151,6 @@
 }
 
 .community-intro {
-    /*background-image: url(../../assets/images/services/community/Card_community_01.png);*/
     border-radius: 35px;
     background: linear-gradient(140deg, #7dfe96, #4fe6fe);
     background-size: 100% 100%;
@@ -168,7 +160,6 @@
 }
 
 .community-provide {
-    /*background-image: url(../../assets/images/services/community/Card_community_02.png);*/
     border-radius: 35px;
     background: linear-gradient(140deg, #4a8de6, #4fe7ff);
     background-size: 100% 100%;
@@ -178,7 +169,6 @@
 }
 
 .community-worked {
-    /*background-image: url(../../assets/images/services/community/Card_community_03.png);*/
     border-radius: 35px;
     background: linear-gradient(140deg, #efc4fd, #bf4cc7);
     background-size: 100% 100%;
@@ -188,7 +178,6 @@
 }
 
 .service_community-image {
-    /*background-image: url(../../assets/images/services/community/community_image.png);*/
     background-image: url("../../../03_Services Page/Community_Img.png");
     background-size: 100% 100%;
     width: 506px;
@@ -209,7 +198,6 @@
 }
 
 .events-intro {
-    /*background-image: url(../../assets/images/services/events/Card_Events_01.png);*/
     border-radius: 35px;
     background: linear-gradient(140deg, #fcf0b2, #ec456d);
     background-size: 100% 100%;
@@ -219,7 +207,6 @@
 }
 
 .events-provide {
-    /*background-image: url(../../assets/images/services/events/Card_Events_02.png);*/
     border-radius: 35px;
     background: linear-gradient(140deg, #7dfe96, #4fe6fe);
     background-size: 100% 100%;
@@ -370,27 +357,6 @@
     animation: pop-in 2.2s forwards
 }
 
-/*@media (max-width: 1100px) {
-    .schools-detail {
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: center;
-        align-items: center;
-        margin-right: 0px;
-        padding-top: 90px;
-    }
-
-    .corporate-detail {
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: center;
-        align-items: center;
-        margin-right: 0px;
-        padding-top: 90px;
-    }
-        
-}*/
-
 @media (max-width: 744px) {
     .schools-content{
         padding: 20px;
@@ -460,7 +426,6 @@
     }
 
     .schools-intro {
-        /*background-image: url(../../assets/images/services/school/school_mobile.png);*/
         background-size: 100% 100%;
         width: 312px;
         height: 421px;
@@ -468,7 +433,6 @@
     }
 
     .schools-provide {
-        /*background-image: url(../../assets/images/services/school/provide_mobile.png);*/
         background-size: 100% 100%;
         width: 312px;
         height: 165px;
@@ -476,7 +440,6 @@
     }
 
     .schools-worked {
-        /*background-image: url(../../assets/images/services/school/worked_mobile.png);*/
         background-size: 100% 100%;
         width: 312px;
         height: 206px;
@@ -506,7 +469,6 @@
     }
 
     .corporate-intro {
-        /*background-image: url(../../assets/images/services/corporate/corporate_1_mobile.png);*/
         background-size: 100% 100%;
         width: 312px;
         height: 341px;
@@ -514,7 +476,6 @@
     }
 
     .corporate-provide {
-        /*background-image: url(../../assets/images/services/corporate/corporate_2_mobile.png);*/
         background-size: 100% 100%;
         width: 312px;
         height: 197px;
@@ -522,7 +483,6 @@
     }
 
     .corporate-worked {
-        /*background-image: url(../../assets/images/services/corporate/corporate_3_mobile.png);*/
         background-size: 100% 100%;
         width: 312px;
         height: 162px;
@@ -530,7 +490,6 @@
     }
 
     .corporate-image {
-        /*background-image: url(../../assets/images/services/corporate/Corporate_Image.png);*/
         background-size: 100% 100%;
         width: 312px;
         height: 467px;
@@ -556,7 +515,6 @@
     }
 
     .community-intro {
-        /*background-image: url(../../assets/images/services/community/Card_community_01_mobile.png);*/
         background-size: 100% 100%;
         width: 312px;
         height: 485px;
@@ -564,7 +522,6 @@
     }
 
     .community-provide {
-        /*background-image: url(../../assets/images/services/community/Card_community_02_mobile.png);*/
         background-size: 100% 100%;
         width: 312px;
         height: 165px;
@@ -572,7 +529,6 @@
     }
 
     .community-worked {
-        /*background-image: url(../../assets/images/services/community/Card_community_03_mobile.png);*/
         background-size: 100% 100%;
         width: 312px;
         height: 178px;
@@ -604,7 +560,6 @@
     }
 
     .events-intro {
-        /*background-image: url(../../assets/images/services/events/Card_Events_01_mobile.png);*/
         background-size: 100% 100%;
         width: 312px;
         height: 245px;
@@ -612,7 +567,6 @@
     }
 
     .events-provide {
-        /*background-image: url(../../assets/images/services/events/Card_Events_02_mobile.png);*/
         background-size: 100% 100%;
         width: 312px;
         height: 181.88px;
@@ -819,7 +773,6 @@
     }
 
     .schools-intro {
-        /*background-image: url(../../assets/images/services/school/school_mobile.png);*/
         background-size: 100% 100%;
         width: 312px;
         height: 421px;
@@ -827,7 +780,6 @@
     }
 
     .schools-provide {
-        /*background-image: url(../../assets/images/services/school/provide_mobile.png);*/
         background-size: 100% 100%;
         width: 312px;
         height: 165px;
@@ -835,7 +787,6 @@
     }
 
     .schools-worked {
-       /*background-image: url(../../assets/images/services/school/worked_mobile.png);*/
         background-size: 100% 100%;
         width: 312px;
         height: 206px;
@@ -865,7 +816,6 @@
     }
 
     .corporate-intro {
-        /*background-image: url(../../assets/images/services/corporate/corporate_1_mobile.png);*/
         background-size: 100% 100%;
         width: 312px;
         height: 341px;
@@ -873,7 +823,6 @@
     }
 
     .corporate-provide {
-        /*background-image: url(../../assets/images/services/corporate/corporate_2_mobile.png);*/
         background-size: 100% 100%;
         width: 312px;
         height: 197px;
@@ -881,7 +830,6 @@
     }
 
     .corporate-worked {
-        /*background-image: url(../../assets/images/services/corporate/corporate_3_mobile.png);*/
         background-size: 100% 100%;
         width: 312px;
         height: 162px;
@@ -889,7 +837,6 @@
     }
 
     .corporate-image {
-        /*background-image: url(../../assets/images/services/corporate/Corporate_Image.png);*/
         background-size: 100% 100%;
         width: 312px;
         height: 467px;
@@ -915,7 +862,6 @@
     }
 
     .community-intro {
-        /*background-image: url(../../assets/images/services/community/Card_community_01_mobile.png);*/
         background-size: 100% 100%;
         width: 312px;
         height: 485px;
@@ -923,7 +869,6 @@
     }
 
     .community-provide {
-        /*background-image: url(../../assets/images/services/community/Card_community_02_mobile.png);*/
         background-size: 100% 100%;
         width: 312px;
         height: 165px;
@@ -931,7 +876,6 @@
     }
 
     .community-worked {
-        /*background-image: url(../../assets/images/services/community/Card_community_03_mobile.png);*/
         background-size: 100% 100%;
         width: 312px;
         height: 178px;
@@ -939,7 +883,6 @@
     }
 
     .service_community-image {
-        /*background-image: url(../../assets/images/services/community/community_image_mobile.png);*/
         background-size: 100% 100%;
         width: 312px;
         height: 467px;
@@ -963,7 +906,6 @@
     }
 
     .events-intro {
-        /*background-image: url(../../assets/images/services/events/Card_Events_01_mobile.png);*/
         background-size: 100% 100%;
         width: 312px;
         height: 245px;
@@ -971,7 +913,6 @@
     }
 
     .events-provide {
-        /*background-image: url(../../assets/images/services/events/Card_Events_02_mobile.png);*/
         background-size: 100% 100%;
         width: 312px;
         height: 181.88px;

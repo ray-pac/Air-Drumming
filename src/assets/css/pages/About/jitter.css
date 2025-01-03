@@ -19,7 +19,6 @@
   font-weight: bold;
   width: 420px;
   height: 76px;
-  /*background-image: url(../../assets/images/About/section_4/join.png);*/
   background: linear-gradient(160deg, #f78382, #bd0801);
   background-size: 100% 100%;
   border: none;
@@ -45,7 +44,6 @@
 .join:hover {
   width: 420px;
   height: 76px;
-  /*background-image: url(../../assets/images/About/section_4/join.png);*/
   background-size: 100% 100%;
   border: none;
   margin-top: 20px;
@@ -85,9 +83,7 @@
   position: absolute;
   width: 1000px;
   height: 1000px;
-  /* border: 1px solid #100F1C; */
   border-radius: 50%;
-  /* animation: rotate 20s linear infinite; */
 }
 
 .blue {
@@ -415,7 +411,7 @@
     url("../../../../../src/assets/02_About Page/About_Section  2/DJ_ScratchDisc_Img-crop.png");
   background-size: 100% 100%;
   background-color: transparent;
-  background-blend-mode: overlay; /* Optional for enhanced blending effect */
+  background-blend-mode: overlay;
   border: none;
 }
 .mission-overlay-content{
@@ -434,7 +430,7 @@
     url("../../../../../src/assets/02_About Page/About_Section  2/Vynl_Img_Crop.png");
   background-size: 100% 100%;
   background-color: transparent;
-  background-blend-mode: overlay; /* Optional for enhanced blending effect */
+  background-blend-mode: overlay; 
   border: none;
 }
 .vision-overlay-content{
@@ -852,7 +848,6 @@
     margin-left: 0px;
     width: 312px;
     height: 160px;
-    /*background-image: url(../../assets/images/About/section2/Mission_mobile.png);*/
     background-size: 100% 100%;
     background-color: transparent;
     border: none;
@@ -877,7 +872,6 @@
     margin-left: 0px;
     width: 312px;
     height: 160px;
-    /*background-image: url(../../assets/images/About/section2/Vision_mobile.png);*/
     background-size: 100% 100%;
     background-color: transparent;
     border: none;
@@ -1002,7 +996,6 @@
     position: absolute;
     width: 222.95px;
     height: 222.95px;
-    /*background-image: url(../../assets/images/About/section3/Earth_crop.png);*/
     background-size: 100% 100%;
     border-radius: 50%;
     top: 50%;
@@ -1021,7 +1014,6 @@
   .blue {
     width: 44.8px;
     height: 44.8px;
-    /*background-image: url(../../assets/images/About/section3/Planet_03-1.png);*/
     background-size: 100% 100%;
     border-radius: 50%;
     position: absolute;
@@ -1031,7 +1023,6 @@
   .pink {
     width: 44.8px;
     height: 44.8px;
-    /*background-image: url(../../assets/images/About/section3/Planet_03.png);*/
     background-size: 100% 100%;
     border-radius: 50%;
     position: absolute;
@@ -1043,7 +1034,6 @@
   .yellow {
     width: 111px;
     height: 111px;
-    /*background-image: url(../../assets/images/About/section3/Planet_Bullet_04.png);*/
     background-size: 100% 100%;
     border-radius: 50%;
     position: absolute;
@@ -1065,7 +1055,6 @@
   .Imperialis {
     width: 114px;
     height: 114px;
-    /*background-image: url(../../assets/images/About/section3/Imperialis_planet.png);*/
     background-size: 100% 100%;
     border-radius: 50%;
     position: absolute;
@@ -1077,7 +1066,6 @@
   .Devorah {
     width: 73px;
     height: 73px;
-    /*background-image: url(../../assets/images/About/section3/Devorah_planet.png);*/
     background-size: 100% 100%;
     border-radius: 50%;
     position: absolute;
@@ -1089,7 +1077,6 @@
   .green {
     width: 43.5px;
     height: 43.5px;
-    /*background-image: url(../../assets/images/About/section3/Planet_Bullet_02.png);*/
     background-size: 100% 100%;
     border-radius: 50%;
     position: absolute;
@@ -1101,7 +1088,6 @@
   .Khroma {
     width: 80.5px;
     height: 80.5px;
-    /*background-image: url(../../assets/images/About/section3/Khroma_Planet.png);*/
     background-size: 100% 100%;
     border-radius: 50%;
     position: absolute;
@@ -1123,7 +1109,6 @@
   .Mylocritas {
     width: 77px;
     height: 77px;
-    /*background-image: url(../../assets/images/About/section3/Murkara_planet.png);*/
     background-size: 100% 100%;
     border-radius: 50%;
     position: absolute;
@@ -1135,7 +1120,6 @@
   .Aurelia {
     width: 118px;
     height: 118px;
-    /*background-image: url(../../assets/images/About/section3/Aurelia_planet.png);*/
     background-size: 100% 100%;
     border-radius: 50%;
     position: absolute;
@@ -1146,7 +1130,6 @@
   .Solarion {
     width: 80.5px;
     height: 80.5px;
-    /*background-image: url(../../assets/images/About/section3/Solarion_planet.png);*/
     background-size: 100% 100%;
     border-radius: 50%;
     position: absolute;
@@ -1158,7 +1141,6 @@
   .Stellaris {
     width: 80.5px;
     height: 80.5px;
-    /*background-image: url(../../assets/images/About/section3/Stellaris_planet.png);*/
     background-size: 100% 100%;
     border-radius: 50%;
     position: absolute;
@@ -1184,7 +1166,6 @@
 
   .events_about {
     height: 240px;
-    /*background-image: url(../../assets/images/About/section_4/Section_04_back.png);*/
     background-size: 100% 100%;
   }
 
@@ -1213,7 +1194,6 @@
   }
 
   .join {
-    /*background-image: url(../../assets/images/About/section_4/JoinUs_btn.png);*/
     width: 132px;
     height: 36px;
     font-size: 16px;
@@ -1225,7 +1205,6 @@
   }
 
   .join:hover {
-    /*background-image: url(../../assets/images/About/section_4/JoinUs_btn.png);*/
     width: 132px;
     height: 36px;
     font-size: 16px;
@@ -1413,7 +1392,6 @@
     margin-left: 0px; 
     width: 312px;
     height: 532.1px;
-    /*background-image: url("../../../../../src/assets/Font/This is the future/This Is The Future.otf");*/
     background-size: 100% 100%;
     background-color: transparent;
     border: none;
@@ -1423,7 +1401,6 @@
     margin-left: 0px;
     width: 312px;
     height: 160px;
-   /* background-image: url(../../assets/images/About/section2/Mission_mobile.png);*/
     background-size: 100% 100%;
     background-color: transparent;
     border: none;
@@ -1433,7 +1410,6 @@
     margin-left: 0px;
     width: 312px;
     height: 160px;
-    /*background-image: url(../../assets/images/About/section2/Vision_mobile.png);*/
     background-size: 100% 100%;
     background-color: transparent;
     border: none;
@@ -1553,7 +1529,6 @@
     position: absolute;
     width: 222.95px;
     height: 222.95px;
-    /*background-image: url(../../assets/images/About/section3/Earth_crop.png);*/
     background-size: 100% 100%;
     border-radius: 50%;
     top: 50%;
@@ -1572,7 +1547,6 @@
   .blue {
     width: 44.8px;
     height: 44.8px;
-    /*background-image: url(../../assets/images/About/section3/Planet_03-1.png);*/
     background-size: 100% 100%;
     border-radius: 50%;
     position: absolute;
@@ -1582,7 +1556,6 @@
   .pink {
     width: 44.8px;
     height: 44.8px;
-    /*background-image: url(../../assets/images/About/section3/Planet_03.png);*/
     background-size: 100% 100%;
     border-radius: 50%;
     position: absolute;
@@ -1594,7 +1567,6 @@
   .yellow {
     width: 111px;
     height: 111px;
-   /* background-image: url(../../assets/images/About/section3/Planet_Bullet_04.png);*/
     background-size: 100% 100%;
     border-radius: 50%;
     position: absolute;
@@ -1616,7 +1588,6 @@
   .Imperialis {
     width: 114px;
     height: 114px;
-    /*background-image: url(../../assets/images/About/section3/Imperialis_planet.png);*/
     background-size: 100% 100%;
     border-radius: 50%;
     position: absolute;
@@ -1628,7 +1599,6 @@
   .Devorah {
     width: 73px;
     height: 73px;
-    /*background-image: url(../../assets/images/About/section3/Devorah_planet.png);*/
     background-size: 100% 100%;
     border-radius: 50%;
     position: absolute;
@@ -1640,7 +1610,6 @@
   .green {
     width: 43.5px;
     height: 43.5px;
-    /*background-image: url(../../assets/images/About/section3/Planet_Bullet_02.png);*/
     background-size: 100% 100%;
     border-radius: 50%;
     position: absolute;
@@ -1652,7 +1621,6 @@
   .Khroma {
     width: 80.5px;
     height: 80.5px;
-    /*background-image: url(../../assets/images/About/section3/Khroma_Planet.png);*/
     background-size: 100% 100%;
     border-radius: 50%;
     position: absolute;
@@ -1674,7 +1642,6 @@
   .Mylocritas {
     width: 77px;
     height: 77px;
-    /*background-image: url(../../assets/images/About/section3/Murkara_planet.png);*/
     background-size: 100% 100%;
     border-radius: 50%;
     position: absolute;
@@ -1686,7 +1653,6 @@
   .Aurelia {
     width: 118px;
     height: 118px;
-    /*background-image: url(../../assets/images/About/section3/Aurelia_planet.png);*/
     background-size: 100% 100%;
     border-radius: 50%;
     position: absolute;
@@ -1697,7 +1663,6 @@
   .Solarion {
     width: 80.5px;
     height: 80.5px;
-    /*background-image: url(../../assets/images/About/section3/Solarion_planet.png);*/
     background-size: 100% 100%;
     border-radius: 50%;
     position: absolute;
@@ -1709,7 +1674,6 @@
   .Stellaris {
     width: 80.5px;
     height: 80.5px;
-    /*background-image: url(../../assets/images/About/section3/Stellaris_planet.png);*/
     background-size: 100% 100%;
     border-radius: 50%;
     position: absolute;
@@ -1735,7 +1699,6 @@
 
   .events_about {
     height: 240px;
-    /*background-image: url(../../assets/images/About/section_4/Section_04_back.png);*/
     background-size: 100% 100%;
   }
 

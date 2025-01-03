@@ -8,7 +8,6 @@
   width: 100%;
   background-image: url("../../../01_Home Page/Home_Section 1/home_back.png");
   background-size: cover;
-  /* padding: 0px 24px 0px 24px; */
 }
 
 .home {
@@ -247,7 +246,6 @@
   font-size: 20px;
   width: 229px;
   height: 62px;
-  /*background-image: url("../../../01_Home Page/Home_Section 1/addon/Learn_More.png");*/
   background-size: 100% 100%;
   border: 2px solid white;
   color: white;
@@ -259,7 +257,6 @@
 .learn_button:hover {
   width: 229px;
   height: 62px;
-  /*background-image: url(../../assets/images/HomePage/Home_Section_3/LearnMore_btn_hover.png);*/
   background-size: 100% 100%;
   border: 2px solid white;
   background-color: white;
@@ -365,7 +362,7 @@
 
 @media (max-width: 771px) {
   .col, .col-4 {
-    flex: 1 0 100%; /* Full width on small screens */
+    flex: 1 0 100%; 
     max-width: 100%;
   }
 
@@ -424,14 +421,12 @@
   .home_logo {
     width: 220px;
     height: 101.5px;
-    /*background-image: url(../../assets/images/HomePage/Home_Section_1/AD_logo_mobile.png);*/
     background-size: 100% 100%;
   }
 
   .googlyPlay {
     width: 204px;
     height: 50.4px;
-    /*background-image: url(../../assets/images/HomePage/Home_Section_1/GooglePlay.png);*/
     background-size: 100% 100%;
     background-color: transparent;
     border: none;
@@ -450,7 +445,6 @@
   .appStore {
     width: 204px;
     height: 50.4px;
-    /*background-image: url(../../assets/images/HomePage/Home_Section_1/AppleStore.png);*/
     background-size: 100% 100%;
     background-color: transparent;
     border: none;
@@ -574,7 +568,6 @@
   .drumming {
     width: 75%;
     height: 170px !important;
-    /*background-image: url(../../assets/images/HomePage/Home_Section_2/AD_mobile.png);*/
     background-size: 100% 100%;
     background-color: transparent;
     border: none;
@@ -586,7 +579,6 @@
     margin-top: 5px;
     width: 75%;
     height: 265px !important;
-    /*background-image: url(../../assets/images/HomePage/Home_Section_2/Airciting_features_mobile.png);*/
     background-size: 100% 100%;
     background-color: transparent;
     border: none;
@@ -631,7 +623,6 @@
     margin-top: 12px;
     width: 75%;
     height: 252px !important;
-    /*background-image: url(../../assets/images/HomePage/Home_Section_2/Frame_343_mobile.png);*/
     background-size: 100% 100%;
     background-color: transparent;
     border: none;
@@ -651,7 +642,6 @@
     margin-left: 0;
     width: 312px;
     height: 252px;
-    /*background-image: url(../../assets/images/HomePage/Home_Section_2/Star_Tracks_mobile.png);*/
     background-size: 100% 100%;
     background-color: transparent;
     border: none;
@@ -663,7 +653,6 @@
     margin-left: 0px;
     width: 75%;
     height: 252px;
-    /*background-image: url(../../assets/images/HomePage/Home_Section_2/Drum_Play_mobile.png);*/
     background-size: 100% 100%;
     background-color: transparent;
     border: none;
@@ -675,7 +664,6 @@
     margin-left: 0px;
     width: 75%;
     height: 252px !important;
-    /*background-image: url(../../assets/images/HomePage/Home_Section_2/Learn_More_mobile.png);*/
     background-size: 100% 100%;
     background-color: transparent;
     border: none;
@@ -691,7 +679,6 @@
     bottom: 0%;
     width: 100%;
     height: 380px;
-    /*background-image: url(../../assets/images/HomePage/Home_Section_3/AIRCommunity_img.png);*/
     background-size: 100% 100%;
   }
 
@@ -731,7 +718,6 @@
     border: 2px solid white;
     width: 140px;
     height: 36px;
-    /*background-image: url(../../assets/images/HomePage/Home_Section_3/LearnMore_btn.png);*/
     background-size: 100% 100%;
     background-color: transparent;
     margin-top: 20px;
@@ -744,7 +730,6 @@
     color: #242b7d;
     width: 140px;
     height: 36px;
-    /*background-image: url(../../assets/images/HomePage/Home_Section_3/LearnMore_btn_hover.png);*/
     background-size: 100% 100%;
     background-color: transparent;
     margin-top: 20px;
@@ -761,7 +746,6 @@
     bottom: 0;
     width: 100%;
     height: 239.75px;
-    /*background-image: url(../../assets/images/HomePage/Home_Section_4/Events_Img.png);*/
     background-size: 100% 100%;
   }
 
@@ -809,7 +793,6 @@
   .home_logo {
     width: 220px;
     height: 101.5px;
-    /*background-image: url(../../assets/images/HomePage/Home_Section_1/AD_logo_mobile.png);*/
     background-size: 100% 100%;
   }
 
@@ -851,7 +834,6 @@
   .googlyPlay {
     width: 204px;
     height: 50.4px;
-    /*background-image: url(../../assets/images/HomePage/Home_Section_1/GooglePlay.png);*/
     background-size: 100% 100%;
     background-color: transparent;
     border: none;
@@ -870,7 +852,6 @@
   .appStore {
     width: 204px;
     height: 50.4px;
-    /*background-image: url(../../assets/images/HomePage/Home_Section_1/AppleStore.png);*/
     background-size: 100% 100%;
     background-color: transparent;
     border: none;
@@ -1000,7 +981,6 @@
   .drumming {
     width: 312px;
     height: 156px;
-    /*background-image: url(../../assets/images/HomePage/Home_Section_2/AD_mobile.png);*/
     background-size: 100% 100%;
     background-color: transparent;
     border: none;
@@ -1011,7 +991,6 @@
     margin-top: 5px;
     width: 312px;
     height: 252px;
-    /*background-image: url(../../assets/images/HomePage/Home_Section_2/Airciting_features_mobile.png);*/
     background-size: 100% 100%;
     background-color: transparent;
     border: none;
@@ -1022,7 +1001,6 @@
     margin-top: 10px;
     width: 312px;
     height: 156px;
-    /*background-image: url(../../assets/images/HomePage/Home_Section_2/Frame_343_mobile.png);*/
     background-size: 100% 100%;
     background-color: transparent;
     border: none;
@@ -1033,7 +1011,6 @@
     margin-left: 0;
     width: 100% !important;
     height: 252px;
-    /*background-image: url(../../assets/images/HomePage/Home_Section_2/Star_Tracks_mobile.png);*/
     background-size: 100% 100%;
     background-color: transparent;
     border: none;
@@ -1044,7 +1021,6 @@
     margin-left: 0px;
     width: 312px;
     height: 252px;
-    /*background-image: url(../../assets/images/HomePage/Home_Section_2/Drum_Play_mobile.png);*/
     background-size: 100% 100%;
     background-color: transparent;
     border: none;
@@ -1055,7 +1031,6 @@
     margin-left: 0px;
     width: 312px;
     height: 156px;
-    /*background-image: url(../../assets/images/HomePage/Home_Section_2/Learn_More_mobile.png);*/
     background-size: 100% 100%;
     background-color: transparent;
     border: none;
@@ -1071,7 +1046,6 @@
     bottom: 0%;
     width: 100%;
     height: 239.75px;
-    /*background-image: url(../../assets/images/HomePage/Home_Section_3/AIRCommunity_img.png);*/
     background-size: 100% 100%;
   }
 
@@ -1110,7 +1084,6 @@
   .learn_button {
     width: 140px;
     height: 36px;
-    /*background-image: url(../../assets/images/HomePage/Home_Section_3/LearnMore_btn.png);*/
     background-size: 100% 100%;
     border: 2px solid white;
     background-color: transparent;
@@ -1123,7 +1096,6 @@
     background-color: white;
     width: 140px;
     height: 36px;
-    /*background-image: url(../../assets/images/HomePage/Home_Section_3/LearnMore_btn_hover.png);*/
     background-size: 100% 100%;
     border: 2px solid white;
     background-color: transparent;
@@ -1141,7 +1113,6 @@
     bottom: 0;
     width: 100%;
     height: 239.75px;
-    /*background-image: url(../../assets/images/HomePage/Home_Section_4/Events_Img.png);*/
     background-size: 100% 100%;
   }
 

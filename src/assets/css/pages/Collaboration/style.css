@@ -110,7 +110,6 @@
     .collaboration_brand {
         width: 312px;
         height: 574px;
-        /*background-image: url(../../assets/images/collaboration/Card_collab_01_mobile.png);*/
         background-size: 100% 100%;
         animation: pop-in 0.7s forwards
     }
@@ -123,7 +122,6 @@
     .collaboration_employee {
         width: 312px;
         height: 574px;
-        /*background-image: url(../../assets/images/collaboration/Card_collab_02_mobile.png);*/
         background-size: 100% 100%;
         margin-left: 0px;
         margin-top: 10px;
@@ -133,7 +131,6 @@
     .collaboration_student {
         width: 312px;
         height: 574px;
-        /*background-image: url(../../assets/images/collaboration/Card_collab_03_mobile.png);*/
         background-size: 100% 100%;
         margin-left: 0px;
         margin-top: 10px;
@@ -198,7 +195,6 @@
     .collaboration_brand {
         width: 312px;
         height: 574px;
-        /*background-image: url(../../assets/images/collaboration/Card_collab_01_mobile.png);*/
         background-size: 100% 100%;
         animation: pop-in 0.7s forwards
     }
@@ -206,7 +202,6 @@
     .collaboration_employee {
         width: 312px;
         height: 574px;
-        /*background-image: url(../../assets/images/collaboration/Card_collab_02_mobile.png);*/
         background-size: 100% 100%;
         margin-left: 0px;
         margin-top: 10px;
@@ -216,7 +211,6 @@
     .collaboration_student {
         width: 312px;
         height: 574px;
-        /*background-image: url(../../assets/images/collaboration/Card_collab_03_mobile.png);*/
         background-size: 100% 100%;
         margin-left: 0px;
         margin-top: 10px;

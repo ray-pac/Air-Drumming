@@ -1,5 +1,4 @@
 .footer-main {
-    /*background-image: url(../../assets/images/TabletHor.png);*/
     background-color: #090724;
     background-size: 100% 100%;
     width: 100%;
@@ -69,7 +68,6 @@ li::marker {
 .footer-vector-f {
     width: 40px;
     height: 40px;
-    /*background-image: url("../../../Social Icons/Telegarm Icon.svg");*/
     background-size: 100% 100%;
     border: none;
     background-color: transparent;
@@ -78,7 +76,6 @@ li::marker {
 .footer-vector-x {
     width: 40px;
     height: 40px;
-    /*background-image: url("../../../Social Icons/Instagram_Icon.svg");*/
     background-size: 100% 100%;
     border: none;
     background-color: transparent;
@@ -98,7 +95,6 @@ li::marker {
 .footer-vector-d {
     width: 40px;
     height: 40px;
-   /*background-image: url(../../assets/images/footer/Vector-3.png);*/
     background-size: 100% 100%;
     border: none;
     background-color: transparent;
@@ -123,7 +119,6 @@ li::marker {
 
 @media (max-width: 744px) {
     .footer-main {
-        /*background-image: url(../../assets/images/TabletHor.png);*/
         background-size: 100% 100%;
         height: 425px;
         display: flex;
@@ -197,7 +192,6 @@ li::marker {
     .footer-google {
         width: 135px;
         height: 36px;
-        /*background-image: url(../../assets/images/footer/GooglePlay_btn.png);*/
         background-size: 100% 100%;
         border: none;
         background-color: transparent;
@@ -206,7 +200,6 @@ li::marker {
     .footer-appstore {
         width: 135px;
         height: 36px;
-        /*background-image: url(../../assets/images/footer/AppStore_btn.png);*/
         background-size: 100% 100%;
         border: none;
         background-color: transparent;
@@ -230,7 +223,6 @@ li::marker {
     .footer-vector-f {
         width: 30px;
         height: 30px;
-        /*background-image: url(../../assets/images/footer/Vector.png);*/
         background-size: 100% 100%;
         border: none;
         background-color: transparent;
@@ -239,7 +231,6 @@ li::marker {
     .footer-vector-x {
         width: 30px;
         height: 30px;
-        /*background-image: url(../../assets/images/footer/Vector-1.png);*/
         background-size: 100% 100%;
         border: none;
         background-color: transparent;
@@ -249,7 +240,6 @@ li::marker {
     .footer-vector-c {
         width: 30px;
         height: 30px;
-        /*background-image: url(../../assets/images/footer/Vector-2.png);*/
         background-size: 100% 100%;
         border: none;
         background-color: transparent;
@@ -259,7 +249,6 @@ li::marker {
     .footer-vector-d {
         width: 30px;
         height: 30px;
-        /*background-image: url(../../assets/images/footer/Vector-3.png);*/
         background-size: 100% 100%;
         border: none;
         background-color: transparent;
@@ -269,7 +258,6 @@ li::marker {
     .footer-vector-p {
         width: 30px;
         height: 30px;
-        /*background-image: url(../../assets/images/footer/Vector-4.png);*/
         background-size: 100% 100%;
         border: none;
         background-color: transparent;
@@ -286,7 +274,6 @@ li::marker {
 
 @media (max-width: 360px) {
     .footer-main {
-        /*background-image: url(../../assets/images/TabletHor.png);*/
         background-size: 100% 100%;
         max-width: 360px;
         height: 425px;
@@ -333,7 +320,6 @@ li::marker {
     .footer-google {
         width: 135px;
         height: 36px;
-        /*background-image: url(../../assets/images/footer/GooglePlay_btn.png);*/
         background-size: 100% 100%;
         border: none;
         background-color: transparent;
@@ -342,7 +328,6 @@ li::marker {
     .footer-appstore {
         width: 135px;
         height: 36px;
-        /*background-image: url(../../assets/images/footer/AppStore_btn.png);*/
         background-size: 100% 100%;
         border: none;
         background-color: transparent;
@@ -366,7 +351,6 @@ li::marker {
     .footer-vector-f {
         width: 30px;
         height: 30px;
-        /*background-image: url(../../assets/images/footer/Vector.png);*/
         background-size: 100% 100%;
         border: none;
         background-color: transparent;
@@ -375,7 +359,6 @@ li::marker {
     .footer-vector-x {
         width: 30px;
         height: 30px;
-        /*background-image: url(../../assets/images/footer/Vector-1.png);*/
         background-size: 100% 100%;
         border: none;
         background-color: transparent;
@@ -385,7 +368,6 @@ li::marker {
     .footer-vector-c {
         width: 30px;
         height: 30px;
-        /*background-image: url(../../assets/images/footer/Vector-2.png);*/
         background-size: 100% 100%;
         border: none;
         background-color: transparent;
@@ -395,7 +377,6 @@ li::marker {
     .footer-vector-d {
         width: 30px;
         height: 30px;
-        /*background-image: url(../../assets/images/footer/Vector-3.png);*/
         background-size: 100% 100%;
         border: none;
         background-color: transparent;
@@ -405,7 +386,6 @@ li::marker {
     .footer-vector-p {
         width: 30px;
         height: 30px;
-        /*background-image: url(../../assets/images/footer/Vector-4.png);*/
         background-size: 100% 100%;
         border: none;
         background-color: transparent;
