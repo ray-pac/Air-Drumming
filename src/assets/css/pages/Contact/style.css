@@ -96,6 +96,8 @@ textarea::placeholder {
     font-size: 20px;
     animation: fade-in 3.9s forwards;
     text-align: left;
+    z-index: 99;
+    position: relative;
 }
 
 .contact_image {
@@ -228,7 +230,7 @@ textarea::placeholder {
     .get-in-touch {
         font-weight: normal;
         font-family: "ThisIsTheFuture", sans-serif;
-        font-size: 30px;
+        font-size: 24px;
         animation: fade-in 3.9s forwards;
     }
 
@@ -238,6 +240,8 @@ textarea::placeholder {
         font-size: 14px;
         animation: fade-in 3.9s forwards;
         text-align: left;
+        z-index: 99;
+        position: relative;
     }
 
     .contact_image {
@@ -365,6 +369,8 @@ textarea::placeholder {
         font-size: 14px;
         animation: fade-in 3.9s forwards;
         text-align: left;
+        z-index: 99;
+        position: relative;
     }
 
     .contact_image {
