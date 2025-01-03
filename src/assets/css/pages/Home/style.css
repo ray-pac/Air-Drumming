@@ -597,6 +597,10 @@
   .drumplay-text p{
     font-size: 16px;
   }
+  .feel-text{
+    padding: 0;
+    place-items: center;
+  }
   
   .citing-image,
   .star-image,
@@ -764,6 +768,7 @@
 @media (max-width: 360px) {
   .feel-text{
     padding: 0;
+    place-items: center;
   }
   .main-header {
     max-width: 360px;
