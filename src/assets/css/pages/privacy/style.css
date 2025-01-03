@@ -1,0 +1,79 @@
+.privacy-container {
+    padding-bottom: 50px;
+    height: 100%;
+    width: 100%;
+    background-image: url("../../../06_Contact page/addon/Privacy_back.png");
+    background-size: 100% 100%;
+    align-content: center;
+    justify-items: center;
+}
+
+.privacy-main {
+    width: 1140px;
+}
+
+.privacy-main > h2, div {
+    color: white;
+}
+
+.privacy-main > h2 {
+    font-size: 24px;
+}
+
+.privacy-main > div {
+    font-size: 20px;
+}
+
+.privacy-main > div > ul > li::marker {
+    color: white;
+}
+
+.privacy-main > h2, div {
+    color: white;
+}
+
+@media (max-width: 744px) {
+    .privacy-container {
+        min-height: 3964px;
+        width: 100%;
+        background-image: url("../../../06_Contact page/addon/Privacy_back.png");
+        background-size: 100% 100%;
+        align-content: center;
+        justify-items: center;
+    }
+
+    .privacy-main {
+        width: 316px;
+    }
+
+    .privacy-main > h2 {
+        font-size: 18px;
+    }
+
+    .privacy-main > div {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 360px) {
+    .privacy-container {
+        min-height: 3964px;
+        width: 100%;
+        background-image: url("../../../06_Contact page/addon/Privacy_back.png");
+        background-size: 100% 100%;
+        align-content: center;
+        justify-items: center;
+    }
+
+    .privacy-main {
+        width: 316px;
+    }
+
+    .privacy-main > h2 {
+        font-size: 18px;
+    }
+
+    .privacy-main > div {
+        font-size: 14px;
+    }
+}

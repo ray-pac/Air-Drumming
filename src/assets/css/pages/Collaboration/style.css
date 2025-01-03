@@ -1,0 +1,254 @@
+.collaboration {
+    height: 1117px;
+    background-color: transparent;
+    background-image: url("../../../04_Collaboration Page/addon/Collaboration_Page.png");
+    background-size: 100% 100%;
+    text-align: center;
+    align-content: center;
+}
+
+.collaboration_main {
+    display: flex;
+    justify-content: center;
+}
+
+.collaboration_brand {
+    border-radius: 35px;
+    width: 364px;
+    height: 669px;
+    background-image: url("../../../04_Collaboration Page/addon/Collab_01.png");
+    background-size: 100% 100%;
+    animation: pop-in 0.7s forwards
+}
+.collaboration_brand-content{
+    position: absolute;
+    bottom: 20px;
+    padding: 0 20px 0 20px;
+    text-align: start;
+    color: white;
+  }
+.collaboration_brand-content h1{
+    font-weight: normal;
+    font-family: "ThisIsTheFuture", sans-serif;
+    font-size: 30px;
+  }
+
+.collaboration_employee {
+    border-radius: 35px;
+    width: 364px;
+    height: 669px;
+    background-image: url("../../../04_Collaboration Page/addon/Collab_02.png");
+    background-size: 100% 100%;
+    margin-left: 20px;
+    animation: pop-in 1s forwards
+}
+
+.collaboration_student {
+    border-radius: 35px;
+    width: 364px;
+    height: 669px;
+    background-image: url("../../../04_Collaboration Page/addon/Collab_03.png");
+    background-size: 100% 100%;
+    margin-left: 20px;
+    animation: pop-in 1.7s forwards
+}
+
+.collar_planet_1 {
+    position: absolute;
+    bottom: -15%;
+    right: 5%;
+    animation: pop-in 0.2s forwards;
+    bottom: -5%
+}
+
+.collar_planet_2 {
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    animation: pop-in 0.7s forwards;
+}
+
+.collar_planet_3 {
+    position: absolute;
+    top: 20%;
+    right: 15%;
+    animation: pop-in 2.2s forwards;
+}
+
+@media (max-width: 740px) {
+
+    .main-header {
+        max-width: 744px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #100D39;
+        color: white;
+        position: fixed;
+        height: 52px;
+        z-index: 10;
+        overflow: hidden;
+    }
+
+    .collaboration {
+        height: 1841px;
+        background-color: transparent;
+        background-image: url("../../../04_Collaboration Page/addon/Collaboration_mobile.png");
+        background-size: 100% 150%;
+        text-align: center;
+        padding-top: 10%;
+        align-content: center;
+    }
+
+    .collaboration_main {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .collaboration_brand {
+        width: 312px;
+        height: 574px;
+        /*background-image: url(../../assets/images/collaboration/Card_collab_01_mobile.png);*/
+        background-size: 100% 100%;
+        animation: pop-in 0.7s forwards
+    }
+    .collaboration_brand,
+    .collaboration_employee,
+    .collaboration_student {
+        border-radius: 15px;
+    }
+
+    .collaboration_employee {
+        width: 312px;
+        height: 574px;
+        /*background-image: url(../../assets/images/collaboration/Card_collab_02_mobile.png);*/
+        background-size: 100% 100%;
+        margin-left: 0px;
+        margin-top: 10px;
+        animation: pop-in 1s forwards
+    }
+
+    .collaboration_student {
+        width: 312px;
+        height: 574px;
+        /*background-image: url(../../assets/images/collaboration/Card_collab_03_mobile.png);*/
+        background-size: 100% 100%;
+        margin-left: 0px;
+        margin-top: 10px;
+        animation: pop-in 1.7s forwards
+    }
+
+    .collar_planet_1 {
+        position: absolute;
+        width: 92.83px;
+        height: 92.83px;
+        bottom: -465px;
+        right: 80%;
+        z-index: 10;
+        top: 1230px;
+    }
+
+    .collar_planet_2 {
+        position: absolute;
+        width: 68.2px;
+        height: 68.2px;
+        top: 660px;
+        left: 80%;
+        z-index: 10;
+    }
+
+    .collar_planet_3 {
+        position: absolute;
+        width: 37.89px;
+        height: 37.89px;
+        top: 99px;
+        right: 85%;
+        animation: pop-in 2.2s forwards;
+        z-index: 10;
+    }
+}
+
+@media (max-width: 360px) {
+    .collaboration_brand,
+    .collaboration_employee,
+    .collaboration_student {
+        border-radius: 15px;
+    }
+    .collaboration {
+        height: 1841px;
+        background-color: transparent;
+        background-image: url("../../../04_Collaboration Page/addon/Collaboration_mobile.png");
+        background-size: 100% 150%;
+        text-align: center;
+        padding-top: 10%;
+        align-content: center;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .collaboration_main {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .collaboration_brand {
+        width: 312px;
+        height: 574px;
+        /*background-image: url(../../assets/images/collaboration/Card_collab_01_mobile.png);*/
+        background-size: 100% 100%;
+        animation: pop-in 0.7s forwards
+    }
+
+    .collaboration_employee {
+        width: 312px;
+        height: 574px;
+        /*background-image: url(../../assets/images/collaboration/Card_collab_02_mobile.png);*/
+        background-size: 100% 100%;
+        margin-left: 0px;
+        margin-top: 10px;
+        animation: pop-in 1s forwards
+    }
+
+    .collaboration_student {
+        width: 312px;
+        height: 574px;
+        /*background-image: url(../../assets/images/collaboration/Card_collab_03_mobile.png);*/
+        background-size: 100% 100%;
+        margin-left: 0px;
+        margin-top: 10px;
+        animation: pop-in 1.7s forwards
+    }
+
+    .collar_planet_1 {
+        position: absolute;
+        width: 92.83px;
+        height: 92.83px;
+        bottom: 575px;
+        right: 80%;
+        z-index: 10;
+        top: 1180px;
+    }
+
+    .collar_planet_2 {
+        position: absolute;
+        width: 68.2px;
+        height: 68.2px;
+        top: 610px;
+        left: 80%;
+        z-index: 10;
+    }
+
+    .collar_planet_3 {
+        position: absolute;
+        width: 37.89px;
+        height: 37.89px;
+        top: 60px;
+        right: 85%;
+        animation: pop-in 2.2s forwards;
+        z-index: 10;
+    }
+}

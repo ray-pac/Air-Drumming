@@ -1,0 +1,428 @@
+.contact {
+    height: 900px;
+    background-color: transparent;
+    background-image: url("../../../04_Collaboration Page/addon/Collaboration_Page.png");
+    background-size: 100% 100%;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.fontStyle {
+    color: white;
+    font-size: 18;
+}
+
+input::placeholder {
+    color: #979797;       /* Set the color */
+}
+
+textarea::placeholder {
+    color: #979797;       /* Set the color */
+}
+
+.get-in-touch {
+    font-weight: normal;
+    font-family: "ThisIsTheFuture", sans-serif;
+    font-size: 35px;
+    animation: fade-in 3.9s forwards;
+    color: white;
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        left: -100%;
+    }
+
+    to {
+        opacity: 1;
+        left: 18%;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        top: 220%;
+        right: -25%;
+        width: 864px;
+        height: 657px;
+    }
+
+    to {
+        opacity: 1;
+        top: 100%;
+        right: -25%;
+        width: 764px;
+        height: 557px;
+    }
+}
+
+.form_animation {
+    color: white;
+    position: absolute;
+    left: 18%;
+    z-index: 2;
+    animation-name: fadeInLeft;
+    animation-duration: 0.7s;
+    width: 35%;
+}
+
+.flex-style {
+    display: flex;
+}
+
+.style-row {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.image_part {
+    position: absolute;
+    right: 20%;
+    width: 20%;
+}
+
+.help-you {
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    animation: fade-in 3.9s forwards;
+    text-align: left;
+}
+
+.contact_image {
+    position: absolute;
+    width: 764px;
+    height: 557px;
+    top: 100%;
+    right: -25%;
+    background-image: url("../../../06_Contact page/addon/Comet_01.png");
+    background-size: 100% 100%;
+    animation-name: fadeInUp;
+    animation-duration: 1.1s;
+}
+
+.contact_planet_1 {
+    position: absolute;
+    bottom: 5%;
+    animation: pop-in 2s forwards;
+    right: 15%;
+    top: 75%;
+    width: 179.2px;
+    height: 179.2px;
+    z-index: 10;
+}
+
+.contact_planet_2 {
+    position: absolute;
+    left: 10%;
+    top: 40%;
+    animation: pop-in 2.9s forwards;
+    width: 92.16px;
+    height: 92.16px;
+    z-index: 10;
+}
+
+.contact_planet_3 {
+    position: absolute;
+    animation: pop-in 2.5s forwards;
+    top: 15%;
+    right: 10%;
+    width: 51.2px;
+    height: 51.2px;
+    z-index: 10;
+}
+
+.input-style {
+    margin-top: 5px;
+    padding: 12px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    margin-right: 10px;
+}
+
+.textarea-style {
+    margin-top: 5;
+    padding: 12px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    resize: vertical;
+    height: 150px;
+    margin-right: 10px
+}
+
+.contact-dialog > .MuiDialog-container > .MuiPaper-root  {
+    height: 661.93px;
+    width: 533.17px;
+}
+
+@media (max-width: 744px) {
+    .main-header {
+        max-width: 744px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #100D39;
+        color: white;
+        position: fixed;
+        height: 52px;
+        z-index: 10;
+        overflow: hidden;
+      }
+
+    .contact {
+        height: 929.53px;
+        background-color: transparent;
+        background-image: url("../../../06_Contact page/addon/BG_group.png");
+        background-size: 100% 150%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        padding-top: 0%;
+    }
+
+    .contact-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .form_animation {
+        width: 295px;
+        position: relative;
+        left: inherit;
+        z-index: 2;
+        animation-name: fadeInLeft;
+        animation-duration: 0.7s;
+    }
+
+    .flex-style {
+        display: inherit;
+    }
+
+    .style-row {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .image_part {
+        position: unset;
+        width: 290px;
+        display: flex;
+        align-items: center;
+    }
+
+    .get-in-touch {
+        font-weight: normal;
+        font-family: "ThisIsTheFuture", sans-serif;
+        font-size: 30px;
+        animation: fade-in 3.9s forwards;
+    }
+
+    .help-you {
+        width: 151px;
+        color: white;
+        font-size: 14px;
+        animation: fade-in 3.9s forwards;
+        text-align: left;
+    }
+
+    .contact_image {
+        position: unset;
+        width: 227px;
+        height: 220px;
+        top: 100%;
+        right: -15%;
+        background-image: url("../../../06_Contact page/addon/Comet_01_mobile.png");
+        background-size: 100% 100%;
+        animation-name: fadeInUp;
+        animation-duration: 1.1s;
+        margin-left: -20%;
+    }
+
+    .input-style {
+        margin-top: 5px;
+        padding: 12px;
+        font-size: 18px;
+        border: none;
+        outline: none;
+        margin-right: 0px
+    }
+    
+    .textarea-style {
+        margin-top: 5;
+        padding: 12px;
+        font-size: 18px;
+        border: none;
+        outline: none;
+        resize: vertical;
+        height: 150px;
+        margin-right: 0px
+    }
+
+    .contact_planet_1 {
+        position: absolute;
+        bottom: 5%;
+        animation: pop-in 2s forwards;
+        right: 50%;
+        top: 25%;
+        width: 34px;
+        height: 34px;
+        z-index: 10;
+    }
+    
+    .contact_planet_2 {
+        position: absolute;
+        left: 88%;
+        top: 10%;
+        animation: pop-in 2.9s forwards;
+        width: 24.19px;
+        height: 24.19px;
+        z-index: 10;
+    }
+    
+    .contact_planet_3 {
+        position: absolute;
+        animation: pop-in 2.5s forwards;
+        top: 10%;
+        right: 88%;
+        width: 15.12px;
+        height: 15.12px;
+        z-index: 10;
+    }
+}
+
+@media (max-width: 360px) {
+    .contact {
+        height: 929.53px;
+        background-color: transparent;
+        background-image: url("../../../06_Contact page/addon/BG_group.png");
+        background-size: 100% 150%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        overflow: hidden;
+        padding-top: 0;
+    }
+
+    .contact-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .form_animation {
+        width: 295px;
+        position: relative;
+        left: inherit;
+        z-index: 2;
+        animation-name: fadeInLeft;
+        animation-duration: 0.7s;
+    }
+
+    .flex-style {
+        display: inherit;
+    }
+
+    .style-row {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .image_part {
+        position: unset;
+        width: 290px;
+        display: flex;
+        align-items: center;
+    }
+
+    .get-in-touch {
+        font-weight: normal;
+        font-family: "ThisIsTheFuture", sans-serif;
+        font-size: 30px;
+        animation: fade-in 3.9s forwards;
+    }
+
+    .help-you {
+        width: 151px;
+        color: white;
+        font-size: 14px;
+        animation: fade-in 3.9s forwards;
+        text-align: left;
+    }
+
+    .contact_image {
+        position: unset;
+        width: 227px;
+        height: 220px;
+        top: 100%;
+        right: -15%;
+        background-image: url("../../../06_Contact page/addon/Comet_01_mobile.png");
+        background-size: 100% 100%;
+        animation-name: fadeInUp;
+        animation-duration: 1.1s;
+        margin-left: -20%;
+    }
+
+    .input-style {
+        margin-top: 5px;
+        padding: 12px;
+        font-size: 18px;
+        border: none;
+        outline: none;
+        margin-right: 0px
+    }
+    
+    .textarea-style {
+        margin-top: 5;
+        padding: 12px;
+        font-size: 18px;
+        border: none;
+        outline: none;
+        resize: vertical;
+        height: 150px;
+        margin-right: 0px
+    }
+
+    .contact_planet_1 {
+        position: absolute;
+        bottom: 5%;
+        animation: pop-in 2s forwards;
+        right: 50%;
+        top: 25%;
+        width: 34px;
+        height: 34px;
+        z-index: 10;
+    }
+    
+    .contact_planet_2 {
+        position: absolute;
+        left: 88%;
+        top: 10%;
+        animation: pop-in 2.9s forwards;
+        width: 24.19px;
+        height: 24.19px;
+        z-index: 10;
+    }
+    
+    .contact_planet_3 {
+        position: absolute;
+        animation: pop-in 2.5s forwards;
+        top: 10%;
+        right: 88%;
+        width: 15.12px;
+        height: 15.12px;
+        z-index: 10;
+    }
+}

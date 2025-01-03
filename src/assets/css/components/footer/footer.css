@@ -1,0 +1,421 @@
+.footer-main {
+    /*background-image: url(../../assets/images/TabletHor.png);*/
+    background-color: #090724;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 338px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-main>.footer-navbar {
+    margin: 0px;
+    width: 60%;
+    margin-bottom: 30px;
+}
+
+li::marker {
+    color: transparent;
+}
+
+.footer-main>.footer-navbar> ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 0px;
+    padding: 0px;
+}
+
+.footer-main>.footer-navbar> ul > li > a {
+    font-size: 20px;
+    color: white;
+}
+
+.footer-language {
+    border-radius: 10px;
+    height: 48px;
+    width: 320px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.footer-link-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+}
+
+.footer-google {
+    width: 180px;
+    height: 48px;
+    background-image: url("../../../01_Home Page/Home_Section 1/addon/white_gp.png");
+    background-size: 100% 100%;
+    border: none;
+    background-color: transparent;
+}
+
+.footer-appstore {
+    width: 180px;
+    height: 48px;
+    background-image: url("../../../01_Home Page/Home_Section 1/addon/white_app.png");
+    background-size: 100% 100%;
+    border: none;
+    background-color: transparent;
+    margin-left: 10px;
+}
+
+.footer-vector-f {
+    width: 40px;
+    height: 40px;
+    /*background-image: url("../../../Social Icons/Telegarm Icon.svg");*/
+    background-size: 100% 100%;
+    border: none;
+    background-color: transparent;
+}
+
+.footer-vector-x {
+    width: 40px;
+    height: 40px;
+    /*background-image: url("../../../Social Icons/Instagram_Icon.svg");*/
+    background-size: 100% 100%;
+    border: none;
+    background-color: transparent;
+    margin-left: 20px;
+}
+
+.footer-vector-c {
+    width: 40px;
+    height: 40px;
+    background-image: url("../../../Social Icons/Instagram_Icon.svg");
+    background-size: 100% 100%;
+    border: none;
+    background-color: transparent;
+    margin-left: 20px;
+}
+
+.footer-vector-d {
+    width: 40px;
+    height: 40px;
+   /*background-image: url(../../assets/images/footer/Vector-3.png);*/
+    background-size: 100% 100%;
+    border: none;
+    background-color: transparent;
+    margin-left: 20px;
+}
+
+.footer-vector-p {
+    width: 40px;
+    height: 40px;
+    background-image: url("../../../Social Icons/Telegarm Icon.svg");
+    background-size: 100% 100%;
+    border: none;
+    background-color: transparent;
+    margin-left: 10px;
+}
+
+.copyright {
+    margin-top: 40px;
+    font-size: 20px;
+    color: white;
+}
+
+@media (max-width: 744px) {
+    .footer-main {
+        /*background-image: url(../../assets/images/TabletHor.png);*/
+        background-size: 100% 100%;
+        height: 425px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .footer-main>.footer-navbar {
+        margin: 0px;
+        width: 279px;
+    }
+
+    .footer-main>.footer-navbar>ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+        padding: 0px;
+        list-style-type: none;
+    }
+
+    .footer-main>.footer-navbar>ul>li>a {
+        font-size: 16px;
+    }
+
+    .footer-main>.footer-navbar>ul>li>a {
+        font-size: 16px;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .footer-main> .footer-navbar > ul > li:nth-child(3) {
+       text-align: right;
+    }
+
+    .footer-main> .footer-navbar > ul > li:nth-child(4) {
+        grid-column: span 1 / span 1;
+    }
+
+    .footer-main> .footer-navbar > ul > li:nth-child(5) {
+        grid-column: span 2 / span 1;
+        text-align: center;
+    }
+
+    .footer-main> .footer-navbar > ul > li:nth-child(6) {
+        text-align: center;
+    }
+
+    .footer-main> .footer-navbar > ul > li:nth-child(7) {
+        grid-column: span 2 / span 1;
+        text-align: center;
+    }
+
+    .footer-language {
+        border-radius: 10px;
+        height: 36px;
+        width: 279px;
+        font-size: 16px;
+        padding-left: 10px;
+    }
+
+    .footer-link-menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 279px;
+        height: 150px;
+        flex-direction: column;
+    }
+
+    .footer-google {
+        width: 135px;
+        height: 36px;
+        /*background-image: url(../../assets/images/footer/GooglePlay_btn.png);*/
+        background-size: 100% 100%;
+        border: none;
+        background-color: transparent;
+    }
+
+    .footer-appstore {
+        width: 135px;
+        height: 36px;
+        /*background-image: url(../../assets/images/footer/AppStore_btn.png);*/
+        background-size: 100% 100%;
+        border: none;
+        background-color: transparent;
+        margin-left: 5px;
+    }
+
+    .store-button {
+        width: 279px;
+        height: 36px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .outside-button {
+        width: 279px;
+        height: 36px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer-vector-f {
+        width: 30px;
+        height: 30px;
+        /*background-image: url(../../assets/images/footer/Vector.png);*/
+        background-size: 100% 100%;
+        border: none;
+        background-color: transparent;
+    }
+
+    .footer-vector-x {
+        width: 30px;
+        height: 30px;
+        /*background-image: url(../../assets/images/footer/Vector-1.png);*/
+        background-size: 100% 100%;
+        border: none;
+        background-color: transparent;
+        margin-left: 10px;
+    }
+
+    .footer-vector-c {
+        width: 30px;
+        height: 30px;
+        /*background-image: url(../../assets/images/footer/Vector-2.png);*/
+        background-size: 100% 100%;
+        border: none;
+        background-color: transparent;
+        margin-left: 10px;
+    }
+
+    .footer-vector-d {
+        width: 30px;
+        height: 30px;
+        /*background-image: url(../../assets/images/footer/Vector-3.png);*/
+        background-size: 100% 100%;
+        border: none;
+        background-color: transparent;
+        margin-left: 10px;
+    }
+
+    .footer-vector-p {
+        width: 30px;
+        height: 30px;
+        /*background-image: url(../../assets/images/footer/Vector-4.png);*/
+        background-size: 100% 100%;
+        border: none;
+        background-color: transparent;
+        margin-left: 10px;
+    }
+
+    .copyright {
+        font-size: 16px;
+        color: white;
+        width: 260px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 360px) {
+    .footer-main {
+        /*background-image: url(../../assets/images/TabletHor.png);*/
+        background-size: 100% 100%;
+        max-width: 360px;
+        height: 425px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    .footer-main>.navbar {
+        margin: 0px;
+        width: 279px;
+    }
+
+    .footer-main>.navbar>ul {
+        display: flex;
+        justify-content: space-between;
+        gap: 0px;
+        padding: 0px;
+    }
+
+    .footer-main>.navbar>ul>li>a {
+        font-size: 20px;
+    }
+
+    .footer-language {
+        border-radius: 10px;
+        height: 36px;
+        width: 279px;
+        font-size: 16px;
+        padding-left: 10px;
+    }
+
+    .footer-link-menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 279%;
+        height: 150px;
+        flex-direction: column;
+    }
+
+    .footer-google {
+        width: 135px;
+        height: 36px;
+        /*background-image: url(../../assets/images/footer/GooglePlay_btn.png);*/
+        background-size: 100% 100%;
+        border: none;
+        background-color: transparent;
+    }
+
+    .footer-appstore {
+        width: 135px;
+        height: 36px;
+        /*background-image: url(../../assets/images/footer/AppStore_btn.png);*/
+        background-size: 100% 100%;
+        border: none;
+        background-color: transparent;
+        margin-left: 5px;
+    }
+
+    .store-button {
+        width: 279px;
+        height: 36px;
+        display: flex;
+        justify-content: space-between;
+    } 
+
+    .outside-button {
+        width: 279px;
+        height: 36px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer-vector-f {
+        width: 30px;
+        height: 30px;
+        /*background-image: url(../../assets/images/footer/Vector.png);*/
+        background-size: 100% 100%;
+        border: none;
+        background-color: transparent;
+    }
+
+    .footer-vector-x {
+        width: 30px;
+        height: 30px;
+        /*background-image: url(../../assets/images/footer/Vector-1.png);*/
+        background-size: 100% 100%;
+        border: none;
+        background-color: transparent;
+        margin-left: 10px;
+    }
+
+    .footer-vector-c {
+        width: 30px;
+        height: 30px;
+        /*background-image: url(../../assets/images/footer/Vector-2.png);*/
+        background-size: 100% 100%;
+        border: none;
+        background-color: transparent;
+        margin-left: 10px;
+    }
+
+    .footer-vector-d {
+        width: 30px;
+        height: 30px;
+        /*background-image: url(../../assets/images/footer/Vector-3.png);*/
+        background-size: 100% 100%;
+        border: none;
+        background-color: transparent;
+        margin-left: 10px;
+    }
+
+    .footer-vector-p {
+        width: 30px;
+        height: 30px;
+        /*background-image: url(../../assets/images/footer/Vector-4.png);*/
+        background-size: 100% 100%;
+        border: none;
+        background-color: transparent;
+        margin-left: 10px;
+    }
+
+    .copyright {
+        font-size: 16px;
+        color: white;
+        width: 260px;
+        text-align: center;
+    }
+}

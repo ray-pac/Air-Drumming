@@ -1,0 +1,154 @@
+/* Header styles */
+.main-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px 20px 0px;
+    /*background-image: url(../../assets/images/Header.png);
+    background-size: 100% 100%;*/
+    /*height: 133px;*/
+    background: linear-gradient(to bottom, rgba(17, 13, 59, 1) 50%, rgba(17, 13, 58, 0) 100%);
+    color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 999 !important;
+}
+
+li {
+    color: white;
+    font-family: sans-serif !important;
+}
+
+.header-logo {
+    width: 14%;
+    display: flex;
+    justify-content: center;
+}
+
+.header-logo-img {
+    width: 45%;
+    width: 157px;
+    height: 76px;
+}
+
+.basic-menu {
+    visibility: hidden;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.navbar ul li {
+    position: relative;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: #f0f0f0;
+}
+
+.dropdown-arrow {
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.main-header.hidden {
+    top: -100px; /* Adjust this value based on your header height */
+}
+
+.main-header.visible {
+    top: 0;
+}
+
+.MuiList-root {
+    background-color: #07061C;
+}
+
+.css-1tktgsa-MuiPaper-root-MuiPopover-paper-MuiMenu-paper {
+    background-color: #07061C;
+}
+
+.css-1toxriw-MuiList-root-MuiMenu-list > a > li {
+    color: white;
+}
+
+.css-1toxriw-MuiList-root-MuiMenu-list > a > li:hover {
+    color: white;
+    background-color: #1A193D;
+}
+
+.basic-menu {
+    visibility: hidden;
+}
+
+@media (max-width: 744px) {
+    .main-header .hidden {
+        top: 0; /* Adjust this value based on your header height */
+    }
+    
+    .main-header.visible {
+        top: 0;
+    }
+
+    .header-logo {
+        padding-top: 15px;
+        padding-left: 30px;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .sub-menu > .MuiPaper-root {
+        top: 140px !important;
+        left: 470px !important;
+    }
+
+    .basic-menu {
+        visibility: unset;
+    }
+}
+
+@media (max-width: 360px) {
+    .main-header .hidden {
+        top: 0px; /* Adjust this value based on your header height */
+    }
+    
+    .main-header.visible {
+        top: 0;
+    }
+    .header-logo-img{
+        margin-top: 7px;
+    }
+
+    .header-logo {
+        padding-top: 10px;
+        padding-left: 20px;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .sub-menu > .MuiPaper-root {
+        top: 140px !important;
+        left: 87px !important;
+    }
+
+    .basic-menu > .MuiPaper-root {
+        top: 45px !important;
+        left: 185px !important;
+    }
+
+    .basic-menu {
+        visibility: unset;
+    }
+}

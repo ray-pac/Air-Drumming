@@ -1,0 +1,322 @@
+@import "https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap";
+@font-face {
+  font-family: "ThisIsTheFuture";
+  src: url("../../../src/assets/Font/This is the future/This Is The Future.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+  
+}
+
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #48c6ef;
+}
+
+.header-100 {
+  height: 100vh;
+}
+
+.header-50 {
+  height: 50vh;
+}
+
+.header-25 {
+  height: 25vh;
+}
+
+.header {
+  background: url("../../assets/01_Home Page/Home_Section 1/AD_Earth.png");
+  background-repeat: no-repeat, repeat;
+  background-position: center center;
+  background-size: auto 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header .big-text {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 20px 40px;
+  font-size: 50px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  color: #09523e;
+  font-weight: bold;
+}
+
+.box {
+  padding: 20px;
+  border: 4px solid rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.6);
+  box-shadow: 0 0 4px #999;
+  width: 300px;
+  min-height: 50px;
+  border-radius: 4px;
+  z-index: 9;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.footer {
+  background-image: linear-gradient(-130deg, #4facfe 0%, #00f2fe 100%);
+  height: 300px;
+}
+
+.footer .footer-content {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -300px;
+}
+
+.footer img.pirate {
+  width: 380px;
+  margin-right: -150px;
+}
+
+.drumming {
+  border-radius: 35px;
+  margin-top: 10px;
+  width: 100%;
+  height: 280px;
+  /*background-image: url("../../assets/Air Drumming Logo/AirDrumming_Logo-03.png");*/
+  background: linear-gradient(140deg, #182e82, #1b0c4d);
+  background-size: 100% 100%;
+  /*background-color: transparent;*/
+  border: none;
+}
+
+.drumming-image{
+  width: 100%;
+  height: 230px;
+  background-image: url("../../assets/Air Drumming Logo/AirDrumming_Logo-03.png");
+  background-size: 100% 100%;
+}
+
+.citing {
+  border-radius: 35px;
+  margin-top: 10px;
+  /*margin-left: 15px;*/
+  width: 100%;
+  height: 280px;
+  background: linear-gradient(160deg, #7dfe97, #4fe6ff);
+  background-size: 100% 100%;
+  border: none;
+}
+.citing-content {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.citing-text {
+  padding-left: 30px;
+  width: 30%;
+  text-align: start;
+  font-size: 16px;
+}
+.citing-text h1{
+  margin: 0 0 20px 0;
+  color: #110d3a;
+  font-weight: normal;
+  font-family: "ThisIsTheFuture", sans-serif;
+  font-size: 35px;
+}
+.citing-text p{
+  color: #110d3a;
+  font-family: "RobotoMedium", sans-serif;
+}
+
+.citing-image{
+  margin-right: -15px;
+  width: 100%;
+  height: 280px;
+  background-image: url("../../assets/01_Home Page/Home_Section 2/PhoneScene_01.png");
+  background-size: 100% 100%;
+  /*background-size: cover;*/
+  background-position: center;
+}
+
+.star {
+  border-radius: 35px;
+  margin-top: 10px;
+  width: 100%;
+  height: 280px;
+  background: linear-gradient(140deg, #fcf0b1, #ec446d);
+  background-size: 100% 100%;
+  border: none;
+}
+.star-content {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.star-text {
+  padding-left: 30px;
+  width: 30%;
+  text-align: start;
+  font-size: 16px;
+}
+.star-text h1{
+  margin: 0 0 20px 0;
+  color: #110d3a;
+  font-weight: normal;
+  font-family: "ThisIsTheFuture", sans-serif;
+  font-size: 35px;
+}
+.star-text p{
+  color: #110d3a;
+  font-family: "RobotoMedium", sans-serif;
+}
+.star-image{
+  margin-right: -15px;
+  width: 100%;
+  height: 280px;
+  background-image: url("../../assets/01_Home Page/Home_Section 2/PhoneScene_02.png");
+  background-size: 100% 100%;
+  /*background-size: cover;*/
+  background-position: center;
+}
+
+.feel {
+  z-index: 99;
+  position: relative;
+  border-radius: 35px;
+  margin-top: 10px;
+  /*margin-left: 15px;*/
+  width: 100%;
+  height: 280px;
+  background: linear-gradient(140deg, #f0c5fe, #bf4cc7);
+  background-size: 100% 100%;
+  /*background-color: transparent;*/
+  border: none;
+}
+.feel-text{
+  padding: 0px 5vh;
+  place-items: center;
+}
+.feel-text h1{
+  margin: 0;
+  color: #ffffff;
+  font-weight: normal;
+  font-family: "ThisIsTheFuture", sans-serif;
+  font-size: 60px;
+  text-align: start;
+}
+
+.learn {
+  border-radius: 35px;
+  margin-top: 13px;
+  width: 100%;
+  height: 280px;
+  background: linear-gradient(140deg, #61e6bd, #257436);
+  background-size: 100% 100%;
+  /*background-color: transparent;*/
+  border: none;
+}
+.learn-text h1{
+  color: #ffffff;
+  font-size: 36px;
+  text-align: center;
+  font-family: "RobotoMedium", sans-serif;
+}
+
+.drumplay {
+  z-index: 99;
+  position: relative;
+  border-radius: 35px;
+  margin-top: 13px;
+  /*margin-left: 15px;*/
+  width: 100%;
+  height: 280px;
+  background: linear-gradient(160deg, #e498e7, #6264fd);
+  background-size: 100% 100%;
+  border: none;
+}
+.drumplay-content {
+  display: flex;
+  /*gap: 10px;*/
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.drumplay-text {
+  padding-left: 30px;
+  width: 30%;
+  text-align: start;
+  font-size: 16px;
+}
+.drumplay-text h1{
+  margin: 0 0 20px 0;
+  color: #110d3a;
+  font-weight: normal;
+  font-family: "ThisIsTheFuture", sans-serif;
+  font-size: 35px;
+}
+.drumplay-text p{
+  color: #110d3a;
+  font-family: "RobotoMedium", sans-serif;
+}
+
+.drumplay-image{
+  margin-right: -15px;
+  width: 100%;
+  height: 280px;
+  background-image: url("../../assets/01_Home Page/Home_Section 2/PhoneScene_03.png");
+  background-size: 100% 100%;
+  /*background-size: cover;*/
+  background-position: center;
+}
+*/
+.about {
+  height: 100vh;
+  /*background-image: url(../images/About/section_4/Section_04_back.png);*/
+  background-size: 100% 100%;
+}
+
+
+::-webkit-scrollbar {
+  width: 10px; /* width of the scrollbar */
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* color of the track */
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; /* color of the scrollbar */
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* color when hovering */
+  border-radius: 50px;
+}
+
+/* For Firefox */
+.scrollable {
+  scrollbar-width: thin; /* options: auto, thin */
+  scrollbar-color: #888 #f1f1f1; /* scrollbar color and track color */
+}
+
+.MuiPopover-root {
+  top: 10px !important;
+}

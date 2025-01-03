@@ -1,0 +1,1787 @@
+@font-face {
+  font-family: "ThisIsTheFuture";
+  src: url("../../../../../src/assets/Font/This is the future/This Is The Future.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.whats-title{
+  color: white;
+  font-weight: normal;
+  font-family: "ThisIsTheFuture", sans-serif;
+  font-size: 35px;
+}
+
+.join {
+  color: white;
+  font-size: 26px;
+  font-weight: bold;
+  width: 420px;
+  height: 76px;
+  /*background-image: url(../../assets/images/About/section_4/join.png);*/
+  background: linear-gradient(160deg, #f78382, #bd0801);
+  background-size: 100% 100%;
+  border: none;
+  margin-top: 20px;
+  transition: 0.3s
+}
+
+.milestones-years {
+  width: 45%;
+  text-align: left;
+}
+
+.milestones-years > ul > li {
+  color: white;
+  font-size: 20px;
+  font-family: Roboto Regular;
+}
+
+.milestones-years > ul > li::marker {
+  color: white;
+}
+
+.join:hover {
+  width: 420px;
+  height: 76px;
+  /*background-image: url(../../assets/images/About/section_4/join.png);*/
+  background-size: 100% 100%;
+  border: none;
+  margin-top: 20px;
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.7);
+  transition: 0.3s
+}
+
+.solar-system {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: transparent;
+  position: absolute;
+  bottom: -20%
+}
+
+.sun {
+  position: absolute;
+  width: 637px;
+  height: 637px;
+  background-image: url("../../../02_About Page/About_Section 3 Milestone/edited/Earth_crop.png");
+  background-size: 100% 100%;
+  border-radius: 50%;
+  top: 20%;
+}
+
+.solar_earth {
+  width: 637px;
+  height: 637px;
+  background-image: url("../../../02_About Page/About_Section 3 Milestone/edited/Earth_crop.png");
+  background-size: 100% 100%
+}
+
+.orbit {
+  position: absolute;
+  width: 1000px;
+  height: 1000px;
+  /* border: 1px solid #100F1C; */
+  border-radius: 50%;
+  /* animation: rotate 20s linear infinite; */
+}
+
+.blue {
+  width: 184px;
+  height: 184px;
+  background-image: url("../../../02_About Page/About_Section 3 Milestone/Planet Bullet/Planet_bullet_01.png");
+  background-size: 100% 100%;
+  border-radius: 50%;
+  position: absolute;
+  top: 25%;
+  left: 2%;
+  transform: translateX(-50%);
+}
+
+.pink {
+  width: 130px;
+  height: 130px;
+  background-image: url("../../../Planets/Planet_violet.png");
+  background-size: 100% 100%;
+  border-radius: 50%;
+  position: absolute;
+  top: 39%;
+  left: 100%;
+  transform: translateX(-50%);
+}
+
+.yellow {
+  width: 111px;
+  height: 111px;
+  background-image: url("../../../02_About Page/About_Section 3 Milestone/Planet Bullet/Planet_bullet_04.png");
+  background-size: 100% 100%;
+  border-radius: 50%;
+  position: absolute;
+  top: 85%;
+  left: 21%;
+  transform: translateX(-50%);
+}
+
+.green {
+  width: 96.6px;
+  height: 96.6px;
+  background-image: url("../../../02_About Page/About_Section 3 Milestone/Planet Bullet/Planet_bullet_02.png");
+  background-size: 100% 100%;
+  border-radius: 50%;
+  position: absolute;
+  top: 2%;
+  left: 24%;
+  transform: translate(-50%, 50%);
+}
+
+.Khroma {
+  width: 368px; 
+  height: 368px;
+  background-image: url("../../../02_About Page/About_Section 3 Milestone/Planet Bullet/Khroma_Planet.png");
+  background-size: 100% 100%;
+  border-radius: 50%;
+  position: absolute;
+  top: 40%;
+  right: -19%;
+  transform: translateX(-50%);
+}
+
+.Imperialis { 
+  width: 364px;
+  height: 364px;
+  background-image: url("../../../02_About Page/About_Section 3 Milestone/Planet Bullet/Imperialis_planet.png");
+  background-size: 100% 100%;
+  border-radius: 50%;
+  position: absolute;
+  left: 88%;
+  top: 10%;
+  transform: translateX(-50%);
+}
+
+.Devorah { 
+  width: 375px;
+  height: 376px;
+  background-image: url("../../../02_About Page/About_Section 3 Milestone/Planet Bullet/Devorah_planet.png");
+  background-size: 100% 100%;
+  border-radius: 50%;
+  position: absolute;
+  left: 1%;
+  top: 29%;
+  transform: translateX(-50%);
+}
+
+.Aurelia { 
+  width: 232px;
+  height: 233px;
+  background-image: url("../../../02_About Page/About_Section 3 Milestone/Planet Bullet/Aurelia_planet.png");
+  background-size: 100% 100%;
+  border-radius: 50%;
+  position: absolute;
+  left: 55%;
+  top: 92%;
+  transform: translateX(-50%);
+}
+
+.Mylocritas { 
+  width: 213px;
+  height: 213px;
+  background-image: url("../../../02_About Page/About_Section 3 Milestone/Planet Bullet/Mylocritas_planet.png");
+  background-size: 100% 100%;
+  border-radius: 50%;
+  position: absolute;
+  top: 0%;
+  left: 21%;
+  transform: translate(-50%, 50%);
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(20deg);
+  }
+}
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+
+  70% {
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.about_back {
+  background-image: url("../../../02_About Page/About_Section  1/addon/about_back_edited.png");
+  background-size: 100% 100%
+}
+
+.about-main {
+  min-height: 1117px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.whats-title {
+  margin-bottom: 20px;
+  width: 275px;
+  height: 88px;
+}
+
+.whats-content {
+  width: 412px;
+  height: 365px;
+}
+
+.whats-detail {
+  font-family: Roboto Regular;
+  font-size: 16px;
+  color: white;
+}
+
+.whats-phone {
+  background-image: url("../../../../../src/assets/02_About Page/About_Section  1/addon/GraphicBox.png");
+  width: 722px;
+  height: 503.34px;
+  position: relative
+}
+
+.whats-phone-body {
+  position: absolute;
+  width: 790px;
+  top: -15%;
+  left: -7%;
+}
+
+.phone-screen-2 {
+  position: absolute;
+  bottom: -43%;
+  width: 801px;
+  left: -8%;
+  transition: transform 0.5s ease;
+  z-index: 10;
+}
+
+.phone-screen-2-animation {
+  position: absolute;
+  bottom: -43%;
+  left: -8%;
+  width: 801px;
+  transition: transform 0.5s ease;
+  transform: translateY(-15%) rotate(-1deg)
+}
+
+.phone-screen-1 {
+  position: absolute;
+  bottom: -43%;
+  left: -8%;
+  width: 809px;
+  transition: transform 0.5s ease;
+  z-index: 10;
+}
+
+.phone-screen-1-animation {
+  position: absolute;
+  bottom: -43%;
+  left: -8%;
+  width: 809px;
+  transition: transform 0.5s ease;
+  transform: translateY(-30%) rotate(-3deg)
+}
+
+.whats-planet-blue {
+  position: absolute;
+  bottom: -5%;
+  right: 0%;
+  width: 128px;
+  height: 128px;
+  z-index: 9;
+}
+
+.whats-planet-blue-animation {
+  position: absolute;
+  bottom: -5%;
+  right: 0%;
+  width: 128px;
+  height: 128px;
+  z-index: 9;
+  animation: pop-in 2s forwards;
+}
+
+.whats-planet-green {
+  position: absolute;
+  bottom: 12%;
+  left: 40%;
+  width: 92px;
+  height: 92px;
+  z-index: 9;
+}
+
+.whats-planet-green-animation {
+  position: absolute;
+  bottom: 12%;
+  left: 40%;
+  width: 92px;
+  height: 92px;
+  z-index: 9;
+  animation: pop-in 1.6s forwards;
+}
+
+.whats-planet-red {
+  position: absolute;
+  top: -10%;
+  right: 10%;
+  width: 46.08px;
+  height: 46.08px;
+  z-index: 9;
+}
+
+.whats-planet-red-animation {
+  position: absolute;
+  top: -10%;
+  right: 10%;
+  width: 46.08px;
+  height: 46.08px;
+  animation: pop-in 1.6s forwards;
+}
+
+.play-container {
+  min-height: 1021px;
+  align-content: center;
+  text-align: center;
+}
+
+
+.whos {
+  border-radius: 35px;
+  margin-left: 15px; 
+  width: 1142px;
+  height: 520px;
+  background-image: linear-gradient(to top, #477ace, transparent), url("../../../../../src/assets/02_About Page/About_Section  2/About-Who we are.png");
+  background-repeat: no-repeat;
+  background-position: bottom, center;
+  background-size: 100% 50%, 100% 100%;
+  background-color: transparent;
+  border: none;
+  margin-bottom: 20px;
+}
+.whos-overlay-content{
+  padding: 0 0 30px 30px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: start;
+  color: white;
+}
+
+.vision-overlay-content h1,
+.mission-overlay-content h1,
+.whos-overlay-content h1{
+  padding-bottom: 10px;
+  color: white;
+  font-weight: normal;
+  font-family: "ThisIsTheFuture", sans-serif;
+  font-size: 35px;
+}
+.mission {
+  border-radius: 35px;
+  margin-left: 15px;
+  width: 565px;
+  height: 220px;
+  background-image: linear-gradient(rgba(188, 128, 128, 1), rgba(188, 128, 128, 1)),
+    url("../../../../../src/assets/02_About Page/About_Section  2/DJ_ScratchDisc_Img-crop.png");
+  background-size: 100% 100%;
+  background-color: transparent;
+  background-blend-mode: overlay; /* Optional for enhanced blending effect */
+  border: none;
+}
+.mission-overlay-content{
+  padding-left: 30px;
+  width: 100%;
+  display: table;
+  text-align: start;
+  color: white;
+}
+.vision {
+  border-radius: 35px;
+  margin-left: 15px;
+  width: 565px;
+  height: 220px;
+  background-image: linear-gradient(rgba(60, 179, 113, 1), rgba(60, 179, 113, 1)),
+    url("../../../../../src/assets/02_About Page/About_Section  2/Vynl_Img_Crop.png");
+  background-size: 100% 100%;
+  background-color: transparent;
+  background-blend-mode: overlay; /* Optional for enhanced blending effect */
+  border: none;
+}
+.vision-overlay-content{
+  padding-left: 30px;
+  width: 100%;
+  display: table;
+  text-align: start;
+  color: white;
+}
+
+.milestone-container {
+  text-align: center;
+  position: 'relative';
+  height: 1526;
+  background-image: url("../../../../../src/assets/02_About Page/About_Section 3 Milestone/Milestone_BG.png");
+  background-size: 100% 100%;
+}
+
+.milestone-mask {
+  mask: url("../../../../../src/assets/02_About Page/About_Section 3 Milestone/mask_img.png") no-repeat;
+  mask-size: 100vw 1526px;
+  text-align: center;
+  position: relative;
+  height: 1526px;
+  overflow: hidden;
+}
+
+.milestones-title {
+  position: absolute;
+  left: 42%;
+  top: 19%;
+  z-index: 12;
+  color: white;
+  font-weight: normal;
+  font-family: "ThisIsTheFuture", sans-serif;
+  font-size: 50px;
+}
+
+.palnet {
+  transition: 0.7s;
+  width: 32px;
+  height: 32px
+}
+
+.palnet_select {
+  transition: 0.7s;
+  width: 64px;
+  height: 64px
+}
+
+.years-group {
+  display: flex;
+  align-items: center;
+  margin-top: 3%;
+  top: 18%;
+  width: 52%;
+  justify-content: space-between;
+  height: 200px;
+  position: absolute;
+  z-index: 11;
+  transition: 0.5s;
+}
+
+.milestones_subimages {
+  text-align: flex-start;
+  position: absolute;
+  z-index: 9;
+  top: 37%;
+  width: 100%;
+  text-align: center;
+}
+
+.milestone-2024 {
+  border-radius: 35px;
+  animation: pop-in 0.6s forwards;
+  width: 820px;
+  height: 470px;
+}
+
+.year_two_images {
+  display: flex;
+  flex-direction: unset;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.milestone-2023_1 {
+  animation: pop-in 0.6s forwards;
+  background-image: url("../../../../../src/assets/02_About Page/About_Section 3 Milestone/edited/2023_1.png");
+  background-size: 100% 100%;
+  width: 396px;
+  height: 470px;
+}
+
+.milestone-2023_2 {
+  animation: pop-in 0.6s forwards;
+  background-image: url("../../../../../src/assets/02_About Page/About_Section 3 Milestone/edited/2023_2.png");
+  background-size: 100% 100%;
+  width: 396px;
+  height: 470px;
+}
+
+.milestone-2022_1 {
+  animation: pop-in 0.6s forwards;
+  background-image: url("../../../../../src/assets/02_About Page/About_Section 3 Milestone/edited/2022_1.png");
+  background-size: 100% 100%;
+  width: 396px;
+  height: 470px;
+}
+
+.milestone-2022_2 {
+  animation: pop-in 0.6s forwards;
+  background-image: url("../../../../../src/assets/02_About Page/About_Section 3 Milestone/edited/2022_2.png");
+  background-size: 100% 100%;
+  width: 396px;
+  height: 470px;
+}
+
+.orbit-blue {
+  position: absolute;
+  top: 0%;
+  width: 1019px;
+  height: 1019px;
+  border: 1px solid #100F1C;
+  border-radius: 50%;
+  transform: rotate(10deg);
+}
+
+.orbit-pink {
+  position: absolute;
+  top: 0%;
+  width: 1019px;
+  height: 1019px;
+  border: 1px solid #100F1C;
+  border-radius: 50%;
+  transform: rotate(10deg);
+}
+
+.orbit-Khroma {
+  position: absolute;
+  top: -50%;
+  width: 1911px;
+  height: 1911px;
+  border: 1px solid #100F1C;
+  border-radius: 50%;
+  transform: rotate(10deg);
+}
+
+.orbit-Imperialis {
+  position: absolute;
+  top: -25%;
+  width: 1477px;
+  height: 1477px;
+  border: 1px solid #100F1C;
+  border-radius: 50%;
+  transform: rotate(10deg);
+}
+
+.orbit-Mylocritas {
+  position: absolute;
+  top: -67%;
+  width: 2165px;
+  height: 2165px;
+  border: 1px solid #100F1C;
+  border-radius: 50%;
+  transform: rotate(10deg);
+}
+
+.mask_back {
+  height: 1257px;
+  position: relative;
+}
+
+.events_about {
+  width: 100%;
+  height: 100%;
+  background-image: url("../../../../../src/assets/02_About Page/About_Section  4//Section_04 - About AIR+ Community.png");
+  background-size: 100% 100%;
+  position: absolute;
+  bottom: 0%;
+}
+
+.about_events_detail {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute
+}
+
+.abouts-title {
+  color: white;
+  font-weight: normal;
+  font-family: "ThisIsTheFuture", sans-serif;
+  font-size: 35px;
+}
+
+.abouts-where {
+  font-family: Roboto Regular;
+  width: 517px;
+  color: white;
+  font-size: 15px;
+}
+
+@media (max-width: 634px) {
+  .play-container{
+    margin-top: -150px !important;
+  }
+}
+@media (max-width: 744px) {
+  .play-container{
+    margin-top: -190px;
+  }
+
+
+  .main-header {
+    max-width: 744px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #100D39;
+    color: white;
+    position: fixed;
+    height: 52px;
+    z-index: 10;
+  }
+
+  .about_back {
+    background-image: url("../../../02_About Page/About_Section  1/addon/About_mobile.png");
+    min-height: 3264px;
+    background-size: 100% 100%
+  }
+
+  .about-main {
+    min-height: 929px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column-reverse;
+  }
+
+  .whats-about {
+    position: relative;
+    padding-top: 50px;
+  }
+
+  .whats-about h1,
+  .milestones-title{
+    color: white;
+    font-weight: normal;
+    font-family: "ThisIsTheFuture", sans-serif;
+    font-size: 24px;
+  }
+
+  .whats-title {
+    margin-bottom: 20px;
+    width: 184px;
+    height: 58px;
+  }
+
+  .whats-content {
+    width: 312px;
+    height: 365px;
+  }
+
+  .whats-detail {
+    font-family: Roboto Regular;
+    font-size: 14px;
+    color: white;
+  }
+
+  .whats-phone {
+    background-image: url("../../../../../src/assets/02_About Page/About_Section  1/addon/GraphicBox.png");
+    background-size: 100% 100%;
+    width: 300.34px;
+    height: 203.49px;
+    position: relative
+  }
+
+  .whats-phone-body {
+    position: absolute;
+    top: -20%;
+    left: -13%;
+    width: 350px;
+  }
+
+  .phone-screen-2 {
+    position: absolute;
+    bottom: -73%;
+    left: -15%;
+    transition: transform 0.5s ease;
+    transform: translateY(-11%);
+    width: 357px;
+  }
+
+  .phone-screen-2-animation {
+    position: absolute;
+    bottom: -73%;
+    left: -15%;
+    transition: transform 0.5s ease;
+    transform: translateY(-29%) rotate(-1deg);
+    width: 357px;
+  }
+
+  .phone-screen-1 {
+    position: absolute;
+    bottom: -73%;
+    left: -15%;
+    transition: transform 0.5s ease;
+    transform: translateY(-11%);
+    width: 357px;
+  }
+
+  .phone-screen-1-animation {
+    position: absolute;
+    bottom: -73%;
+    left: -15%;
+    transition: transform 0.5s ease;
+    transform: translateY(-48%) rotate(-3deg);
+    width: 357px;
+  }
+
+  .whats-planet-blue {
+    position: absolute;
+    top: 30%;
+    left: 70%;
+    width: 57px;
+    height: 57px;
+    z-index: 9;
+  }
+
+  .whats-planet-blue-animation {
+    position: absolute;
+    top: 30%;
+    left: 70%;
+    width: 57px;
+    height: 57px;
+    z-index: 9;
+    animation: pop-in 2s forwards;
+  }
+
+  .whats-planet-green {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    width: 41px;
+    height: 41px;
+    z-index: 9;
+  }
+
+  .whats-planet-green-animation {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    width: 41px;
+    height: 41px;
+    z-index: 9;
+    animation: pop-in 1.6s forwards;
+  }
+
+  .whats-planet-red {
+    position: absolute;
+    top: -3%;
+    right: 15%;
+    width: 21px;
+    height: 21px;
+    z-index: 9;
+  }
+
+  .whats-planet-red-animation {
+    position: absolute;
+    top: -3%;
+    right: 15%;
+    width: 21px;
+    height: 21px;
+    z-index: 9;
+    animation: pop-in 1.6s forwards;
+  }
+
+  .whos {
+    margin-left: 0px;
+    width: 312px;
+    height: 532.1px;
+    background-image: url("../../../../../src/assets/02_About Page/About_Section  2/Who_mobile.png");
+    background-size: 100% 100%;
+    background-color: transparent;
+    border: none;
+  }
+  .whos-overlay-content h1,
+  .mission-overlay-content h1,
+  .vision-overlay-content h1{
+    font-size: 24px;
+  }
+  .whos-overlay-content p,
+  .mission-overlay-content p,
+  .vision-overlay-content p{
+    font-size: 14px;  
+  }
+  .whos-overlay-content{
+    padding-left: 10px;
+    line-height: 1.1;
+  }
+
+  .mission {
+    margin-left: 0px;
+    width: 312px;
+    height: 160px;
+    /*background-image: url(../../assets/images/About/section2/Mission_mobile.png);*/
+    background-size: 100% 100%;
+    background-color: transparent;
+    border: none;
+  }
+
+  .milestones-years {
+    width: 90%;
+    text-align: left;
+  }
+
+  .milestones-years > ul > li {
+    color: white;
+    font-size: 14px;
+    font-family: Roboto Regular;
+  }
+
+  .milestones-years > ul > li::marker {
+    color: white;
+  }
+
+  .vision {
+    margin-left: 0px;
+    width: 312px;
+    height: 160px;
+    /*background-image: url(../../assets/images/About/section2/Vision_mobile.png);*/
+    background-size: 100% 100%;
+    background-color: transparent;
+    border: none;
+    margin-top: 15px;
+  }
+
+  .milestone-container {
+    text-align: center;
+    position: 'relative';
+    height: 923.85px;
+    width: auto;
+    background-image: url("../../../../../src/assets/02_About Page/About_Section  2/Mask_group.png");
+    background-size: 100% 100%;
+  }
+
+  .milestone-mask {
+    mask: unset;
+    mask-size: 0px 0px;
+    text-align: center;
+    position: relative;
+    height: 923.85px;
+    overflow: hidden;
+  }
+
+  li {
+    font-family: Roboto Regular;
+  }
+
+  .milestones-title {
+    top: 10%;
+    left: 35%;
+    width: 138px;
+    height: 29px;
+  }
+
+  .years-group {
+    display: flex;
+    align-items: center;
+    top: 13%;
+    width: 100%;
+    justify-content: space-between;
+    height: 100px;
+    position: absolute;
+    z-index: 11;
+    transition: 0.5s;
+  }
+
+  .palnet {
+    transition: 0.7s;
+    width: 16.1px;
+    height: 16.1px
+  }
+
+  .palnet_select {
+    transition: 0.7s;
+    width: 32px;
+    height: 32px
+  }
+
+  .milestones_subimages {
+    text-align: flex-start;
+    position: absolute;
+    z-index: 9;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .milestone-2024 {
+    border-radius: 35px;
+    animation: pop-in 0.6s forwards;
+    width: 312px;
+    height: 175px;
+  }
+
+  .year_two_images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .milestone-2023_1 {
+    animation: pop-in 0.6s forwards;
+    background-image: url("../../../../../src/assets/02_About Page/About_Section 3 Milestone/edited/mobile/2023_1_mobile.png");
+    background-size: 100% 100%;
+    width: 312px;
+    height: 175px;
+  }
+
+  .milestone-2023_2 {
+    animation: pop-in 0.6s forwards;
+    background-image: url("../../../../../src/assets/02_About Page/About_Section 3 Milestone/edited/mobile/2023_2_mobile.png");
+    background-size: 100% 100%;
+    width: 312px;
+    height: 175px;
+  }
+
+  .milestone-2022_1 {
+    animation: pop-in 0.6s forwards;
+    background-image: url("../../../../../src/assets/02_About Page/About_Section 3 Milestone/edited/mobile/2022_1_mobile.png");
+    background-size: 100% 100%;
+    width: 312px;
+    height: 175px;
+  }
+
+  .milestone-2022_2 {
+    animation: pop-in 0.6s forwards;
+    background-image: url("../../../../../src/assets/02_About Page/About_Section 3 Milestone/edited/mobile/2022_2_mobile.png");
+    background-size: 100% 100%;
+    width: 312px;
+    height: 175px;
+  }
+
+  .milestone-2021 {
+    animation: pop-in 0.6s forwards;
+    width: 312px;
+    height: 175px;
+  }
+
+  .sun {
+    position: absolute;
+    width: 222.95px;
+    height: 222.95px;
+    /*background-image: url(../../assets/images/About/section3/Earth_crop.png);*/
+    background-size: 100% 100%;
+    border-radius: 50%;
+    top: 50%;
+  }
+
+  .orbit-blue {
+    position: absolute;
+    top: 40%;
+    width: 356.65px;
+    height: 356.65px;
+    border: 1px solid #100F1C;
+    border-radius: 50%;
+    transform: rotate(145deg);
+  }
+
+  .blue {
+    width: 44.8px;
+    height: 44.8px;
+    /*background-image: url(../../assets/images/About/section3/Planet_03-1.png);*/
+    background-size: 100% 100%;
+    border-radius: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+  }
+
+  .pink {
+    width: 44.8px;
+    height: 44.8px;
+    /*background-image: url(../../assets/images/About/section3/Planet_03.png);*/
+    background-size: 100% 100%;
+    border-radius: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    top: 20%;
+    left: 94%;
+  }
+
+  .yellow {
+    width: 111px;
+    height: 111px;
+    /*background-image: url(../../assets/images/About/section3/Planet_Bullet_04.png);*/
+    background-size: 100% 100%;
+    border-radius: 50%;
+    position: absolute;
+    top: 84%;
+    left: 54%;
+    transform: translateX(-50%);
+  }
+
+  .orbit-Imperialis {
+    position: absolute;
+    top: 32%;
+    width: 465px;
+    height: 465px;
+    border: 1px solid #100F1C;
+    border-radius: 50%;
+    transform: rotate(10deg);
+  }
+
+  .Imperialis {
+    width: 114px;
+    height: 114px;
+    /*background-image: url(../../assets/images/About/section3/Imperialis_planet.png);*/
+    background-size: 100% 100%;
+    border-radius: 50%;
+    position: absolute;
+    top: 71%;
+    left: 87%;
+    transform: translateX(-50%);
+  }
+
+  .Devorah {
+    width: 73px;
+    height: 73px;
+    /*background-image: url(../../assets/images/About/section3/Devorah_planet.png);*/
+    background-size: 100% 100%;
+    border-radius: 50%;
+    position: absolute;
+    top: 71%;
+    left: 9%;
+    transform: translateX(-50%);
+  }
+
+  .green {
+    width: 43.5px;
+    height: 43.5px;
+    /*background-image: url(../../assets/images/About/section3/Planet_Bullet_02.png);*/
+    background-size: 100% 100%;
+    border-radius: 50%;
+    position: absolute;
+    top: 2%;
+    left: 21%;
+    transform: translate(-50%, 50%);
+  }
+
+  .Khroma {
+    width: 80.5px;
+    height: 80.5px;
+    /*background-image: url(../../assets/images/About/section3/Khroma_Planet.png);*/
+    background-size: 100% 100%;
+    border-radius: 50%;
+    position: absolute;
+    top: 81%;
+    left: 27%;
+    transform: translate(-50%, 50%);
+  }
+
+  .orbit-Khroma {
+    position: absolute;
+    top: 21%;
+    width: 601px;
+    height: 601px;
+    border: 1px solid #100F1C;
+    border-radius: 50%;
+    transform: rotate(10deg);
+  }
+
+  .Mylocritas {
+    width: 77px;
+    height: 77px;
+    /*background-image: url(../../assets/images/About/section3/Murkara_planet.png);*/
+    background-size: 100% 100%;
+    border-radius: 50%;
+    position: absolute;
+    top: 2%;
+    left: 75%;
+    transform: translateX(-50%);
+  }
+
+  .Aurelia {
+    width: 118px;
+    height: 118px;
+    /*background-image: url(../../assets/images/About/section3/Aurelia_planet.png);*/
+    background-size: 100% 100%;
+    border-radius: 50%;
+    position: absolute;
+    top: -13%;
+    transform: translateX(-50%);
+  }
+
+  .Solarion {
+    width: 80.5px;
+    height: 80.5px;
+    /*background-image: url(../../assets/images/About/section3/Solarion_planet.png);*/
+    background-size: 100% 100%;
+    border-radius: 50%;
+    position: absolute;
+    top: 0%;
+    left: 21%;
+    transform: translate(-50%, 50%);
+  }
+
+  .Stellaris {
+    width: 80.5px;
+    height: 80.5px;
+    /*background-image: url(../../assets/images/About/section3/Stellaris_planet.png);*/
+    background-size: 100% 100%;
+    border-radius: 50%;
+    position: absolute;
+    top: 84%;
+    left: 27%;
+    transform: translate(-50%, 50%);
+  }
+
+  .orbit-Mylocritas {
+    position: absolute;
+    top: 12%;
+    width: 757.75px;
+    height: 757.75px;
+    border: 1px solid rgba(37, 37, 37, 0.5);
+    border-radius: 50%;
+    transform: rotate(10deg);
+  }
+
+  .mask_back {
+    height: 559px;
+    position: relative;
+  }
+
+  .events_about {
+    height: 240px;
+    /*background-image: url(../../assets/images/About/section_4/Section_04_back.png);*/
+    background-size: 100% 100%;
+  }
+
+  .abouts-title {
+    color: white;
+    font-weight: normal;
+    font-family: "ThisIsTheFuture", sans-serif;
+    font-size: 24px;
+  }
+
+  .about_events_detail {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: absolute;
+    top: 40px;
+  }
+
+  .abouts-where {
+    font-family: Roboto Regular;
+    width: 296px;
+    color: white;
+    font-size: 15px;
+  }
+
+  .join {
+    /*background-image: url(../../assets/images/About/section_4/JoinUs_btn.png);*/
+    width: 132px;
+    height: 36px;
+    font-size: 16px;
+    background-color: transparent;
+    background-size: 100% 100%;
+    border: none;
+    margin-top: 20px;
+    transition: 0.3s
+  }
+
+  .join:hover {
+    /*background-image: url(../../assets/images/About/section_4/JoinUs_btn.png);*/
+    width: 132px;
+    height: 36px;
+    font-size: 16px;
+    background-size: 100% 100%;
+    border: none;
+    margin-top: 20px;
+    box-shadow: none;
+    transition: 0.3s
+  }
+}
+
+@media (max-width: 360px) {
+  .play-container{
+    margin-top: -140px;
+  }
+
+  .about_back {
+    background-image: url("../../../02_About Page/About_Section  1/addon/About_mobile.png");
+    min-height: 3264px;
+    background-size: 100% 100%
+  }
+
+  .about-main {
+    min-height: 929px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column-reverse;
+  }
+
+  .whats-about {
+    position: relative;
+    padding-top: 50px;
+  }
+
+  .whats-title {
+    margin-bottom: 20px;
+    width: 184px;
+    height: 58px;
+  }
+
+  .whats-content {
+    width: 312px;
+    height: 365px;
+  }
+
+  .whats-detail {
+    font-family: Roboto Regular;
+    font-size: 14px;
+    color: white;
+  }
+
+  .milestones-years {
+    width: 90%;
+    text-align: left;
+  }
+
+  .milestones-years > ul > li {
+    color: white;
+    font-size: 14px;
+    font-family: Roboto Regular;
+  }
+
+  .milestones-years > ul > li::marker {
+    color: white;
+  }
+
+  .whats-phone {
+    background-image: url("../../../../../src/assets/02_About Page/About_Section  1/addon/GraphicBox.png");
+    background-size: 100% 100%;
+    width: 300.34px;
+    height: 203.49px;
+    position: relative
+  }
+
+  .whats-phone-body {
+    position: absolute;
+    top: -20%;
+    left: -13%;
+    width: 350px;
+  }
+
+  .phone-screen-2 {
+    position: absolute;
+    bottom: -73%;
+    left: -15%;
+    transition: transform 0.5s ease;
+    transform: translateY(-11%);
+    width: 357px;
+  }
+
+  .phone-screen-2-animation {
+    position: absolute;
+    bottom: -73%;
+    left: -15%;
+    transition: transform 0.5s ease;
+    transform: translateY(-29%) rotate(-1deg);
+    width: 357px;
+  }
+
+  .phone-screen-1 {
+    position: absolute;
+    bottom: -73%;
+    left: -15%;
+    transition: transform 0.5s ease;
+    transform: translateY(-11%);
+    width: 357px;
+  }
+
+  .phone-screen-1-animation {
+    position: absolute;
+    bottom: -73%;
+    left: -15%;
+    transition: transform 0.5s ease;
+    transform: translateY(-48%) rotate(-3deg);
+    width: 357px;
+  }
+
+  .whats-planet-blue {
+    position: absolute;
+    top: 30%;
+    left: 70%;
+    width: 57px;
+    height: 57px;
+    z-index: 9;
+  }
+
+  .whats-planet-blue-animation {
+    position: absolute;
+    top: 30%;
+    left: 70%;
+    width: 57px;
+    height: 57px;
+    z-index: 9;
+    animation: pop-in 2s forwards;
+  }
+
+  .whats-planet-green {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    width: 41px;
+    height: 41px;
+    z-index: 9;
+  }
+
+  .whats-planet-green-animation {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    width: 41px;
+    height: 41px;
+    z-index: 9;
+    animation: pop-in 1.6s forwards;
+  }
+
+  .whats-planet-red {
+    position: absolute;
+    top: -3%;
+    right: 15%;
+    width: 21px;
+    height: 21px;
+    z-index: 9;
+  }
+
+  .whats-planet-red-animation {
+    position: absolute;
+    top: -3%;
+    right: 15%;
+    width: 21px;
+    height: 21px;
+    z-index: 9;
+    animation: pop-in 1.6s forwards;
+  }
+
+  .whos {
+    margin-left: 0px; 
+    width: 312px;
+    height: 532.1px;
+    /*background-image: url("../../../../../src/assets/Font/This is the future/This Is The Future.otf");*/
+    background-size: 100% 100%;
+    background-color: transparent;
+    border: none;
+  }
+
+  .mission {
+    margin-left: 0px;
+    width: 312px;
+    height: 160px;
+   /* background-image: url(../../assets/images/About/section2/Mission_mobile.png);*/
+    background-size: 100% 100%;
+    background-color: transparent;
+    border: none;
+  }
+
+  .vision {
+    margin-left: 0px;
+    width: 312px;
+    height: 160px;
+    /*background-image: url(../../assets/images/About/section2/Vision_mobile.png);*/
+    background-size: 100% 100%;
+    background-color: transparent;
+    border: none;
+  }
+
+  .milestone-container {
+    text-align: center;
+    position: 'relative';
+    height: 923.85px;
+    width: 360.01px;
+    background-image: url("../../../../../src/assets/02_About Page/About_Section  2/Mask_group.png");
+    background-size: 100% 100%;
+  }
+
+  .milestone-mask {
+    mask: unset;
+    mask-size: 0px 0px;
+    text-align: center;
+    position: relative;
+    height: 923.85px;
+    overflow: hidden;
+  }
+
+  .milestones-title {
+    top: 0%;
+    margin-top: 25%;
+    width: 138px;
+    height: 29px;
+  }
+
+  .years-group {
+    display: flex;
+    align-items: center;
+    margin-top: 3%;
+    width: 100%;
+    justify-content: space-between;
+    height: 100px;
+    position: absolute;
+    z-index: 11;
+    transition: 0.5s;
+  }
+
+  .palnet {
+    transition: 0.7s;
+    width: 16.1px;
+    height: 16.1px
+  }
+
+  .palnet_select {
+    transition: 0.7s;
+    width: 32px;
+    height: 32px
+  }
+
+  .milestones_subimages {
+    text-align: flex-start;
+    position: absolute;
+    z-index: 9;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .milestone-2024 {
+    border-radius: 35px;
+    animation: pop-in 0.6s forwards;
+    width: 312px;
+    height: 175px;
+  }
+
+  .year_two_images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .milestone-2023_1 {
+    animation: pop-in 0.6s forwards;
+    background-image: url("../../../../../src/assets/02_About Page/About_Section 3 Milestone/edited/mobile/2023_1_mobile.png");
+    background-size: 100% 100%;
+    width: 312px;
+    height: 175px;
+  }
+
+  .milestone-2023_2 {
+    animation: pop-in 0.6s forwards;
+    background-image: url("../../../../../src/assets/02_About Page/About_Section 3 Milestone/edited/mobile/2023_2_mobile.png");
+    background-size: 100% 100%;
+    width: 312px;
+    height: 175px;
+  }
+
+  .milestone-2022_1 {
+    animation: pop-in 0.6s forwards;
+    background-image: url("../../../../../src/assets/02_About Page/About_Section 3 Milestone/edited/mobile/2022_1_mobile.png");
+    background-size: 100% 100%;
+    width: 312px;
+    height: 175px;
+  }
+
+  .milestone-2022_2 {
+    animation: pop-in 0.6s forwards;
+    background-image: url("../../../../../src/assets/02_About Page/About_Section 3 Milestone/edited/mobile/2022_2_mobile.png");
+    background-size: 100% 100%;
+    width: 312px;
+    height: 175px;
+  }
+
+  .milestone-2021 {
+    animation: pop-in 0.6s forwards;
+    width: 312px;
+    height: 175px;
+  }
+
+  .sun {
+    position: absolute;
+    width: 222.95px;
+    height: 222.95px;
+    /*background-image: url(../../assets/images/About/section3/Earth_crop.png);*/
+    background-size: 100% 100%;
+    border-radius: 50%;
+    top: 50%;
+  }
+
+  .orbit-blue {
+    position: absolute;
+    top: 40%;
+    width: 356.65px;
+    height: 356.65px;
+    border: 1px solid #100F1C;
+    border-radius: 50%;
+    transform: rotate(145deg);
+  }
+
+  .blue {
+    width: 44.8px;
+    height: 44.8px;
+    /*background-image: url(../../assets/images/About/section3/Planet_03-1.png);*/
+    background-size: 100% 100%;
+    border-radius: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+  }
+
+  .pink {
+    width: 44.8px;
+    height: 44.8px;
+    /*background-image: url(../../assets/images/About/section3/Planet_03.png);*/
+    background-size: 100% 100%;
+    border-radius: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    top: 20%;
+    left: 94%;
+  }
+
+  .yellow {
+    width: 111px;
+    height: 111px;
+   /* background-image: url(../../assets/images/About/section3/Planet_Bullet_04.png);*/
+    background-size: 100% 100%;
+    border-radius: 50%;
+    position: absolute;
+    top: 84%;
+    left: 54%;
+    transform: translateX(-50%);
+  }
+
+  .orbit-Imperialis {
+    position: absolute;
+    top: 32%;
+    width: 465px;
+    height: 465px;
+    border: 1px solid #100F1C;
+    border-radius: 50%;
+    transform: rotate(10deg);
+  }
+
+  .Imperialis {
+    width: 114px;
+    height: 114px;
+    /*background-image: url(../../assets/images/About/section3/Imperialis_planet.png);*/
+    background-size: 100% 100%;
+    border-radius: 50%;
+    position: absolute;
+    top: 71%;
+    left: 87%;
+    transform: translateX(-50%);
+  }
+
+  .Devorah {
+    width: 73px;
+    height: 73px;
+    /*background-image: url(../../assets/images/About/section3/Devorah_planet.png);*/
+    background-size: 100% 100%;
+    border-radius: 50%;
+    position: absolute;
+    top: 71%;
+    left: 9%;
+    transform: translateX(-50%);
+  }
+
+  .green {
+    width: 43.5px;
+    height: 43.5px;
+    /*background-image: url(../../assets/images/About/section3/Planet_Bullet_02.png);*/
+    background-size: 100% 100%;
+    border-radius: 50%;
+    position: absolute;
+    top: 2%;
+    left: 21%;
+    transform: translate(-50%, 50%);
+  }
+
+  .Khroma {
+    width: 80.5px;
+    height: 80.5px;
+    /*background-image: url(../../assets/images/About/section3/Khroma_Planet.png);*/
+    background-size: 100% 100%;
+    border-radius: 50%;
+    position: absolute;
+    top: 81%;
+    left: 27%;
+    transform: translate(-50%, 50%);
+  }
+
+  .orbit-Khroma {
+    position: absolute;
+    top: 21%;
+    width: 601px;
+    height: 601px;
+    border: 1px solid #100F1C;
+    border-radius: 50%;
+    transform: rotate(10deg);
+  }
+
+  .Mylocritas {
+    width: 77px;
+    height: 77px;
+    /*background-image: url(../../assets/images/About/section3/Murkara_planet.png);*/
+    background-size: 100% 100%;
+    border-radius: 50%;
+    position: absolute;
+    top: 2%;
+    left: 75%;
+    transform: translateX(-50%);
+  }
+
+  .Aurelia {
+    width: 118px;
+    height: 118px;
+    /*background-image: url(../../assets/images/About/section3/Aurelia_planet.png);*/
+    background-size: 100% 100%;
+    border-radius: 50%;
+    position: absolute;
+    top: -13%;
+    transform: translateX(-50%);
+  }
+
+  .Solarion {
+    width: 80.5px;
+    height: 80.5px;
+    /*background-image: url(../../assets/images/About/section3/Solarion_planet.png);*/
+    background-size: 100% 100%;
+    border-radius: 50%;
+    position: absolute;
+    top: 0%;
+    left: 21%;
+    transform: translate(-50%, 50%);
+  }
+
+  .Stellaris {
+    width: 80.5px;
+    height: 80.5px;
+    /*background-image: url(../../assets/images/About/section3/Stellaris_planet.png);*/
+    background-size: 100% 100%;
+    border-radius: 50%;
+    position: absolute;
+    top: 84%;
+    left: 27%;
+    transform: translate(-50%, 50%);
+  }
+
+  .orbit-Mylocritas {
+    position: absolute;
+    top: 12%;
+    width: 757.75px;
+    height: 757.75px;
+    border: 1px solid rgba(37, 37, 37, 0.5);
+    border-radius: 50%;
+    transform: rotate(10deg);
+  }
+
+  .mask_back {
+    height: 559px;
+    position: relative;
+  }
+
+  .events_about {
+    height: 240px;
+    /*background-image: url(../../assets/images/About/section_4/Section_04_back.png);*/
+    background-size: 100% 100%;
+  }
+
+  .abouts-title {
+    color: white;
+    font-weight: normal;
+    font-family: "ThisIsTheFuture", sans-serif;
+    font-size: 24px;
+  }
+
+  .about_events_detail {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: absolute;
+    top: 40px;
+  }
+
+  .abouts-where {
+    font-family: Roboto Regular;
+    width: 296px;
+    color: white;
+    font-size: 15px;
+  }
+
+  .join {
+    width: 132px;
+    height: 36px;
+    font-size: 16px;
+    background-color: transparent;
+    background-size: 100% 100%;
+    border: none;
+    margin-top: 20px;
+    transition: 0.3s
+  }
+
+  .join:hover {
+    width: 132px;
+    height: 36px;
+    font-size: 16px;
+    background-size: 100% 100%;
+    border: none;
+    margin-top: 20px;
+    box-shadow: none;
+    transition: 0.3s
+  }
+}

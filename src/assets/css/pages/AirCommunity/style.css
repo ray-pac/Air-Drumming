@@ -1,0 +1,558 @@
+.air_community_container {
+    min-height: 1117px;
+    background-image: url("../../../05_Air Community Page/addon/Galaxy_Background-AirCom.png");
+    background-size: 100% 100%;
+}
+
+.sign-link {
+    min-height: 1117px;
+    align-content: center;
+    text-align: center;
+}
+
+.sign-link-main {
+    align-content: center;
+}
+
+.sign-title {
+    display: inline-table;
+    padding-bottom: 15px;
+    font-weight: normal;
+    font-family: "ThisIsTheFuture", sans-serif;
+    font-size: 35px;
+    color: white;
+}
+
+.community-images {
+    display: flex;
+    justify-content: center;
+}
+
+.community_artist {
+    border-radius: 35px;
+    width: 364px;
+    height: 400px;
+    background-image: url("../../../05_Air Community Page/Illustration - Harmony Singing.png");
+    background-size: 100% 100%;
+    animation: pop-in 0.5s forwards;
+}
+
+.community_bassador {
+    border-radius: 35px;
+    width: 364px;
+    height: 400px;
+    background-image: url("../../../05_Air Community Page/Illustration - CometHolding A phone.png");
+    background-size: 100% 100%;
+    animation: pop-in 1.2s forwards;
+    margin-left: 30px;
+}
+
+.community_partner {
+    border-radius: 35px;
+    width: 364px;
+    height: 400px;
+    background-image: url("../../../05_Air Community Page/Community_AirPartner.png");
+    background-size: 100% 100%;
+    animation: pop-in 1.9s forwards;
+    margin-left: 30px;
+}
+.community-content h1{
+    font-weight: normal;
+    font-family: "ThisIsTheFuture", sans-serif;
+    font-size: 35px;
+    color: white;
+    position: absolute;
+    bottom: 30px;
+    padding-left: 40px;
+}
+.welcome-air-community {
+    z-index: 99;
+    font-family: Roboto Regular;
+    width: 854px;
+    color: white;
+    font-size: 20px;
+}
+
+.welcome-air-comment {
+    width: 721px;
+    color: white;
+    font-size: 20px;
+}
+
+.signup-button {
+    width: 420px;
+    height: 76px;
+    background: linear-gradient(to bottom, #ff8585, #c50e0e);
+    color: white;
+    font-size: 24px;
+    border: none;
+}
+
+.air_violet {
+    position: absolute;
+    left: 7%;
+    top: 260px;
+    width: 179.2px;
+    z-index: 9;
+    animation: pop-in 0.9s forwards
+}
+
+.air_green {
+    position: absolute;
+    top: 55%;
+    right: 7%;
+    width: 95px;
+    animation: pop-in 0.6s forwards
+}
+
+.air_yellow {
+    position: absolute;
+    top: 100%;
+    left: 12%;
+    width: 256px;
+    animation: pop-in 1s forwards
+}
+
+.air_red {
+    position: absolute;
+    bottom: -105%;
+    left: 5%;
+    width: 126.68px;
+    animation: pop-in 1.4s forwards
+}
+
+.air_blue {
+    position: absolute;
+    bottom: -135%;
+    right: 5%;
+    width: 259px;
+    animation: pop-in 1.9s forwards;
+}
+
+.join-link {
+    min-height: 1117px;
+    align-content: center;
+    text-align: center;
+}
+
+.join-now-community {
+    font-family: Roboto Regular;
+    color: white;
+    font-size: 20px;
+    width: 838px;
+}
+
+.join-now-detail {
+    width: 1140px;
+    height: 400px;
+    background-image: url("../../../05_Air Community Page/Be the First to Experience Air_Img.png");
+    background-size: 100% 100%;
+    animation: pop-in 0.9s forwards;
+}
+
+.experience {
+    animation: pop-in 0.9s forwards;
+    font-weight: normal;
+    font-family: "ThisIsTheFuture", sans-serif;
+    font-size: 35px;
+    color: white;
+}
+
+.join-now-commemt {
+    z-index: 99;
+    color: white;
+    font-size: 20px;
+    width: 838px;
+}
+
+.join-button {
+    position: relative;
+    z-index: 99;
+    width: 420px;
+    height: 76px;
+    background: linear-gradient(to bottom, #ff8585, #c50e0e);
+    color: white;
+    font-size: 24px;
+    border: none;
+}
+
+/********************************* 360px **************************************/
+
+@media (max-width: 744px) {
+
+    .main-header {
+        max-width: 744px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #100D39;
+        color: white;
+        position: fixed;
+        height: 52px;
+        z-index: 10;
+        overflow: hidden;
+    }
+
+    .air_community_container {
+        padding-top: 120px;
+        min-height: 2041px;
+        background-image: url("../../../05_Air Community Page/addon/Community_mobile.png");
+        background-size: 100% 100%;
+    }
+
+    .sign-link {
+        min-height: 1117px;
+        align-content: center;
+        text-align: center;
+    }
+
+    .sign-link-main {
+        align-content: center;
+    }
+
+    .sign-title,
+    .community-content h1,
+    .experience {
+        font-size: 24px;
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .community-images {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .community_artist {
+        width: 312px;
+        height: 300px;
+        /*background-image: url(../../assets/images/Community/Card_AIRCOm_01_mobile.png);*/
+        background-size: 100% 100%;
+        animation: pop-in 0.5s forwards;
+        margin-bottom: 10px;
+    }
+
+    .community_bassador {
+        width: 312px;
+        height: 300px;
+        /*background-image: url(../../assets/images/Community/Card_AIRCOm_02_mobile.png);*/
+        background-size: 100% 100%;
+        animation: pop-in 1.2s forwards;
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+
+    .community_partner {
+        width: 312px;
+        height: 300px;
+        /*background-image: url(../../assets/images/Community/Card_AIRCOm_03_mobile.png);*/
+        background-size: 100% 100%;
+        animation: pop-in 1.9s forwards;
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+
+    .welcome-air-community {
+        font-family: Roboto Regular;
+        width: 312px;
+        color: white;
+        font-size: 14px;
+    }
+
+    .welcome-air-comment {
+        z-index: 99;
+        width: 312px;
+        color: white;
+        font-size: 14px;
+    }
+
+    .signup-button {
+        width: 172px;
+        height: 46px;
+        background: linear-gradient(to bottom, #ff8585, #c50e0e);
+        color: white;
+        font-size: 18px;
+        border: none;
+    }
+
+    .join-link {
+        padding-top: 5%;
+        min-height: 708px;
+        align-content: center;
+        text-align: center;
+    }
+
+    .join-now-community {
+        font-family: Roboto Regular;
+        color: white;
+        font-size: 14px;
+        width: 312px;
+    }
+
+    .join-now-detail {
+        width: 312px;
+        height: 300px;
+        background-image: url("../../../05_Air Community Page/addon/Image.png");
+        background-size: 100% 100%;
+        border-radius: 50px;
+        animation: pop-in 0.9s forwards;
+    }
+
+    .experience {
+        position: relative;
+        z-index: 99;
+        width: 300px;
+        place-self: center;
+        animation: pop-in 0.9s forwards;
+    }
+
+    .join-now-commemt {
+        color: white;
+        font-size: 14px;
+        width: 312px;
+    }
+
+    .join-button {
+        width: 172px;
+        height: 46px;
+        background: linear-gradient(to bottom, #ff8585, #c50e0e);
+        color: white;
+        font-size: 18px;
+        border: none;
+    }
+
+    .air_violet {
+        position: absolute;
+        left: 2%;
+        top: 290px;
+        width: 53.76px;
+        z-index: 9;
+        animation: pop-in 0.9s forwards;
+    }
+
+    .air_green {
+        position: absolute;
+        top: 600px;
+        right: 4%;
+        width: 35.99px;
+        z-index: 9;
+        animation: pop-in 0.6s forwards;
+    }
+
+    .air_yellow {
+        position: absolute;
+        top: 132%;
+        left: 5%;
+        width: 67.2px;
+        z-index: 9;
+        animation: pop-in 1s forwards;
+    }
+
+    .air_red {
+        position: absolute;
+        bottom: -650px;
+        left: 85%;
+        width: 47.51px;
+        z-index: 9;
+        animation: pop-in 1.4s forwards;
+    }
+
+    .air_blue {
+        position: absolute;
+        bottom: -1190px;
+        right: 75%;
+        width: 77.26px;
+        z-index: 9;
+        animation: pop-in 1.9s forwards;
+    }
+    .community_artist,
+    .community_bassador,
+    .community_partner{
+        border-radius: 15px;
+    }
+}
+
+/********************************* 360px **************************************/
+
+@media (max-width: 360px) {
+    .community_artist,
+    .community_bassador,
+    .community_partner{
+        border-radius: 15px;
+    }
+    .sign-title,
+    .community-content h1,
+    .experience {
+       font-size: 24px;
+       font-size: 24px;
+       width: 100%;
+       padding-left: 0;
+    }
+
+    .air_community_container {
+        padding-top: 120px;
+        min-height: 2041px;
+        background-image: url("../../../05_Air Community Page/addon/Community_mobile.png");
+        background-size: 100% 100%;
+        overflow: hidden;
+    }
+
+    .sign-link {
+        min-height: 1117px;
+        align-content: center;
+        text-align: center;
+    }
+
+    .sign-link-main {
+        align-content: center;
+    }
+
+    .sign-title {
+        width: 200px;
+        height: 29px;
+    }
+
+    .community_artist {
+        width: 312px;
+        height: 300px;
+        /*background-image: url(../../assets/images/Community/Card_AIRCOm_01_mobile.png);*/
+        background-size: 100% 100%;
+        animation: pop-in 0.5s forwards;
+    }
+
+    .community_bassador {
+        width: 312px;
+        height: 300px;
+        /*background-image: url(../../assets/images/Community/Card_AIRCOm_02_mobile.png);*/
+        background-size: 100% 100%;
+        animation: pop-in 1.2s forwards;
+        margin-left: 0px;
+    }
+
+    .community_partner {
+        width: 312px;
+        height: 300px;
+        /*background-image: url(../../assets/images/Community/Card_AIRCOm_03_mobile.png);*/
+        background-size: 100% 100%;
+        animation: pop-in 1.9s forwards;
+        margin-left: 0px;
+    }
+
+    .welcome-air-community {
+        font-family: Roboto Regular;
+        width: 312px;
+        color: white;
+        font-size: 14px;
+    }
+
+    .welcome-air-comment {
+        z-index: 99;
+        width: 312px;
+        color: white;
+        font-size: 14px;
+    }
+
+    .signup-button {
+        width: 172px;
+        height: 46px;
+        background: linear-gradient(to bottom, #ff8585, #c50e0e);
+        color: white;
+        font-size: 18px;
+        border: none;
+    }
+
+    .join-link {
+        padding-top: 5%;
+        min-height: 708px;
+        align-content: center;
+        text-align: center;
+    }
+
+    .join-now-community {
+        font-family: Roboto Regular;
+        color: white;
+        font-size: 14px;
+        width: 312px;
+    }
+
+    .join-now-detail {
+        width: 312px;
+        height: 300px;
+        background-image: url("../../../05_Air Community Page/addon/Image.png");
+        background-size: 100% 100%;
+        border-radius: 50px;
+        animation: pop-in 0.9s forwards;
+    }
+
+    .experience {
+        place-self: center;
+        animation: pop-in 0.9s forwards;
+        position: relative;
+        z-index: 99;
+    }
+
+    .join-now-commemt {
+        z-index: 99;
+        color: white;
+        font-size: 14px;
+        width: 312px;
+    }
+
+    .join-button {
+        position: relative;
+        z-index: 99;
+        width: 172px;
+        height: 46px;
+        background: linear-gradient(to bottom, #ff8585, #c50e0e);
+        color: white;
+        font-size: 18px;
+        border: none;
+    }
+
+    .air_violet {
+        position: absolute;
+        left: 2%;
+        top: 300px;
+        width: 53.76px;
+        z-index: 9;
+        animation: pop-in 0.9s forwards;
+    }
+
+    .air_green {
+        position: absolute;
+        top: 600px;
+        right: 4%;
+        width: 35.99px;
+        z-index: 9;
+        animation: pop-in 0.6s forwards;
+    }
+
+    .air_yellow {
+        position: absolute;
+        top: 1245px;
+        left: 5%;
+        width: 67.2px;
+        z-index: 9;
+        animation: pop-in 1s forwards;
+    }
+
+    .air_red {
+        position: absolute;
+        bottom: -650px;
+        left: 85%;
+        width: 47.51px;
+        z-index: 9;
+        animation: pop-in 1.4s forwards;
+    }
+
+    .air_blue {
+        position: absolute;
+        bottom: -1190px;
+        right: 75%;
+        width: 77.26px;
+        z-index: 9;
+        animation: pop-in 1.9s forwards;
+    }
+}

@@ -1,0 +1,1122 @@
+@font-face {
+    font-family: "RobotoRegular";
+    src: url("../../../../../src/assets/Font/Roboto/Roboto-Regular.ttf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.service_container {
+    /*background-image: url(../../assets/images/services/services_back.png);*/
+    background-size: 100% 100%;
+}
+
+.service-schools {
+    height: 1118px;
+    width: 100%;
+    position: relative; 
+    background-image: url("../../../../assets/03_Services Page/addon/school_back.png");
+    background-size: 100% 100%
+}
+
+.schools-detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+}
+
+.schools-intro {
+    /*background-image: url(../../assets/images/services/school/school.png);*/
+    border-radius: 35px;
+    background: linear-gradient(140deg, #f1c7ff, #bd49c5);
+    background-size: 100% 100%;
+    max-width: 608px;
+    height: 100%;
+    margin-right: 20px;
+    position: relative;
+    z-index: 99;
+}
+
+.schools-provide {
+    /*background-image: url(../../assets/images/services/school/provide.png);*/
+    border-radius: 35px;
+    background: linear-gradient(140deg, #fcefb1, #ed486f);
+    background-size: 100% 100%;
+    max-width: 608px;
+    height: 100%;
+    margin-right: 20px;
+    position: relative;
+    z-index: 99;
+}
+
+.schools-content{
+    text-align: left;
+    padding: 30px;
+}
+.schools-content h1{
+    color: #110d3a;
+    font-weight: normal;
+    font-family: "ThisIsTheFuture", sans-serif;
+    font-size: 30px;
+    text-align: start;
+}
+.schools-content p{
+    color: black;
+    line-height: 1.2;
+    font-family: "RobotoRegular", sans-serif;
+    font-size: 16px;
+}
+
+.schools-worked {
+    /*background-image: url(../../assets/images/services/school/worked.png);*/
+    position: relative;
+    z-index: 99;
+    border-radius: 35px;
+    background: linear-gradient(140deg, #7cfe98, #4fe6fc);
+    background-size: 100% 100%;
+    max-width: 608px;
+    height: 100%;
+    margin-right: 20px;
+}
+
+.schools-image {
+    background-image: url("../../../03_Services Page/School_Img.png");
+    background-size: 100% 100%;
+    width: 506px;
+    height: 759px;
+}
+
+
+.service-corporate {
+    min-height: 1117px;
+    width: 100%;
+    position: relative;
+}
+
+.corporate-detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.corporate-intro {
+    /*background-image: url(../../assets/images/services/corporate/corporate_1.png);*/
+    border-radius: 35px;
+    background: linear-gradient(140deg, #f9ea63, #f4d800);
+    background-size: 100% 100%;
+    max-width: 608px;
+    height: 100%;
+    margin-right: 20px;
+}
+
+.corporate-provide {
+    /*background-image: url(../../assets/images/services/corporate/corporate_2.png);*/
+    border-radius: 35px;
+    background: linear-gradient(140deg, #4b92eb, #4fe8ff);
+    background-size: 100% 100%;
+    max-width: 608px;
+    height: 100%;
+    margin-right: 20px;
+}
+
+.corporate-worked {
+    /*background-image: url(../../assets/images/services/corporate/corporate_3.png);*/
+    border-radius: 35px;
+    background: linear-gradient(140deg, #f69854, #f0ce53);
+    background-size: 100% 100%;
+    max-width: 608px;
+    height: 100%;
+    margin-right: 20px;
+}
+
+.corporate-image { 
+    background-image: url("../../../03_Services Page/Corporate_Img.png");
+    background-size: 100% 100%;
+    width: 506px;
+    height: 702px;
+    margin-right: 20px;
+}
+
+
+.service-community {
+    text-align: center;
+    position: relative;
+    height: 1288px;
+    background-image: url("../../../03_Services Page/addon/community_back.png");
+    background-size: 100% 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-community-detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.community-intro {
+    /*background-image: url(../../assets/images/services/community/Card_community_01.png);*/
+    border-radius: 35px;
+    background: linear-gradient(140deg, #7dfe96, #4fe6fe);
+    background-size: 100% 100%;
+    max-width: 608px;
+    height: 100%;
+    margin-right: 20px;
+}
+
+.community-provide {
+    /*background-image: url(../../assets/images/services/community/Card_community_02.png);*/
+    border-radius: 35px;
+    background: linear-gradient(140deg, #4a8de6, #4fe7ff);
+    background-size: 100% 100%;
+    max-width: 608px;
+    height: 100%;
+    margin-right: 20px;
+}
+
+.community-worked {
+    /*background-image: url(../../assets/images/services/community/Card_community_03.png);*/
+    border-radius: 35px;
+    background: linear-gradient(140deg, #efc4fd, #bf4cc7);
+    background-size: 100% 100%;
+    max-width: 608px;
+    height: 100%;
+    margin-right: 20px;
+}
+
+.service_community-image {
+    /*background-image: url(../../assets/images/services/community/community_image.png);*/
+    background-image: url("../../../03_Services Page/Community_Img.png");
+    background-size: 100% 100%;
+    width: 506px;
+    height: 759px;
+}
+
+.service-events {
+    min-height: 955.76px;
+    width: 100%;
+    position: relative;
+    margin-right: 0px;
+}
+
+.service-events-detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.events-intro {
+    /*background-image: url(../../assets/images/services/events/Card_Events_01.png);*/
+    border-radius: 35px;
+    background: linear-gradient(140deg, #fcf0b2, #ec456d);
+    background-size: 100% 100%;
+    max-width: 608px;
+    height: 275px;
+    margin-right: 0px;
+}
+
+.events-provide {
+    /*background-image: url(../../assets/images/services/events/Card_Events_02.png);*/
+    border-radius: 35px;
+    background: linear-gradient(140deg, #7dfe96, #4fe6fe);
+    background-size: 100% 100%;
+    max-width: 608px;
+    height: 275px;
+    margin-right: 0px;
+}
+
+.service_events-image {
+    background-image: url("../../../03_Services Page/addon/image_3.png");
+    background-size: 100% 100%;
+    width: 506px;
+    height: 784px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 20px;
+}
+
+.events_planet_violet {
+    position: absolute;
+    width: 207px;
+    bottom: 0%;
+    right: 4%;
+    z-index: 4;
+}
+
+.events_planet_violet_animation {
+    position: absolute;
+    width: 207px;
+    bottom: 0%;
+    right: 4%;
+    z-index: 4;
+    animation: pop-in 1.5s forwards;
+}
+
+.events_planet_yellow {
+    position: absolute;
+    width: 61px;
+    bottom: 30%;
+    left: 10%;
+    z-index: 4;
+}
+
+.events_planet_yellow_animation {
+    position: absolute;
+    width: 61px;
+    bottom: 30%;
+    left: 10%;
+    z-index: 4;
+    animation: pop-in 1.5s forwards
+}
+
+.com_planet_blue {
+    position: absolute;
+    width: 128px;
+    top: 5%;
+    left: 25%
+}
+
+.com_planet_blue_ani {
+    position: absolute;
+    width: 128px;
+    top: 5%;
+    left: 25%;
+    animation: pop-in 0.7s forwards
+}
+
+.com_planet_violet {
+    position: absolute;
+    width: 179px;
+    top: 0%;
+    right: 10%;
+    z-index: 4;
+}
+
+.com_planet_violet_ani {
+    position: absolute;
+    width: 179px;
+    top: 0%;
+    right: 10%;
+    z-index: 4;
+    animation: pop-in 1.5s forwards
+}
+
+.com_planet_yellow {
+    position: absolute;
+    width: 256px;
+    bottom: 0%;
+    left: 10%;
+    z-index: 4;
+}
+
+.com_planet_yellow_ani {
+    position: absolute;
+    width: 256px;
+    bottom: 0%;
+    left: 10%;
+    z-index: 4;
+    animation: pop-in 2.2s forwards
+}
+
+.planet_red {
+    position: absolute;
+    width: 46px;
+    top: 10%;
+    right: 10%;
+}
+
+.planet_red_ani {
+    position: absolute;
+    width: 46px;
+    top: 10%;
+    right: 10%;
+    animation: pop-in 2.2s forwards
+}
+
+.planet_green {
+    position: absolute;
+    width: 92px;
+    top: 80%;
+    right: 25%;
+    z-index: 4
+}
+
+.planet_green_ani {
+    position: absolute;
+    width: 92px;
+    top: 80%;
+    right: 25%;
+    z-index: 4;
+    animation: pop-in 2.2s forwards
+}
+
+.planet_yellow {
+    position: absolute;
+    width: 256px;
+    top: 80%;
+    left: 5%;
+    z-index: 4
+}
+
+.planet_yellow_ani {
+    position: absolute;
+    width: 256px;
+    top: 80%;
+    left: 5%;
+    z-index: 4;
+    animation: pop-in 2.2s forwards
+}
+
+/*@media (max-width: 1100px) {
+    .schools-detail {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0px;
+        padding-top: 90px;
+    }
+
+    .corporate-detail {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0px;
+        padding-top: 90px;
+    }
+        
+}*/
+
+@media (max-width: 744px) {
+    .schools-content{
+        padding: 20px;
+    }
+    .schools-content h1{
+        color: #110d3a;
+        font-weight: normal;
+        font-family: "ThisIsTheFuture", sans-serif;
+        font-size: 24px;
+        text-align: start;
+    }
+    .schools-content p{
+        color: black;
+        line-height: 1.2;
+        font-family: "RobotoRegular", sans-serif;
+        font-size: 14px;
+    }
+    .schools-intro,
+    .schools-provide,
+    .schools-worked,
+    .corporate-intro,
+    .corporate-provide,
+    .corporate-worked,
+    .community-intro,
+    .community-provide,
+    .community-worked,
+    .events-intro,
+    .events-provide{
+        border-radius: 15px;
+    }
+
+
+
+    .service_container {
+        background-image: url("../../../03_Services Page/addon/Services_mobile_bak.png");
+        background-size: 100% 100%;
+    }
+
+    .main-header {
+        max-width: 744px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #100D39;
+        color: white;
+        position: fixed;
+        height: 52px;
+        z-index: 10;
+        overflow: hidden;
+    }
+
+    .service-schools {
+        height: 1471.06px;
+        width: 100%;
+        background-image: none;
+        position: relative;
+        margin-right: 0px;
+    }
+
+    .schools-detail {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0px;
+        padding-top: 90px;
+    }
+
+    .schools-intro {
+        /*background-image: url(../../assets/images/services/school/school_mobile.png);*/
+        background-size: 100% 100%;
+        width: 312px;
+        height: 421px;
+        margin-right: 0px;
+    }
+
+    .schools-provide {
+        /*background-image: url(../../assets/images/services/school/provide_mobile.png);*/
+        background-size: 100% 100%;
+        width: 312px;
+        height: 165px;
+        margin-right: 0px;
+    }
+
+    .schools-worked {
+        /*background-image: url(../../assets/images/services/school/worked_mobile.png);*/
+        background-size: 100% 100%;
+        width: 312px;
+        height: 206px;
+        margin-right: 0px;
+    }
+
+    .schools-image {
+        background-image: url("../../../03_Services Page/School_Img.png");
+        background-size: 100% 100%;
+        width: 312px;
+        height: 467px;
+        margin-bottom: 20px;
+    }
+
+    .service-corporate {
+        min-height: 1288px;
+        width: 100%;
+        position: relative;
+    }
+
+    .corporate-detail {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0px;
+    }
+
+    .corporate-intro {
+        /*background-image: url(../../assets/images/services/corporate/corporate_1_mobile.png);*/
+        background-size: 100% 100%;
+        width: 312px;
+        height: 341px;
+        margin-right: 0px;
+    }
+
+    .corporate-provide {
+        /*background-image: url(../../assets/images/services/corporate/corporate_2_mobile.png);*/
+        background-size: 100% 100%;
+        width: 312px;
+        height: 197px;
+        margin-right: 0px;
+    }
+
+    .corporate-worked {
+        /*background-image: url(../../assets/images/services/corporate/corporate_3_mobile.png);*/
+        background-size: 100% 100%;
+        width: 312px;
+        height: 162px;
+        margin-right: 0px;
+    }
+
+    .corporate-image {
+        /*background-image: url(../../assets/images/services/corporate/Corporate_Image.png);*/
+        background-size: 100% 100%;
+        width: 312px;
+        height: 467px;
+        margin-bottom: 20px;
+        margin-right: 0px;
+    }
+
+    .service-community {
+        height: 1471.06px;
+        width: 100%;
+        position: relative;
+        background-image: url("../../../03_Services Page/addon/community_back_mobile.png");
+        background-size: 100% 100%;
+        margin-right: 0px;
+    }
+
+    .service-community-detail {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0px;
+    }
+
+    .community-intro {
+        /*background-image: url(../../assets/images/services/community/Card_community_01_mobile.png);*/
+        background-size: 100% 100%;
+        width: 312px;
+        height: 485px;
+        margin-right: 0px;
+    }
+
+    .community-provide {
+        /*background-image: url(../../assets/images/services/community/Card_community_02_mobile.png);*/
+        background-size: 100% 100%;
+        width: 312px;
+        height: 165px;
+        margin-right: 0px;
+    }
+
+    .community-worked {
+        /*background-image: url(../../assets/images/services/community/Card_community_03_mobile.png);*/
+        background-size: 100% 100%;
+        width: 312px;
+        height: 178px;
+        margin-right: 0px;
+    }
+
+    .service_community-image {
+        background-image: url("../../../03_Services Page/addon/community_image_mobile.png");
+        background-size: 100% 100%;
+        width: 312px;
+        height: 467px;
+        margin-bottom: 20px;
+        margin-left: 0px;
+    }
+
+    .service-events {
+        min-height: 955.76px;
+        width: 100%;
+        position: relative;
+        margin-right: 0px;
+    }
+
+    .service-events-detail {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0px;
+    }
+
+    .events-intro {
+        /*background-image: url(../../assets/images/services/events/Card_Events_01_mobile.png);*/
+        background-size: 100% 100%;
+        width: 312px;
+        height: 245px;
+        margin-right: 0px;
+    }
+
+    .events-provide {
+        /*background-image: url(../../assets/images/services/events/Card_Events_02_mobile.png);*/
+        background-size: 100% 100%;
+        width: 312px;
+        height: 181.88px;
+        margin-right: 0px;
+    }
+
+    .service_events-image {
+        background-image: url("../../../03_Services Page/addon/image_3_mobile.png");
+        background-size: 100% 100%;
+        width: 312px;
+        height: 424px;
+        margin-bottom: 20px;
+        margin-right: 0px;
+    }
+
+    .events_planet_violet {
+        position: absolute;
+        width: 66.3px;
+        bottom: 4%;
+        right: 3%;
+        z-index: 4;
+    }
+
+    .events_planet_violet_animation {
+        position: absolute;
+        width: 66.3px;
+        bottom: 4%;
+        right: 3%;
+        z-index: 4;
+        animation: pop-in 1.5s forwards;
+    }
+
+    .events_planet_yellow {
+        position: absolute;
+        width: 61px;
+        bottom: 97%;
+        left: 0%;
+        z-index: 4;
+    }
+
+    .events_planet_yellow_animation {
+        position: absolute;
+        width: 61px;
+        bottom: 97%;
+        left: 0%;
+        z-index: 4;
+        animation: pop-in 1.5s forwards
+    }
+
+
+    .com_planet_blue {
+        position: absolute;
+        width: 128px;
+        top: 410px;
+        left: -25%
+    }
+
+    .com_planet_blue_ani {
+        position: absolute;
+        width: 128px;
+        top: 410ps;
+        left: -25%;
+        animation: pop-in 0.7s forwards
+    }
+
+    .com_planet_violet {
+        position: absolute;
+        width: 92.83px;
+        top: 2%;
+        right: 5%;
+        z-index: 4;
+    }
+
+    .com_planet_violet_ani {
+        position: absolute;
+        width: 92.83px;
+        top: 2%;
+        right: 5%;
+        z-index: 4;
+        animation: pop-in 1.5s forwards
+    }
+
+    .com_planet_yellow {
+        position: absolute;
+        width: 94.72px;
+        bottom: -1%;
+        left: -39%;
+        z-index: 4;
+    }
+
+    .com_planet_yellow_ani {
+        position: absolute;
+        width: 94.72px;
+        bottom: -1%;
+        left: -39%;
+        z-index: 4;
+        animation: pop-in 2.2s forwards
+    }
+
+    .planet_red {
+        position: absolute;
+        width: 23.87px;
+        top: 6%;
+        right: 82%;
+    }
+
+    .planet_red_ani {
+        position: absolute;
+        width: 23.87px;
+        top: 6%;
+        right: 82%;
+        animation: pop-in 2.2s forwards
+    }
+
+    .planet_green {
+        position: absolute;
+        width: 45px;
+        top: 983px;
+        right: 2%;
+        z-index: 4
+    }
+
+    .planet_green_ani {
+        position: absolute;
+        width: 45px;
+        top: 983px;
+        right: 2%;
+        z-index: 4;
+        animation: pop-in 2.2s forwards
+    }
+
+    .planet_yellow {
+        position: absolute;
+        width: 94.72px;
+        top: 100%;
+        left: -5%;
+        z-index: 4
+    }
+
+    .planet_yellow_ani {
+        position: absolute;
+        width: 94.72px;
+        top: 100%;
+        left: -5%;
+        z-index: 4;
+        animation: pop-in 2.2s forwards
+    }
+}
+
+@media (max-width: 360px) {
+    .schools-content{
+        padding: 20px;
+    }
+    .schools-content h1{
+        color: #110d3a;
+        font-weight: normal;
+        font-family: "ThisIsTheFuture", sans-serif;
+        font-size: 24px;
+        text-align: start;
+    }
+    .schools-content p{
+        color: black;
+        line-height: 1.2;
+        font-family: "RobotoRegular", sans-serif;
+        font-size: 14px;
+    }
+    .schools-intro,
+    .schools-provide,
+    .schools-worked,
+    .corporate-intro,
+    .corporate-provide,
+    .corporate-worked,
+    .community-intro,
+    .community-provide,
+    .community-worked,
+    .events-intro,
+    .events-provide{
+        border-radius: 15px;
+    }
+
+    
+    .service_container {
+        background-image: url("../../../03_Services Page/addon/Services_mobile_bak.png");
+        background-size: 100% 100%;
+    }
+
+    .service-schools {
+        height: 1471.06px;
+        width: 100%;
+        position: relative;
+        background-image: none;
+        background-size: 100% 100%;
+        margin-right: 0px;
+        overflow: hidden;
+    }
+
+    .schools-detail {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0px;
+        padding-top: 90px;
+    }
+
+    .schools-intro {
+        /*background-image: url(../../assets/images/services/school/school_mobile.png);*/
+        background-size: 100% 100%;
+        width: 312px;
+        height: 421px;
+        margin-right: 0px;
+    }
+
+    .schools-provide {
+        /*background-image: url(../../assets/images/services/school/provide_mobile.png);*/
+        background-size: 100% 100%;
+        width: 312px;
+        height: 165px;
+        margin-right: 0px;
+    }
+
+    .schools-worked {
+       /*background-image: url(../../assets/images/services/school/worked_mobile.png);*/
+        background-size: 100% 100%;
+        width: 312px;
+        height: 206px;
+        margin-right: 0px;
+    }
+
+    .schools-image {
+        background-image: url("../../../03_Services Page/School_Img.png");
+        background-size: 100% 100%;
+        width: 312px;
+        height: 467px;
+        margin-bottom: 20px;
+    }
+
+    .service-corporate {
+        min-height: 1288px;
+        width: 100%;
+        position: relative;
+    }
+
+    .corporate-detail {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0px;
+    }
+
+    .corporate-intro {
+        /*background-image: url(../../assets/images/services/corporate/corporate_1_mobile.png);*/
+        background-size: 100% 100%;
+        width: 312px;
+        height: 341px;
+        margin-right: 0px;
+    }
+
+    .corporate-provide {
+        /*background-image: url(../../assets/images/services/corporate/corporate_2_mobile.png);*/
+        background-size: 100% 100%;
+        width: 312px;
+        height: 197px;
+        margin-right: 0px;
+    }
+
+    .corporate-worked {
+        /*background-image: url(../../assets/images/services/corporate/corporate_3_mobile.png);*/
+        background-size: 100% 100%;
+        width: 312px;
+        height: 162px;
+        margin-right: 0px;
+    }
+
+    .corporate-image {
+        /*background-image: url(../../assets/images/services/corporate/Corporate_Image.png);*/
+        background-size: 100% 100%;
+        width: 312px;
+        height: 467px;
+        margin-bottom: 20px;
+        margin-right: 0px;
+    }
+
+    .service-community {
+        height: 1471.06px;
+        width: 100%;
+        position: relative;
+        background-image: url("../../../03_Services Page/addon/community_back_mobile.png");
+        background-size: 100% 100%;
+        margin-right: 0px;
+    }
+
+    .service-community-detail {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0px;
+    }
+
+    .community-intro {
+        /*background-image: url(../../assets/images/services/community/Card_community_01_mobile.png);*/
+        background-size: 100% 100%;
+        width: 312px;
+        height: 485px;
+        margin-right: 0px;
+    }
+
+    .community-provide {
+        /*background-image: url(../../assets/images/services/community/Card_community_02_mobile.png);*/
+        background-size: 100% 100%;
+        width: 312px;
+        height: 165px;
+        margin-right: 0px;
+    }
+
+    .community-worked {
+        /*background-image: url(../../assets/images/services/community/Card_community_03_mobile.png);*/
+        background-size: 100% 100%;
+        width: 312px;
+        height: 178px;
+        margin-right: 0px;
+    }
+
+    .service_community-image {
+        /*background-image: url(../../assets/images/services/community/community_image_mobile.png);*/
+        background-size: 100% 100%;
+        width: 312px;
+        height: 467px;
+        margin-bottom: 20px;
+        margin-left: 0px;
+    }
+
+    .service-events {
+        min-height: 955.76px;
+        width: 100%;
+        position: relative;
+        margin-right: 0px;
+    }
+
+    .service-events-detail {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0px;
+    }
+
+    .events-intro {
+        /*background-image: url(../../assets/images/services/events/Card_Events_01_mobile.png);*/
+        background-size: 100% 100%;
+        width: 312px;
+        height: 245px;
+        margin-right: 0px;
+    }
+
+    .events-provide {
+        /*background-image: url(../../assets/images/services/events/Card_Events_02_mobile.png);*/
+        background-size: 100% 100%;
+        width: 312px;
+        height: 181.88px;
+        margin-right: 0px;
+    }
+
+    .service_events-image {
+        background-image: url("../../../03_Services Page/addon/image_3_mobile.png");
+        background-size: 100% 100%;
+        width: 312px;
+        height: 424px;
+        margin-bottom: 20px;
+        margin-right: 0px;
+    }
+
+    .events_planet_violet {
+        position: absolute;
+        width: 66.3px;
+        bottom: 4%;
+        right: 3%;
+        z-index: 4;
+    }
+
+    .events_planet_violet_animation {
+        position: absolute;
+        width: 66.3px;
+        bottom: 4%;
+        right: 3%;
+        z-index: 4;
+        animation: pop-in 1.5s forwards;
+    }
+
+    .events_planet_yellow {
+        position: absolute;
+        width: 61px;
+        bottom: 97%;
+        left: 0%;
+        z-index: 4;
+    }
+
+    .events_planet_yellow_animation {
+        position: absolute;
+        width: 61px;
+        bottom: 97%;
+        left: 0%;
+        z-index: 4;
+        animation: pop-in 1.5s forwards
+    }
+
+
+    .com_planet_blue {
+        position: absolute;
+        width: 128px;
+        top: 410px;
+        left: -25%
+    }
+
+    .com_planet_blue_ani {
+        position: absolute;
+        width: 128px;
+        top: 410px;
+        left: -25%;
+        animation: pop-in 0.7s forwards
+    }
+
+    .com_planet_violet {
+        position: absolute;
+        width: 92.83px;
+        top: 2%;
+        right: 5%;
+        z-index: 4;
+    }
+
+    .com_planet_violet_ani {
+        position: absolute;
+        width: 92.83px;
+        top: 2%;
+        right: 5%;
+        z-index: 4;
+        animation: pop-in 1.5s forwards
+    }
+
+    .com_planet_yellow {
+        position: absolute;
+        width: 94.72px;
+        bottom: -1%;
+        left: -39%;
+        z-index: 4;
+    }
+
+    .com_planet_yellow_ani {
+        position: absolute;
+        width: 94.72px;
+        bottom: -1%;
+        left: -40%;
+        z-index: 4;
+        animation: pop-in 2.2s forwards
+    }
+
+    .planet_red {
+        position: absolute;
+        width: 23.87px;
+        top: 6%;
+        right: 82%;
+    }
+
+    .planet_red_ani {
+        position: absolute;
+        width: 23.87px;
+        top: 6%;
+        right: 82%;
+        animation: pop-in 2.2s forwards
+    }
+
+    .planet_green {
+        position: absolute;
+        width: 45px;
+        top: 983px;
+        right: 2%;
+        z-index: 4
+    }
+
+    .planet_green_ani {
+        position: absolute;
+        width: 45px;
+        top: 983px;
+        right: 2%;
+        z-index: 4;
+        animation: pop-in 2.2s forwards
+    }
+
+    .planet_yellow {
+        position: absolute;
+        width: 94.72px;
+        top: 101%;
+        left: -11%;
+        z-index: 4
+    }
+
+    .planet_yellow_ani {
+        position: absolute;
+        width: 94.72px;
+        top: 100%;
+        left: -5%;
+        z-index: 4;
+        animation: pop-in 2.2s forwards
+    }
+}
