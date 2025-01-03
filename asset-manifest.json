@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Air-Drumming/static/css/main.4e56b9a4.css",
-    "main.js": "/Air-Drumming/static/js/main.5ca80983.js",
+    "main.css": "/Air-Drumming/static/css/main.7b219724.css",
+    "main.js": "/Air-Drumming/static/js/main.589404f3.js",
     "static/js/488.68521f19.chunk.js": "/Air-Drumming/static/js/488.68521f19.chunk.js",
     "static/media/Section_04 - About AIR+ Community.png": "/Air-Drumming/static/media/Section_04 - About AIR+ Community.936395d960ba075f0345.png",
     "static/media/home_back.png": "/Air-Drumming/static/media/home_back.22ed243b857039ecf6c1.png",
@@ -51,6 +51,7 @@
     "static/media/image_3.png": "/Air-Drumming/static/media/image_3.a83f55fa83864a3fb43b.png",
     "static/media/image_3_mobile.png": "/Air-Drumming/static/media/image_3_mobile.a83f55fa83864a3fb43b.png",
     "static/media/About_mobile.png": "/Air-Drumming/static/media/About_mobile.b13388c635aed3197106.png",
+    "static/media/Privacy_back_mobile.png": "/Air-Drumming/static/media/Privacy_back_mobile.b13388c635aed3197106.png",
     "static/media/Galaxy_Background.png": "/Air-Drumming/static/media/Galaxy_Background.d7e8da5aac2728c4ff3b.png",
     "static/media/2023_2.png": "/Air-Drumming/static/media/2023_2.5deaaaea9c98b1ff27f8.png",
     "static/media/2023_1.png": "/Air-Drumming/static/media/2023_1.4d97b5679152a298f698.png",
@@ -85,6 +86,7 @@
     "static/media/AirDrumming_Logo-03.png": "/Air-Drumming/static/media/AirDrumming_Logo-03.f4d5e8d72f0cd89aeaa0.png",
     "static/media/This Is The Future.otf": "/Air-Drumming/static/media/This Is The Future.41928c5639af15c4bd7c.otf",
     "static/media/Comet_01_mobile.png": "/Air-Drumming/static/media/Comet_01_mobile.ccf088d04bcd9624d7f7.png",
+    "static/media/AirDrumming_Logo-edited.png": "/Air-Drumming/static/media/AirDrumming_Logo-edited.6531dd83f69987d4ccdb.png",
     "static/media/Planet.png": "/Air-Drumming/static/media/Planet.e63d1ea72d4890748bfe.png",
     "static/media/Planet_bullet_08.png": "/Air-Drumming/static/media/Planet_bullet_08.20a116852abdf1c15dd3.png",
     "static/media/Planet_bullet_09.png": "/Air-Drumming/static/media/Planet_bullet_09.cb205043062cf5fbc8f5.png",
@@ -100,12 +102,12 @@
     "static/media/Instagram_Icon.svg": "/Air-Drumming/static/media/Instagram_Icon.4a87522b1f65e4b31b9e.svg",
     "static/media/Telegarm Icon.svg": "/Air-Drumming/static/media/Telegarm Icon.2052329476b0baa924d5.svg",
     "index.html": "/Air-Drumming/index.html",
-    "main.4e56b9a4.css.map": "/Air-Drumming/static/css/main.4e56b9a4.css.map",
-    "main.5ca80983.js.map": "/Air-Drumming/static/js/main.5ca80983.js.map",
+    "main.7b219724.css.map": "/Air-Drumming/static/css/main.7b219724.css.map",
+    "main.589404f3.js.map": "/Air-Drumming/static/js/main.589404f3.js.map",
     "488.68521f19.chunk.js.map": "/Air-Drumming/static/js/488.68521f19.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e56b9a4.css",
-    "static/js/main.5ca80983.js"
+    "static/css/main.7b219724.css",
+    "static/js/main.589404f3.js"
   ]
 }
