@@ -443,14 +443,13 @@
 
 .milestone-container {
   text-align: center;
-  position: 'relative';
-  height: 1526;
   background-image: url("../../../../../src/assets/02_About Page/About_Section 3 Milestone/Milestone_BG.png");
   background-size: 100% 100%;
 }
 
 .milestone-mask {
-  mask: url("../../../../../src/assets/02_About Page/About_Section 3 Milestone/mask_img.png") no-repeat;
+  mask: url("../../../../../src/assets/02_About Page/About_Section 3 Milestone/mask_img.png");
+  mask-repeat: no-repeat;
   mask-size: 100vw 1526px;
   text-align: center;
   position: relative;
@@ -495,7 +494,6 @@
 }
 
 .milestones_subimages {
-  text-align: flex-start;
   position: absolute;
   z-index: 9;
   top: 37%;
@@ -880,7 +878,6 @@
 
   .milestone-container {
     text-align: center;
-    position: 'relative';
     height: 923.85px;
     width: auto;
     background-image: url("../../../../../src/assets/02_About Page/About_Section  2/Mask_group.png");
@@ -932,7 +929,6 @@
   }
 
   .milestones_subimages {
-    text-align: flex-start;
     position: absolute;
     z-index: 9;
     top: 25%;
@@ -1417,7 +1413,6 @@
 
   .milestone-container {
     text-align: center;
-    position: 'relative';
     height: 923.85px;
     width: 360.01px;
     background-image: url("../../../../../src/assets/02_About Page/About_Section  2/Mask_group.png");
@@ -1465,7 +1460,6 @@
   }
 
   .milestones_subimages {
-    text-align: flex-start;
     position: absolute;
     z-index: 9;
     top: 25%;

@@ -9,7 +9,7 @@
 
 .fontStyle {
     color: white;
-    font-size: 18;
+    font-size: 18px;
 }
 
 input::placeholder {
@@ -146,7 +146,7 @@ textarea::placeholder {
 }
 
 .textarea-style {
-    margin-top: 5;
+    margin-top: 5px;
     padding: 12px;
     font-size: 18px;
     border: none;
@@ -258,7 +258,7 @@ textarea::placeholder {
     }
     
     .textarea-style {
-        margin-top: 5;
+        margin-top: 5px;
         padding: 12px;
         font-size: 18px;
         border: none;
@@ -385,7 +385,7 @@ textarea::placeholder {
     }
     
     .textarea-style {
-        margin-top: 5;
+        margin-top: 5px;
         padding: 12px;
         font-size: 18px;
         border: none;
