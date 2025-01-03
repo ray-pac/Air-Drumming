@@ -15,22 +15,6 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-        <script>
-        // Use a delay to ensure the React app has fully initialized
-        window.addEventListener("load", function () {
-            setTimeout(navigateToHome, 500); // Wait 500ms before attempting navigation
-        });
-
-        function navigateToHome() {
-            // Find the "Home" link based on its href attribute
-            const homeLink = document.querySelector('a[href="/"]');
-
-            if (homeLink) {
-                homeLink.click(); // Simulate a click on the "Home" link
-            } else {
-                console.error('Home link not found.');
-            }
-        }
-    </script>
+       
   </body>
 </html>
