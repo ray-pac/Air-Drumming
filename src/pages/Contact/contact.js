@@ -70,7 +70,7 @@ export default function Collaboratopn() {
       <img src={Planet2} className='contact_planet_2' />
       <img src={Planet3} className='contact_planet_3' />
       <div className='form_animation'>
-          <div className='style-row'>
+          <div className='style-row name-contact'>
             <label style={styles.label_style}>Name*</label>
             <input type="text" onChange={(e) => setName(e.target.value)} placeholder="Your name" className='input-style' required />
           </div>
@@ -99,7 +99,7 @@ export default function Collaboratopn() {
             </div>
           </div>
 
-          <div className='style-row'>
+          <div className='style-row message-contact'>
             <label style={styles.label_style}>Message*</label>
             <textarea onChange={(e) => setMessage(e.target.value)} placeholder="What do you want to say...." className='textarea-style' required></textarea>
           </div>

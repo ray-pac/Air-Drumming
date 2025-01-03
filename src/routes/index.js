@@ -27,7 +27,7 @@ function AppRouters() {
   }, []);
 
   return (
-    <Router>
+    <Router basename="/Air-Drumming">
       <Header />
       <nav className="nav">
         <Link to="/" className="link">Home</Link>

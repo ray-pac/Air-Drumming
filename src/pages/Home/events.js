@@ -22,7 +22,7 @@ export default function Events() {
               onMouseEnter={() => setHover(true)}
               onMouseLeave={() => setHover(false)}
             >
-              <h3 style={{ margin: "0"}}>Learn More 🡢</h3>
+              <h3 style={{ margin: "0" }}>Learn More &rarr;</h3>
               </button>
           </Link>
         </div>

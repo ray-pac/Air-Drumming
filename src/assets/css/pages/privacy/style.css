@@ -6,6 +6,7 @@
     background-size: 100% 100%;
     align-content: center;
     justify-items: center;
+    padding-top: 80px;
 }
 
 .privacy-main {
@@ -36,14 +37,16 @@
     .privacy-container {
         min-height: 3964px;
         width: 100%;
-        background-image: url("../../../06_Contact page/addon/Privacy_back.png");
+        background-image: url("../../../06_Contact page/addon/Privacy_back_mobile.png");
         background-size: 100% 100%;
         align-content: center;
         justify-items: center;
+        padding-top: 40px;
     }
 
     .privacy-main {
         width: 316px;
+        margin-top: 30px;
     }
 
     .privacy-main > h2 {
@@ -59,14 +62,16 @@
     .privacy-container {
         min-height: 3964px;
         width: 100%;
-        background-image: url("../../../06_Contact page/addon/Privacy_back.png");
+        background-image: url("../../../06_Contact page/addon/Privacy_back_mobile.png");
         background-size: 100% 100%;
         align-content: center;
         justify-items: center;
+        padding-top: 0;
     }
 
     .privacy-main {
         width: 316px;
+        margin-top: 30px;
     }
 
     .privacy-main > h2 {

@@ -27,9 +27,9 @@
 
 .home_logo {
   z-index: 99;
-  width: 440px;
-  height: 191.11px;
-  background-image: url("../../../Air Drumming Logo/Transparent_logo.png");
+  width: 460px;
+  height: 200px;
+  background-image: url("../../../../assets/Air Drumming Logo/AirDrumming_Logo-edited.png");
   background-size: 100% 100%;
 }
 
@@ -762,6 +762,9 @@
   }
 }
 @media (max-width: 360px) {
+  .feel-text{
+    padding: 0;
+  }
   .main-header {
     max-width: 360px;
     padding: 0px;
@@ -994,7 +997,7 @@
   .feel {
     margin-top: 5px;
     margin-left: 0;
-    width: 100% !important;
+    width: 312px !important;
     height: 252px;
     background-size: 100% 100%;
     background-color: transparent;

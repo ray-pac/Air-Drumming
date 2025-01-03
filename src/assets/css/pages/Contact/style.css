@@ -70,10 +70,15 @@ textarea::placeholder {
 
 .flex-style {
     display: flex;
+    width: 100%;
+}
+.name-contact,
+.message-contact{
+    width: 100% !important;
 }
 
 .style-row {
-    width: 100%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
@@ -238,7 +243,7 @@ textarea::placeholder {
     .contact_image {
         position: unset;
         width: 227px;
-        height: 220px;
+        height: 200px;
         top: 100%;
         right: -15%;
         background-image: url("../../../06_Contact page/addon/Comet_01_mobile.png");
@@ -350,7 +355,7 @@ textarea::placeholder {
     .get-in-touch {
         font-weight: normal;
         font-family: "ThisIsTheFuture", sans-serif;
-        font-size: 30px;
+        font-size: 24px;
         animation: fade-in 3.9s forwards;
     }
 
@@ -365,7 +370,7 @@ textarea::placeholder {
     .contact_image {
         position: unset;
         width: 227px;
-        height: 220px;
+        height: 200px;
         top: 100%;
         right: -15%;
         background-image: url("../../../06_Contact page/addon/Comet_01_mobile.png");
