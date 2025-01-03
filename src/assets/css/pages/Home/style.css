@@ -333,7 +333,6 @@
   .citing-content,
   .star-content,
   .drumplay-content{
-  
     text-align: -webkit-center;
   }
 
@@ -768,7 +767,7 @@
 @media (max-width: 360px) {
   .feel-text{
     padding: 0;
-    place-items: center;
+    place-items: center !important;
   }
   .main-header {
     max-width: 360px;

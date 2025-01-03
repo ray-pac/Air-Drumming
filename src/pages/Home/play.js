@@ -130,7 +130,7 @@ export default function Play() {
                 {!isMobile ? (
                   <>
                 <Col xs={4}>
-                  <a href="/about">
+                  <a href="/Air-Drumming/about">
                     <button className={hover ? 'learn learn_animation' : "learn"} >
                       <div className="learn-text">
                         <h1>Learn More &rarr;</h1>
@@ -171,7 +171,7 @@ export default function Play() {
                   <a href="/about">
                     <button className={hover ? 'learn learn_animation' : "learn"} >
                       <div className="learn-text">
-                        <h1>Learn More 🡢</h1>
+                        <h1>Learn More &rarr;</h1>
                       </div>
                     </button>
                   </a>
