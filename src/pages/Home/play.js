@@ -168,7 +168,7 @@ export default function Play() {
                   </button>
                 </Col>
                 <Col xs={4}>
-                  <Link to="/about" >
+                  <Link to="/Air-Drumming/about" >
                     <button className={hover ? 'learn learn_animation' : "learn"} >
                       <div className="learn-text">
                         <h1>Learn More &rarr;</h1>
