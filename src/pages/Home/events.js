@@ -16,7 +16,7 @@ export default function Events() {
             Tap on our comprehensive suite of AI-powered solutions to hype up your pop-up events
             and boost crowd engagement
           </div>
-          <Link to="/services#events">
+          <Link to="/services#events" >
             <button
               className='learn_button'
               onMouseEnter={() => setHover(true)}

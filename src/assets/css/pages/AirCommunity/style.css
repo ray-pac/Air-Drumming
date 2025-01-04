@@ -339,7 +339,7 @@
 
     .air_yellow {
         position: absolute;
-        top: 132%;
+        top: 1195px;
         left: 5%;
         width: 67.2px;
         z-index: 9;
@@ -348,7 +348,7 @@
 
     .air_red {
         position: absolute;
-        bottom: -650px;
+        top: 1510px;
         left: 85%;
         width: 47.51px;
         z-index: 9;
@@ -357,7 +357,7 @@
 
     .air_blue {
         position: absolute;
-        bottom: -1190px;
+        top: 1760px;
         right: 75%;
         width: 77.26px;
         z-index: 9;
@@ -523,7 +523,7 @@
 
     .air_yellow {
         position: absolute;
-        top: 1245px;
+        top: 1195px;
         left: 5%;
         width: 67.2px;
         z-index: 9;
@@ -532,7 +532,7 @@
 
     .air_red {
         position: absolute;
-        bottom: -650px;
+        top: 1510px;
         left: 85%;
         width: 47.51px;
         z-index: 9;
@@ -541,7 +541,7 @@
 
     .air_blue {
         position: absolute;
-        bottom: -1190px;
+        top: 1760px;
         right: 75%;
         width: 77.26px;
         z-index: 9;

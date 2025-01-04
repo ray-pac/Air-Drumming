@@ -247,7 +247,7 @@ textarea::placeholder {
     .contact_image {
         position: unset;
         width: 227px;
-        height: 200px;
+        height: 180px;
         top: 100%;
         right: -15%;
         background-image: url("../../../06_Contact page/addon/Comet_01_mobile.png");
@@ -279,10 +279,9 @@ textarea::placeholder {
 
     .contact_planet_1 {
         position: absolute;
-        bottom: 5%;
         animation: pop-in 2s forwards;
         right: 50%;
-        top: 25%;
+        top: 230px;
         width: 34px;
         height: 34px;
         z-index: 10;
@@ -291,7 +290,7 @@ textarea::placeholder {
     .contact_planet_2 {
         position: absolute;
         left: 88%;
-        top: 10%;
+        top: 100px;
         animation: pop-in 2.9s forwards;
         width: 24.19px;
         height: 24.19px;
@@ -301,7 +300,7 @@ textarea::placeholder {
     .contact_planet_3 {
         position: absolute;
         animation: pop-in 2.5s forwards;
-        top: 10%;
+        top: 110px;
         right: 88%;
         width: 15.12px;
         height: 15.12px;
@@ -376,7 +375,7 @@ textarea::placeholder {
     .contact_image {
         position: unset;
         width: 227px;
-        height: 200px;
+        height: 180px;
         top: 100%;
         right: -15%;
         background-image: url("../../../06_Contact page/addon/Comet_01_mobile.png");
@@ -408,10 +407,9 @@ textarea::placeholder {
 
     .contact_planet_1 {
         position: absolute;
-        bottom: 5%;
         animation: pop-in 2s forwards;
         right: 50%;
-        top: 25%;
+        top: 240px;
         width: 34px;
         height: 34px;
         z-index: 10;
@@ -420,7 +418,7 @@ textarea::placeholder {
     .contact_planet_2 {
         position: absolute;
         left: 88%;
-        top: 10%;
+        top: 100px;
         animation: pop-in 2.9s forwards;
         width: 24.19px;
         height: 24.19px;
@@ -430,7 +428,7 @@ textarea::placeholder {
     .contact_planet_3 {
         position: absolute;
         animation: pop-in 2.5s forwards;
-        top: 10%;
+        top: 110px;
         right: 88%;
         width: 15.12px;
         height: 15.12px;

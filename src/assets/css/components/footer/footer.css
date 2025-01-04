@@ -47,6 +47,7 @@ li::marker {
 }
 
 .footer-google {
+    border-radius: 10px;
     width: 180px;
     height: 48px;
     background-image: url("../../../01_Home Page/Home_Section 1/addon/white_gp.png");
@@ -56,6 +57,7 @@ li::marker {
 }
 
 .footer-appstore {
+    border-radius: 10px;
     width: 180px;
     height: 48px;
     background-image: url("../../../01_Home Page/Home_Section 1/addon/white_app.png");
@@ -115,6 +117,11 @@ li::marker {
     margin-top: 40px;
     font-size: 20px;
     color: white;
+}
+
+.store-button{
+    display: inherit;
+    align-items: center;
 }
 
 @media (max-width: 744px) {
@@ -190,6 +197,7 @@ li::marker {
     }
 
     .footer-google {
+        border-radius: 10px;
         width: 135px;
         height: 36px;
         background-size: 100% 100%;
@@ -198,6 +206,7 @@ li::marker {
     }
 
     .footer-appstore {
+        border-radius: 10px;
         width: 135px;
         height: 36px;
         background-size: 100% 100%;
@@ -207,6 +216,8 @@ li::marker {
     }
 
     .store-button {
+        display: inherit;
+        align-items: center;
         width: 279px;
         height: 36px;
         display: flex;
@@ -318,6 +329,7 @@ li::marker {
     }
 
     .footer-google {
+        border-radius: 10px;
         width: 135px;
         height: 36px;
         background-size: 100% 100%;
@@ -326,6 +338,7 @@ li::marker {
     }
 
     .footer-appstore {
+        border-radius: 10px;
         width: 135px;
         height: 36px;
         background-size: 100% 100%;
@@ -335,6 +348,8 @@ li::marker {
     }
 
     .store-button {
+        display: inherit;
+        align-items: center;
         width: 279px;
         height: 36px;
         display: flex;
