@@ -88,8 +88,8 @@ li {
 }
 
 @media (max-width: 744px) {
-    .main-header .hidden {
-        top: 0; 
+    .main-header.hidden {
+        top: -100px;
     }
     
     .main-header.visible {
@@ -113,10 +113,13 @@ li {
         visibility: unset;
     }
 }
+.nav{
+    font-size: 0;
+}
 
 @media (max-width: 360px) {
-    .main-header .hidden {
-        top: 0px;
+    .main-header.hidden {
+        top: -100px;
     }
     
     .main-header.visible {

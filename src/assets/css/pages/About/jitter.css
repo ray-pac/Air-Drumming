@@ -640,6 +640,11 @@
     margin-top: -100px !important;
   }
 }
+@media (max-width: 450px) {
+  .events_about{
+    height: 250px !important;
+  }
+}
 @media (max-width: 744px) {
   .play-container{
     margin-top: -160px;

@@ -96,7 +96,6 @@ import Logo from '../../../assets/Air Drumming Logo/AirDrumming_logo.svg';
         };
 
         window.addEventListener('click', playAudioOnInteraction);
-
         return () => {
             window.removeEventListener('click', playAudioOnInteraction);
         };
