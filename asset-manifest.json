@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Air-Drumming/static/css/main.80a8460e.css",
+    "main.css": "/Air-Drumming/static/css/main.b31f230a.css",
     "main.js": "/Air-Drumming/static/js/main.4ebf5d44.js",
     "static/js/488.68521f19.chunk.js": "/Air-Drumming/static/js/488.68521f19.chunk.js",
     "static/media/Section_04 - About AIR+ Community.png": "/Air-Drumming/static/media/Section_04 - About AIR+ Community.936395d960ba075f0345.png",
@@ -104,12 +104,12 @@
     "static/media/Instagram_Icon.svg": "/Air-Drumming/static/media/Instagram_Icon.4a87522b1f65e4b31b9e.svg",
     "static/media/Telegarm Icon.svg": "/Air-Drumming/static/media/Telegarm Icon.2052329476b0baa924d5.svg",
     "index.html": "/Air-Drumming/index.html",
-    "main.80a8460e.css.map": "/Air-Drumming/static/css/main.80a8460e.css.map",
+    "main.b31f230a.css.map": "/Air-Drumming/static/css/main.b31f230a.css.map",
     "main.4ebf5d44.js.map": "/Air-Drumming/static/js/main.4ebf5d44.js.map",
     "488.68521f19.chunk.js.map": "/Air-Drumming/static/js/488.68521f19.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.80a8460e.css",
+    "static/css/main.b31f230a.css",
     "static/js/main.4ebf5d44.js"
   ]
 }
