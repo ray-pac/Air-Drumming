@@ -88,6 +88,7 @@ const Header = () => {
             <div className='footer-link-menu'>
                 <select className='footer-language'>
                     <option value="">English</option>
+                    <option value="">Chinese</option>
                 </select>
                 <div className='store-button'>
                     <button className='footer-google' />
