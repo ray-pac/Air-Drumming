@@ -194,7 +194,7 @@
 
     .air_community_container {
         padding-top: 120px;
-        min-height: 2041px;
+        min-height: 2000px;
         background-image: url("../../../05_Air Community Page/addon/Community_mobile.png");
         background-size: 100% 100%;
     }
@@ -275,7 +275,7 @@
 
     .join-link {
         padding-top: 5%;
-        min-height: 708px;
+        min-height: 608px;
         align-content: center;
         text-align: center;
     }
@@ -288,9 +288,9 @@
     }
 
     .join-now-detail {
-        width: 312px;
-        height: 300px;
-        background-image: url("../../../05_Air Community Page/addon/Image.png");
+        width: 340px;
+        height: 130px;
+        background-image: url("../../../05_Air Community Page/Be the First to Experience Air_Img.png");
         background-size: 100% 100%;
         border-radius: 50px;
         animation: pop-in 0.9s forwards;
@@ -322,7 +322,7 @@
     .air_violet {
         position: absolute;
         left: 2%;
-        top: 290px;
+        top: 240px;
         width: 53.76px;
         z-index: 9;
         animation: pop-in 0.9s forwards;
@@ -330,7 +330,7 @@
 
     .air_green {
         position: absolute;
-        top: 600px;
+        top: 553px;
         right: 4%;
         width: 35.99px;
         z-index: 9;
@@ -339,7 +339,7 @@
 
     .air_yellow {
         position: absolute;
-        top: 1195px;
+        top: 1145px;
         left: 5%;
         width: 67.2px;
         z-index: 9;
@@ -348,7 +348,7 @@
 
     .air_red {
         position: absolute;
-        top: 1510px;
+        top: 1360px;
         left: 85%;
         width: 47.51px;
         z-index: 9;
@@ -357,9 +357,9 @@
 
     .air_blue {
         position: absolute;
-        top: 1760px;
-        right: 75%;
-        width: 77.26px;
+        top: 1950px;
+        left: 85%;
+        width: 37.26px;
         z-index: 9;
         animation: pop-in 1.9s forwards;
     }
@@ -388,7 +388,7 @@
 
     .air_community_container {
         padding-top: 120px;
-        min-height: 2041px;
+        min-height: 2000px;
         background-image: url("../../../05_Air Community Page/addon/Community_mobile.png");
         background-size: 100% 100%;
         overflow: hidden;
@@ -457,7 +457,7 @@
 
     .join-link {
         padding-top: 5%;
-        min-height: 708px;
+        min-height: 608px;
         align-content: center;
         text-align: center;
     }
@@ -470,9 +470,9 @@
     }
 
     .join-now-detail {
-        width: 312px;
-        height: 300px;
-        background-image: url("../../../05_Air Community Page/addon/Image.png");
+        width: 340px;
+        height: 130px;
+        background-image: url("../../../05_Air Community Page/Be the First to Experience Air_Img.png");
         background-size: 100% 100%;
         border-radius: 50px;
         animation: pop-in 0.9s forwards;
@@ -506,7 +506,7 @@
     .air_violet {
         position: absolute;
         left: 2%;
-        top: 300px;
+        top: 240px;
         width: 53.76px;
         z-index: 9;
         animation: pop-in 0.9s forwards;
@@ -514,7 +514,7 @@
 
     .air_green {
         position: absolute;
-        top: 600px;
+        top: 553px;
         right: 4%;
         width: 35.99px;
         z-index: 9;
@@ -523,7 +523,7 @@
 
     .air_yellow {
         position: absolute;
-        top: 1195px;
+        top: 1145px;
         left: 5%;
         width: 67.2px;
         z-index: 9;
@@ -532,7 +532,7 @@
 
     .air_red {
         position: absolute;
-        top: 1510px;
+        top: 1360px;
         left: 85%;
         width: 47.51px;
         z-index: 9;
@@ -541,9 +541,9 @@
 
     .air_blue {
         position: absolute;
-        top: 1760px;
-        right: 75%;
-        width: 77.26px;
+        top: 1950px;
+        left: 85%;
+        width: 37.26px;
         z-index: 9;
         animation: pop-in 1.9s forwards;
     }
