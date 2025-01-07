@@ -26,8 +26,10 @@ import MilestonesBack from '../../assets/02_About Page/About_Section 3 Milestone
 //import MaskImage from "../../assets/images/About/section3/mask_img.png";
 //import Earth from '../../assets/images/About/section3/Earth_crop.png';
 import { useInView } from "react-intersection-observer";
+import { useTranslation } from 'react-i18next';
 
 const SolarSystem = () => {
+  const { t, i18n } = useTranslation();
   const [hover, setHover] = useState(false);
   const [position, setPosition] = useState(6);
   const [move, setMove] = useState(0);
@@ -125,7 +127,7 @@ const SolarSystem = () => {
         onMouseLeave={() => setHover(false)}
         className='milestone-container'>
         <div className='milestone-mask'>
-          <h1 className='milestones-title'>MILESTONES</h1>
+          <h1 className='milestones-title'>{t('body_about.aboutMile1h')}</h1>
           <div className='years-group' style={{ right: `${move}%` }}>
             {
               planets.map((planet, index) => {
@@ -145,8 +147,8 @@ const SolarSystem = () => {
             <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
               <div className='milestones-years'>
                 <ul style={{ fontSize: 15, color: "white", textAlign: "left" }}>
-                  <li>Started Air Drumming</li>
-                  <li>Established A.I.R Technology Pte Ltd</li>
+                  <li>{t('body_about.aboutMile1p')}</li>
+                  <li>{t('body_about.aboutMile2p')}</li>
                 </ul>
               </div>
             </div>
@@ -156,9 +158,9 @@ const SolarSystem = () => {
             <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
               <div  className='milestones-years'>
                 <ul style={{ fontSize: 15, color: "white" }}>
-                  <li>Performed at Singapore New Year Countdown</li>
-                  <li>Peformed at Chinese New Year @ River Hongbao</li>
-                  <li>Performed at Singapore National Day Parade</li>
+                  <li>{t('body_about.aboutMile3p')}</li>
+                  <li>{t('body_about.aboutMile4p')}</li>
+                  <li>{t('body_about.aboutMile5p')}</li>
                 </ul>
               </div>
             </div>
@@ -174,9 +176,9 @@ const SolarSystem = () => {
               </div> */}
               <div  className='milestones-years'>
                 <ul style={{ fontSize: 15, color: "white" }}>
-                  <li>Showcased and performed for Somerset Belt Arts Fest Opening</li>
-                  <li>Showcased sustainable lights installation for Singapore Night Festival @ GR.iD</li>
-                  <li>Received Singapore Young Entrepreneur Award for Quality Education and Responsible Supply Chain</li>
+                  <li>{t('body_about.aboutMile6p')}</li> 
+                  <li>{t('body_about.aboutMile7p')}</li> 
+                  <li>{t('body_about.aboutMile8p')}</li>
                 </ul>
               </div>
             </div>

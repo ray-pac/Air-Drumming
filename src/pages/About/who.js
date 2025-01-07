@@ -4,6 +4,7 @@ import { animations } from 'react-animation'
 import { useInView } from "react-intersection-observer";
 import '../../assets/css/styles.css';
 import '../../assets/css/animated.css';
+import { useTranslation } from 'react-i18next';
 
 const styles = {
   animations: {
@@ -12,6 +13,7 @@ const styles = {
 }
 
 export default function Play() {
+    const { t, i18n } = useTranslation();
   const buttonRefs = useRef([]);
   const [hover, setHover] = React.useState(false);
 
@@ -27,10 +29,10 @@ export default function Play() {
       <div>
         <button className='whos hidden '>
           <div className="whos-overlay-content">
-              <h1>WHO WE ARE?</h1>
-              <p>Rhythm is our universal language to connect with the world. We are as a team of creative rhythm makers, performers,<br></br>
-                educators, artists, and most importantly, ever-changing innovators.<br></br> 
-                <br></br>We redefine rhythm. We created new possibilities. We turn ideas into reality.</p>
+              <h1>{t('body_about.aboutWho1h')}</h1>
+              <p>{t('body_about.aboutWho1p')}<br></br>
+                  {t('body_about.aboutWho2p')}<br></br> 
+                <br></br>{t('body_about.aboutWho3p')}</p>
             </div>
           </button>
       </div>
@@ -40,16 +42,16 @@ export default function Play() {
           style={(hover || inView) ? styles.animations : { textAlign: "center" }}
           className='mission hidden'>
             <div className="mission-overlay-content">
-              <h1>MISSION</h1>
-            <p>Bridging AI and Reality to create Inclusivity through rhythm</p>
+              <h1>{t('body_about.aboutMiss1h')}</h1> 
+            <p>{t('body_about.aboutMiss1p')}</p>
         </div>
         </button>
         <button
           style={(hover || inView) ? { animation: 'slideInLeft 0.7s ease-out forwards' } : { textAlign: "center" }}
           className='vision hidden'>
              <div className="vision-overlay-content">
-                  <h1>VISION</h1>
-                <p>Be Asia's leading rhythm-based edutainment platform</p>
+                  <h1>{t('body_about.aboutVis1h')}</h1>
+                <p>{t('body_about.aboutVis1p')}</p>
             </div>
           </button>
       </div>

@@ -30,7 +30,32 @@
     "events1":"EVENTS",
     "events1text":"Tap on our comprehensive suite of AI-powered solutions to hype up your pop-up events and boost crowd engagement.",
     "events1text2":"Learn More"
-
+  },
+  "body_about":{
+    "about1h":"WHAT IS",
+    "about1h2":"AIR DRUMMING?",
+    "about1p1":"Air is shapeless, formless, limitless - and we believe drumming can be too. We imagine a creative expression with no obstacles, a language with no barriers, and a world with no one left behind.",
+    "about1p2":"Air Drumming is a rhythmic exploration, a lifestyle statement, and a social movement, that integrates users seamlessly across the mobile application, the physical experience, and their connection with the larger communities.",
+    "about1p3":"We develop cutting-edge technological capabilities to elevate physical experiences for people from all walks of life, without losing the human touch.",
+    "about1p4":"Air Drumming is part of A.I.R Technology, a newly founded gaming company that specialises in developing rhythm-based mobile applications that bridge AI technology and reality to promote inclusion among the communities.",
+    "about1p5":"We develop applications that are entertaining, educational and inclusive.",
+    "aboutWho1h":"WHO WE ARE?",
+    "aboutWho1p":"Rhythm is our universal language to connect with the world. We are as a team of creative rhythm makers, performers,",
+    "aboutWho2p":"educators, artists, and most importantly, ever-changing innovators.",
+    "aboutWho3p":"We redefine rhythm. We created new possibilities. We turn ideas into reality.",
+    "aboutMiss1h":"MISSION",
+    "aboutMiss1p":"Bridging AI and Reality to create Inclusivity through rhythm",
+    "aboutVis1h":"VISION",
+    "aboutVis1p":"Be Asia's leading rhythm-based edutainment platform",
+    "aboutMile1h":"MILESTONES",
+    "aboutMile1p":"Started Air Drumming",
+    "aboutMile2p":"Established A.I.R Technology Pte Ltd",
+    "aboutMile3p":"Performed at Singapore New Year Countdown",
+    "aboutMile4p":"Peformed at Chinese New Year @ River Hongbao",
+    "aboutMile5p":"Performed at Singapore National Day Parade",
+    "aboutMile6p":"Showcased and performed for Somerset Belt Arts Fest Opening",
+    "aboutMile7p":"Showcased sustainable lights installation for Singapore Night Festival @ GR.iD",
+    "aboutMile8p":"Received Singapore Young Entrepreneur Award for Quality Education and Responsible Supply Chain"
   },
     "footer": {
       "language": "Language",

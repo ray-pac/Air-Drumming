@@ -12,8 +12,10 @@ import PhoneScreen_1 from '../../assets/02_About Page/About_Section  1/Phone_bur
 import PhoneScreen_2 from '../../assets/02_About Page/About_Section  1/Phone_burstup_mid.png'
 import '../../assets/css/styles.css'
 import '../../assets/css/animated.css'
+import { useTranslation } from 'react-i18next';
 
 export default function Main() {
+    const { t, i18n } = useTranslation();
     const [mouseY, setMouseY] = useState(0);
     const [start, setStart] = useState(false);
     const [hover, setHover] = useState(false);
@@ -31,33 +33,22 @@ export default function Main() {
             <div className='about-content'>
                 <div className='whats-about'>
                 <h1 className={(hover || inView) ? "whats-title fadeInLeft_animation" : "whats-title"}>
-                    WHAT IS<br></br>AIR DRUMMING?</h1>
+                    {t('body_about.about1h')}<br></br>{t('body_about.about1h2')}</h1>
                     <div className={(hover || inView) ? "whats-content fadeInLeft_animation" : 'whats-content'}>
                         <div className="whats-detail" style={{lineHeight: "1.1"}}>
-                            Air is shapeless, formless, limitless - and we believe drumming
-                            can be too. We imagine a creative expression with no
-                            obstacles, a language with no barriers, and a world with no one
-                            left behind.
+                            {t('body_about.about1p1')}
                         </div>
                         <div className="whats-detail" style={{ marginTop: 20, lineHeight: "1.1" }}>
-                            Air Drumming is a rhythmic exploration, a lifestyle statement,
-                            and a social movement, that integrates users seamlessly
-                            across the mobile application, the physical experience, and
-                            their connection with the larger communities.
+                            {t('body_about.about1p2')}
+                        </div>
+                        <div className="whats-detail" style={{ marginTop: 20, lineHeight: "1.1" }}> 
+                            {t('body_about.about1p3')}
                         </div>
                         <div className="whats-detail" style={{ marginTop: 20, lineHeight: "1.1" }}>
-                            We develop cutting-edge technological capabilities to elevate physical
-                            experiences for people from all walks of life, without losing the human touch.
+                            {t('body_about.about1p4')}
                         </div>
                         <div className="whats-detail" style={{ marginTop: 20, lineHeight: "1.1" }}>
-                            Air Drumming is part of A.I.R Technology, a newly founded
-                            gaming company that specialises in developing rhythm-based
-                            mobile applications that bridge AI technology and reality to
-                            promote inclusion among the communities.
-                        </div>
-                        <div className="whats-detail" style={{ marginTop: 20, lineHeight: "1.1" }}>
-                            We develop applications that are entertaining, educational and
-                            inclusive.
+                            {t('body_about.about1p5')}
                         </div>
                     </div>
                 </div>
