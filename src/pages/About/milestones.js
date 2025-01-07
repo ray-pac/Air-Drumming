@@ -194,9 +194,9 @@ const SolarSystem = () => {
               </div> */}
               <div  className='milestones-years'>
                 <ul style={{ fontSize: 15, color: "white" }}>
-                  <li>Launched digital music series Dru(musical) and Cajon online with support from</li>
-                  <li>National Arts Council (NAC)</li>
-                  <li>Launched livestreaming show and music videos with support from Somerset Belt</li>
+                  <li>{t('body_about.aboutMile9p')}</li> 
+                  <li>{t('body_about.aboutMile10p')}</li> 
+                  <li>{t('body_about.aboutMile11p')}</li>
                 </ul>
               </div>
             </div>
@@ -209,7 +209,7 @@ const SolarSystem = () => {
               </div> */}
               <div  className='milestones-years'>
                 <ul style={{ fontSize: 15, color: "white" }}>
-                  <li>Performed at Singapore New Year Countdown</li>
+                  <li>{t('body_about.aboutMile12p')}</li>
                 </ul>
               </div>
             </div>
@@ -222,7 +222,7 @@ const SolarSystem = () => {
               </div> */}
               <div  className='milestones-years'>
                 <ul style={{ fontSize: 15, color: "white" }}>
-                  <li>Initiated Green Drumming, Singapore's first innovative-recycled percussion group</li>
+                  <li>{t('body_about.aboutMile13p')}</li>
                 </ul>
               </div>
             </div>
@@ -235,8 +235,8 @@ const SolarSystem = () => {
               </div> */}
               <div  className='milestones-years'>
                 <ul style={{ fontSize: 15, color: "white" }}>
-                  <li>Singapore's biggest Cajon festival, Box'Out returned for third edition</li>
-                  <li>Performed at President Star Charity show</li>
+                  <li>{t('body_about.aboutMile14p')}</li>
+                  <li>{t('body_about.aboutMile15p')}</li>
                 </ul>
               </div>
             </div>
@@ -249,7 +249,7 @@ const SolarSystem = () => {
               </div> */}
               <div className='milestones-years'>
                 <ul style={{ fontSize: 15, color: "white" }}>
-                  <li>Singapore's biggest Cajon festival, Box'Out returned for second edition</li>
+                  <li>{t('body_about.aboutMile16p')}</li>
                 </ul>
               </div>
             </div>

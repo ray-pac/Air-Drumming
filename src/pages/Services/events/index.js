@@ -4,8 +4,11 @@ import Planet_green from '../../../assets/Planets/Planet_Green.png'
 import Planet_red from '../../../assets/Planets/Planet_red.png'
 import { Container, Row, Col } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { useTranslation } from 'react-i18next';
+
 
 const CommunityCom = () => {
+  const { t, i18n } = useTranslation();
   const [hover, setHover] = React.useState(false);
   
 
@@ -22,10 +25,8 @@ const CommunityCom = () => {
           <Col xs={12}>
             <div className={hover ? 'events-intro school_right_animation' : "events-intro"} style={{ alignContent: "center" }}>
             <div className="schools-content">
-                  <h1>EVENTS</h1>
-                  <p>In today's digital world, there is no better way to engage consumers than using technology. We R&D a comprehensive suite of Al-powered 
-                    solutions to deliver gamified experiences that are immersive, interactive and innovative! Tap on our proprietary Air Drumming application, 
-                    together with physical Air Kiosk (mobile gaming machine), to hype up your pop-up events and boost crowd engagement.</p>
+                  <h1>{t('body_services.servicesEvent1h')}</h1>
+                  <p>{t('body_services.servicesEvent1p')}</p>
               </div>
           </div>
         </Col>
@@ -34,10 +35,10 @@ const CommunityCom = () => {
           <Col xs={12}>
             <div className={hover ? 'events-provide provid_right_animation' : "events-provide"} style={{ alignContent: "center" }}>
             <div className="schools-content">
-                  <h1>WE PROVIDE</h1>
-                  <p style={{ margin: 0, paddingLeft: "10px" }}>• Air Kiosks (suitable for Pop-up activations)</p>
-                  <p style={{ margin: 0, paddingLeft: "10px" }}>• 020 Gamified Experiences (suitable for campaigns)</p>
-                  <p style={{ margin: 0, paddingLeft: "10px" }}>• Interactive Performances (suitable for opening/closing events)</p>
+                  <h1>{t('body_services.servicesEvent2h')}</h1> 
+                  <p style={{ margin: 0, paddingLeft: "10px" }}>• {t('body_services.servicesEvent2p')}</p>
+                  <p style={{ margin: 0, paddingLeft: "10px" }}>• {t('body_services.servicesEvent3p')}</p>
+                  <p style={{ margin: 0, paddingLeft: "10px" }}>• {t('body_services.servicesEvent4p')}</p>
               </div>
           </div>
         </Col>

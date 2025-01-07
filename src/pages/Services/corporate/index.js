@@ -7,8 +7,10 @@ import React, { useState } from 'react';
 //import MilestonesBack from '../../../assets/images/services/corporate/image_9.png'
 import { Container, Row, Col } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { useTranslation } from 'react-i18next';
 
 const CorporateCom = () => {
+  const { t, i18n } = useTranslation();
   const [hover, setHover] = useState(false)
 
   return (
@@ -24,12 +26,9 @@ const CorporateCom = () => {
             <Col xs={12}>
             <div className={hover ? 'corporate-intro school_right_animation' : "corporate-intro"} >
                <div className="schools-content">
-                  <h1>CORPORATE</h1>
-                  <p>Watch a movie, play a sport, or conquer an amazing race challenge? It's time to surprise and impress your employees with more 
-                    refreshing corporate engagement ideas. Be it for your annual D&D, festive event, teambuilding activity, or CSR initiative - 
-                    we can drum up innovative rhythmic performances or fun team programs for your organization! <br></br>
-                  <br></br>Powered by our agile Air Drumming platform, we immerse your employees in an absolutely adrenaline-pumping and eye-opening 
-                  drumming experience unlike any others. We turn your imagination into a reality!</p>
+                  <h1>{t('body_services.servicesCorp1h')}</h1>
+                  <p>{t('body_services.servicesCorp1p')}<br></br>
+                  <br></br>{t('body_services.servicesCorp2p')}</p>
               </div>
             </div>
             </Col>
@@ -38,10 +37,10 @@ const CorporateCom = () => {
           <Col xs={12}>
             <div className={hover ? 'corporate-provide provid_right_animation' : "corporate-provide"} >
               <div className="schools-content">
-                    <h1>WE PROVIDE</h1>
-                    <p style={{ margin: 0, paddingLeft: "10px" }}>• Performance (with elements of Audience Interaction)</p>
-                    <p style={{ margin: 0, paddingLeft: "10px" }}>• Teambuilding Program</p>
-                    <p style={{ margin: 0, paddingLeft: "10px" }}>• Creative Collaboration (Executive-level Training & Choreography, Customized Request)</p>
+                    <h1>{t('body_services.servicesCorp2h')}</h1>
+                    <p style={{ margin: 0, paddingLeft: "10px" }}>• {t('body_services.servicesCorp3p')}</p>
+                    <p style={{ margin: 0, paddingLeft: "10px" }}>• {t('body_services.servicesCorp4p')}</p>
+                    <p style={{ margin: 0, paddingLeft: "10px" }}>• {t('body_services.servicesCorp5p')}</p>
                 </div>
               </div>
             </Col>
@@ -50,8 +49,8 @@ const CorporateCom = () => {
           <Col xs={12}>
             <div className={hover ? 'corporate-worked worked_right_animation' : "corporate-worked"} >
               <div className="schools-content">
-                    <h1>PARTNERS WE HAVE WORKED WITH</h1>
-                    <p>DBS, UBS, HTX, Johnson & Johnson, Gardens by the Bay, Marina Bay Sands, MediaCorp, Tiger Beer, The Body Shop</p>
+                    <h1>{t('body_services.servicesCorp3h')}</h1>
+                    <p>{t('body_services.servicesCorp6p')}</p>
                 </div>
             </div>
             </Col>
