@@ -10,8 +10,10 @@ import AD_Devorah from '../../assets/01_Home Page/Home_Section 1/AD_Devorah.png'
 import AD_Earth from '../../assets/01_Home Page/Home_Section 1/AD_Earth.png'
 import '../../assets/css/styles.css'
 import '../../assets/css/animated.css'
+import { useTranslation } from 'react-i18next';
 
 export default function Main() {
+    const { t, i18n } = useTranslation();
     const device = useSelector((status) => status.status.mobile);
     const [scrollY, setScrollY] = useState(0);
     const [mouseY, setMouseY] = useState(0);
@@ -69,10 +71,7 @@ export default function Main() {
                             <div className='home_logo' />
                         </div>
                         <div style={{ display: 'flex', justifyContent: 'center', marginTop: 10 }}>
-                            <div className="text-info">
-                                Air Drumming is a rhythmic exploration, a lifestyle statement, and a social movement,
-                                that integrates users seamlessly across the mobile application, the physical
-                                experience, and their connection with the larger communities.
+                            <div className="text-info">{t('body_home.t1')}
                             </div>
                         </div>
                         <div style={{ marginTop: 30 }}>

@@ -9,6 +9,7 @@ import Planet_Green from '../../assets/Planets/Planet_Green.png';
 import Planet_yellow from '../../assets/Planets/Planet_yellow.png';
 import '../../assets/css/styles.css';
 import '../../assets/css/animated.css';
+import { useTranslation } from 'react-i18next';
 
 // Custom hook to detect screen size
 const useMediaQuery = (query) => {
@@ -28,6 +29,7 @@ const useMediaQuery = (query) => {
 };
 
 export default function Play() {
+  const { t, i18n } = useTranslation();
   const [hover, setHover] = React.useState(false);
   const device = useSelector((status) => status.status.mobile);
   
@@ -61,9 +63,9 @@ export default function Play() {
                       <button className={hover ? 'citing citing_animation' : "citing"} >
                         <div className="citing-content">
                           <div className="citing-text">
-                            <h1>AIRCITING FEATURES</h1>
+                            <h1>{t('body_home.play1')}</h1>
                             <p>
-                              Explore yourcelestial adventure!
+                              {t('body_home.play1text')}
                             </p>
                           </div>
                           <div className="citing-image"></div>
@@ -81,9 +83,9 @@ export default function Play() {
                   <button className={hover ? 'star star_animation' : "star"} >
                     <div className="star-content">
                       <div className="star-text">
-                        <h1>STAR TRACKS</h1>
+                        <h1>{t('body_home.play2')}</h1>
                         <p>
-                          Drum N' Roll to your all-time favorite songs!
+                        {t('body_home.play2text')}
                         </p>
                       </div>
                       <div className="star-image"></div>
@@ -93,7 +95,7 @@ export default function Play() {
                 <Col xs={4}>
                   <button className={hover ? 'feel feel_animation' : "feel"} >
                     <div className="feel-text">
-                      <h1>FEEL D'<br />COSMIC<br />BEAT</h1>
+                      <h1>{t('body_home.play3h1')}'<br />{t('body_home.play3h2')}<br />{t('body_home.play3h3')}</h1>
                     </div>
                   </button>
                 </Col>
@@ -103,7 +105,7 @@ export default function Play() {
                 <Col xs={4}>
                   <button className={hover ? 'feel feel_animation' : "feel"} >
                     <div className="feel-text">
-                      <h1>FEEL D'<br />COSMIC BEAT</h1>
+                      <h1>{t('body_home.play3h1')}'<br />{t('body_home.play3h4')}</h1>
                     </div>
                   </button>
                 </Col>
@@ -111,9 +113,9 @@ export default function Play() {
                   <button className={hover ? 'star star_animation' : "star"} >
                     <div className="star-content">
                       <div className="star-text">
-                        <h1>STAR TRACKS</h1>
+                      <h1>{t('body_home.play2')}</h1>
                         <p>
-                          Drum N' Roll to your all-time favorite songs!
+                        {t('body_home.play2text')}
                         </p>
                       </div>
                       <div className="star-image"></div>
@@ -133,7 +135,7 @@ export default function Play() {
                   <Link to="/about" >
                     <button className={hover ? 'learn learn_animation' : "learn"} >
                       <div className="learn-text">
-                        <h1>Learn More &rarr;</h1>
+                        <h1>{t('body_home.play4')} &rarr;</h1>
                       </div>
                     </button>
                   </Link>
@@ -142,9 +144,9 @@ export default function Play() {
                   <button className={hover ? 'drumplay drumplay_animation' : "drumplay"} >
                     <div className="drumplay-content">
                       <div className="drumplay-text">
-                        <h1>DRUMPLAY</h1>
+                        <h1>{t('body_home.play5')}</h1>
                         <p>
-                          Electrify the universe <br />with your best score!
+                          {t('body_home.play5text')} 
                         </p>
                       </div>
                       <div className="drumplay-image"></div>
@@ -158,9 +160,9 @@ export default function Play() {
                   <button className={hover ? 'drumplay drumplay_animation' : "drumplay"} >
                     <div className="drumplay-content">
                       <div className="drumplay-text">
-                        <h1>DRUMPLAY</h1>
+                        <h1>{t('body_home.play5')}</h1>
                         <p>
-                          Electrify the universe with your best score!
+                          {t('body_home.play5text')} 
                         </p>
                       </div>
                       <div className="drumplay-image"></div>
@@ -171,7 +173,7 @@ export default function Play() {
                   <Link to="/about" >
                     <button className={hover ? 'learn learn_animation' : "learn"} >
                       <div className="learn-text">
-                        <h1>Learn More &rarr;</h1>
+                        <h1>{t('body_home.play4')} &rarr;</h1>
                       </div>
                     </button>
                   </Link>

@@ -22,7 +22,6 @@ li {
 }
 
 .header-logo-img {
-    width: 45%;
     width: 157px;
     height: 76px;
 }
@@ -87,6 +86,13 @@ li {
     visibility: hidden;
 }
 
+@media (max-width: 772px) {
+    .header-logo {
+        width: 24%;
+        padding-top: 15px;
+        padding-left: 40px;
+    }
+}
 @media (max-width: 744px) {
     .main-header.hidden {
         top: -100px;
@@ -97,7 +103,7 @@ li {
     }
 
     .header-logo {
-        padding-top: 15px;
+        padding-top: 40px;
         padding-left: 30px;
         width: 50%;
         display: flex;
@@ -130,7 +136,7 @@ li {
     }
 
     .header-logo {
-        padding-top: 10px;
+        padding-top: 35px;
         padding-left: 20px;
         width: 50%;
         display: flex;

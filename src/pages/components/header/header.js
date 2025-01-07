@@ -9,8 +9,10 @@ import MenuSharpIcon from '@mui/icons-material/MenuSharp';
 import '../../../assets/css/components/header/header.css'
 import Logo from '../../../assets/Air Drumming Logo/AirDrumming_logo.svg';
 import Audio from '../../../assets/Audio/6303082381980996619.mp3';
+import { useTranslation } from 'react-i18next';
 
     const Header = () => {
+    const { t, i18n } = useTranslation();
     const audioRef = useRef(null);
     const [audioStarted, setAudioStarted] = useState(false);
     const [mainOpen, setMainopen] = useState(null);
@@ -112,8 +114,8 @@ import Audio from '../../../assets/Audio/6303082381980996619.mp3';
                 </div>
                 <nav className="navbar">
                     <ul>
-                        <li><Link to="/">Home</Link></li>
-                        <li><Link to="/about">About</Link></li>
+                        <li><Link to="/">{t('header.home')}</Link></li>
+                        <li><Link to="/about">{t('header.about')}</Link></li>
                         <li>
                             <Link to="/services" >
                                 <span
@@ -125,7 +127,7 @@ import Audio from '../../../assets/Audio/6303082381980996619.mp3';
                                     onClick={handleClick}
                                     onDoubleClick={() => moveSection()}
                                 >
-                                    Services <FaAngleDown />
+                                    {t('header.services')} <FaAngleDown />
                                 </span>
                             </Link>
                             <Menu
@@ -137,16 +139,16 @@ import Audio from '../../../assets/Audio/6303082381980996619.mp3';
                                     'aria-labelledby': 'basic-button',
                                 }}
                             >
-                                <a href="#home"><MenuItem onClick={handleClose}>Schools</MenuItem></a>
-                                <a href="#corporate"><MenuItem onClick={handleClose}>Corporate</MenuItem></a>
-                                <a href="#community"><MenuItem onClick={handleClose}>AIR+ Community</MenuItem></a>
+                                <a href="#home"><MenuItem onClick={handleClose}>{t('header.services_schools')}</MenuItem></a>
+                                <a href="#corporate"><MenuItem onClick={handleClose}>{t('header.services_corporate')}</MenuItem></a>
+                                <a href="#community"><MenuItem onClick={handleClose}>{t('header.services_community')}</MenuItem></a>
                                 <Divider />
-                                <a href="#events"><MenuItem onClick={handleClose}>Events</MenuItem></a>
+                                <a href="#events"><MenuItem onClick={handleClose}>{t('header.services_events')}</MenuItem></a>
                             </Menu>
                         </li>
-                        <li><Link to="/collaboration">Collaboration</Link></li>
-                        <li><Link to="/community">AIR+ Community</Link></li>
-                        <li><Link to="/contact">Contact Us</Link></li>
+                        <li><Link to="/collaboration">{t('header.collaboration')}</Link></li>
+                        <li><Link to="/community">{t('header.community')}</Link></li>
+                        <li><Link to="/contact">{t('header.contact')}</Link></li>
                     </ul>
                 </nav>
             </div>
@@ -169,8 +171,8 @@ import Audio from '../../../assets/Audio/6303082381980996619.mp3';
                     'aria-labelledby': 'basic-button',
                 }}
             >
-                <Link to="/home"><MenuItem onClick={handleClose}>Home</MenuItem></Link>
-                <Link to="/about"><MenuItem onClick={handleClose}>About</MenuItem></Link>
+                <Link to="/home"><MenuItem onClick={handleClose}>{t('header.home')}</MenuItem></Link>
+                <Link to="/about"><MenuItem onClick={handleClose}>{t('header.about')}</MenuItem></Link>
                 <Link to="/services">
                     <MenuItem><li
                         style={{ display: "flex", alignItems: 'center' }}
@@ -180,7 +182,7 @@ import Audio from '../../../assets/Audio/6303082381980996619.mp3';
                         aria-expanded={subopen ? 'true' : undefined}
                         onClick={() => setSubOpen(true)}
                     >
-                        Services <FaAngleDown />
+                        {t('header.services')} <FaAngleDown />
                     </li>
                     </MenuItem>
                 </Link>
@@ -194,15 +196,15 @@ import Audio from '../../../assets/Audio/6303082381980996619.mp3';
                         'aria-labelledby': 'basic-button',
                     }}
                 >
-                    <a href="#home"><MenuItem onClick={handleClose}>Schools</MenuItem></a>
-                    <a href="#corporate"><MenuItem onClick={handleClose}>Corporate</MenuItem></a>
-                    <a href="#community"><MenuItem onClick={handleClose}>Community</MenuItem></a>
+                    <a href="#home"><MenuItem onClick={handleClose}>{t('header.services_schools')}</MenuItem></a>
+                    <a href="#corporate"><MenuItem onClick={handleClose}>{t('header.services_corporate')}</MenuItem></a>
+                    <a href="#community"><MenuItem onClick={handleClose}>{t('header.services_community')}</MenuItem></a>
                     <Divider />
-                    <a href="#events"><MenuItem onClick={handleClose}>Events</MenuItem></a>
+                    <a href="#events"><MenuItem onClick={handleClose}>{t('header.services_events')}</MenuItem></a>
                 </Menu>
-                <Link to="/collaboration"><MenuItem onClick={handleClose}>Collaboration</MenuItem></Link>
-                <Link to="/community"><MenuItem onClick={handleClose}>AIR+ Community</MenuItem></Link>
-                <Link to="/contact"><MenuItem onClick={handleClose}>Contact Us</MenuItem></Link>
+                <Link to="/collaboration"><MenuItem onClick={handleClose}>{t('header.collaboration')}</MenuItem></Link>
+                <Link to="/community"><MenuItem onClick={handleClose}>{t('header.community')}</MenuItem></Link>
+                <Link to="/contact"><MenuItem onClick={handleClose}>{t('header.contact')}</MenuItem></Link>
             </Menu>
             <audio ref={audioRef} src={Audio} loop />
         </header >

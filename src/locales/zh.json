@@ -1,0 +1,52 @@
+{
+  "header":{
+      "home": "家",
+      "about": "关于我们",
+      "services": "服务",
+      "services_schools": "学校",
+      "services_corporate": "公司的",
+      "services_community": "社区",
+      "services_events": "活动",
+      "collaboration": "合作",
+      "community": "AIR+ 社区",
+      "contact": "联系我们"
+  },
+  "body_home":{
+    "t1": "空中鼓乐是一种有节奏的探索、一种生活方式的表达和一种社会运动，它将用户在移动应用程序、物理体验以及与更大社区的联系中无缝集成。",
+    "play1": "航空功能",
+    "play1text":"探索你的天国冒险！",
+    "play2":"星轨",
+    "play2text":"伴着您最喜欢的歌曲一起打鼓！",
+    "play3h1":"感觉D",
+    "play3h2":"科斯米克",
+    "play3h3":"打",
+    "play3h4":"宇宙节拍",
+    "play4":"了解更多",
+    "play5":"鼓乐",
+    "play5text":"用你的最高分让宇宙充满电！",
+    "com1":"空中社区",
+    "com1text":"我们通过人工智能驱动的多功能空气鼓应用程序，让各行各业的人们，尤其是服务水平低下的社区，都能进行节奏学习。",
+    "com1text2":"了解更多",
+    "events1":"活动",
+    "events1text":"利用我们全面的人工智能解决方案套件来宣传您的快闪活动并提高人群参与度。",
+    "events1text2":"了解更多"
+  },
+    "footer": {
+      "language": "语言",
+      "english": "英语",
+      "chinese": "中国人",
+      "home": "家",
+      "about": "关于我们",
+      "services": "服务",
+      "services_schools": "学校",
+      "services_corporate": "公司的",
+      "services_community": "社区",
+      "services_events": "活动",
+      "collaboration": "合作",
+      "community": "AIR+ 社区",
+      "contact": "联系我们",
+      "privacy": "隐私政策",
+      "copyright": "版权所有 © 2024 空气击鼓 ® 保留所有权利。"
+    }
+  }
+  
