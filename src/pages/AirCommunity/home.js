@@ -39,7 +39,7 @@ export default function Main() {
                     </div>
                     <div className='community_bassador' >
                         <div className="community-content">
-                            <h1>AIBASSADOR</h1>
+                            <h1>AIRBASSADOR</h1>
                         </div>
                     </div>
                     <div className='community_partner' >

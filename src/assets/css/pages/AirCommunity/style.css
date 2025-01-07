@@ -31,8 +31,8 @@
 .community_artist {
     border-radius: 35px;
     width: 364px;
-    height: 400px;
-    background-image: url("../../../05_Air Community Page/Illustration - Harmony Singing.png");
+    height: 380px;
+    background-image: url("../../../05_Air Community Page/addon/Community-01.png");
     background-size: 100% 100%;
     animation: pop-in 0.5s forwards;
 }
@@ -40,8 +40,8 @@
 .community_bassador {
     border-radius: 35px;
     width: 364px;
-    height: 400px;
-    background-image: url("../../../05_Air Community Page/Illustration - CometHolding A phone.png");
+    height: 380px;
+    background-image: url("../../../05_Air Community Page/addon/Community-02.png");
     background-size: 100% 100%;
     animation: pop-in 1.2s forwards;
     margin-left: 30px;
@@ -50,7 +50,7 @@
 .community_partner {
     border-radius: 35px;
     width: 364px;
-    height: 400px;
+    height: 380px;
     background-image: url("../../../05_Air Community Page/Community_AirPartner.png");
     background-size: 100% 100%;
     animation: pop-in 1.9s forwards;

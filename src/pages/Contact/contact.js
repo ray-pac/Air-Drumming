@@ -80,10 +80,20 @@ export default function Collaboratopn() {
               <label style={styles.label_style}>Organization</label>
               <input type="text" onChange={(e) => setOrganization(e.target.value)} placeholder="Organization" className='input-style' required />
             </div>
-            <div className='style-row'>
+            <div className="style-row">
               <label style={styles.label_style}>Type of Inquiry</label>
-              <select className='input-style' onChange={(e) => setType(e.target.value)}>
-                <option value="">User deletion</option>
+              <select
+                className="input-style"
+                onChange={(e) => setType(e.target.value)}
+                defaultValue="" // Sets the default selected option
+              >
+                <option value="" disabled>
+                  Type of Inquiry
+                </option>
+                <option value="general">General Inquiry</option>
+                <option value="support">Support</option>
+                <option value="sales">Sales</option>
+                <option value="user-deletion">User Deletion</option>
               </select>
             </div>
           </div>
