@@ -15,6 +15,7 @@ import IconButton from '@mui/material/IconButton';
 import CloseIcon from '@mui/icons-material/Close';
 import Typography from '@mui/material/Typography';
 import axios from 'axios';
+import { useTranslation } from 'react-i18next';
 
 const BootstrapDialog = styled(Dialog)(({ theme }) => ({
   '& .MuiDialogContent-root': {
@@ -26,7 +27,7 @@ const BootstrapDialog = styled(Dialog)(({ theme }) => ({
 }));
 
 export default function Collaboratopn() {
-
+  const { t, i18n } = useTranslation();
   const [open, setOpen] = React.useState(false);
   const [name, setName] = React.useState("");
   const [organization, setOrganization] = React.useState();
@@ -71,56 +72,56 @@ export default function Collaboratopn() {
       <img src={Planet3} className='contact_planet_3' />
       <div className='form_animation'>
           <div className='style-row name-contact'>
-            <label style={styles.label_style}>Name*</label>
-            <input type="text" onChange={(e) => setName(e.target.value)} placeholder="Your name" className='input-style' required />
+            <label style={styles.label_style}>{t('body_contact.contact1')}*</label>
+            <input type="text" onChange={(e) => setName(e.target.value)} placeholder={t('body_contact.contact2')} className='input-style' required />
           </div>
 
           <div className='flex-style'>
             <div className='style-row'>
-              <label style={styles.label_style}>Organization</label>
-              <input type="text" onChange={(e) => setOrganization(e.target.value)} placeholder="Organization" className='input-style' required />
+              <label style={styles.label_style}>{t('body_contact.contact3')}</label>
+              <input type="text" onChange={(e) => setOrganization(e.target.value)} placeholder={t('body_contact.contact3')} className='input-style' required />
             </div>
             <div className="style-row">
-              <label style={styles.label_style}>Type of Inquiry</label>
+              <label style={styles.label_style}>{t('body_contact.contact4')}</label>
               <select
                 className="input-style"
                 onChange={(e) => setType(e.target.value)}
                 defaultValue="" // Sets the default selected option
               >
                 <option value="" disabled>
-                  Type of Inquiry
+                {t('body_contact.contact4')}
                 </option>
-                <option value="general">General Inquiry</option>
-                <option value="support">Support</option>
-                <option value="sales">Sales</option>
-                <option value="user-deletion">User Deletion</option>
+                <option value="general">{t('body_contact.contact5')}</option>
+                <option value="support">{t('body_contact.contact6')}</option>
+                <option value="sales">{t('body_contact.contact7')}</option>
+                <option value="user-deletion">{t('body_contact.contact8')}</option>
               </select>
             </div>
           </div>
           <div className='flex-style'>
             <div className='style-row'>
-              <label style={styles.label_style}>Email Address*</label>
-              <input type="email" onChange={(e) => setEmail(e.target.value)} placeholder="Your email address" className='input-style' required />
+              <label style={styles.label_style}>{t('body_contact.contact9')}*</label>
+              <input type="email" onChange={(e) => setEmail(e.target.value)} placeholder={t('body_contact.contact10')} className='input-style' required />
             </div>
 
             <div className='style-row'>
-              <label style={styles.label_style}>Contact</label>
-              <input type="text" onChange={(e) => setContact(e.target.value)} placeholder="Your Contact number" className='input-style' />
+              <label style={styles.label_style}>{t('body_contact.contact11')}</label>
+              <input type="text" onChange={(e) => setContact(e.target.value)} placeholder={t('body_contact.contact12')} className='input-style' />
             </div>
           </div>
 
           <div className='style-row message-contact'>
-            <label style={styles.label_style}>Message*</label>
-            <textarea onChange={(e) => setMessage(e.target.value)} placeholder="What do you want to say...." className='textarea-style' required></textarea>
+            <label style={styles.label_style}>{t('body_contact.contact13')}*</label>
+            <textarea onChange={(e) => setMessage(e.target.value)} placeholder={t('body_contact.contact14')} className='textarea-style' required></textarea>
           </div>
 
-          <button type="submit" style={styles.button} onClick={() => sendMessage()}>Send</button>
+          <button type="submit" style={styles.button} onClick={() => sendMessage()}>{t('body_contact.contact15')}</button>
       </div>
       <div className='image_part'>
         <div style={{ textAlign: 'left' }}>
-          <h1 className='get-in-touch'>GET IN TOUCH</h1>
+          <h1 className='get-in-touch'>{t('body_contact.contact16')}</h1>
           <div className='help-you' >
-            Let us know how can we help you.
+            {t('body_contact.contact17')}
           </div>
         </div>
         <div className='contact_image' />

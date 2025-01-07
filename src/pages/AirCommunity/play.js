@@ -2,8 +2,10 @@ import * as React from 'react';
 import { useEffect } from 'react';
 import { animations, easings } from 'react-animation'
 import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next';
 
 export default function Join() {
+      const { t, i18n } = useTranslation();
   const [hover, setHover] = React.useState(false)
 
   return (
@@ -12,23 +14,21 @@ export default function Join() {
         <div className='play'>
           <div style={{ display: 'flex', justifyContent: "center" }} >
             <p className='join-now-community'>
-              We recognize and celebrate little wins of yours, with you.
-              We will feature top AIRbassadors on leaderboards and spotlight up-and-coming AIRtists to recognize
+                {t('body_community.community8')}
             </p>
           </div>
           <div style={{ display: 'flex', justifyContent: "center", marginTop: 10 }}>
             <div className="join-now-detail" />
           </div>
           <div style={{ marginTop: 35 }}>
-            <h1 className='experience'>BE THE FIRST TO EXPERIENCE AIR</h1>
+            <h1 className='experience'>{t('body_community.community9')}</h1>
             <div style={{ display: 'flex', justifyContent: "center" }} >
               <p className="join-now-commemt">
-                Join our group of AIRplorers to beta test newly launched features and have your voices heard.
-                Take an active step in making the gaming experience better for fellow players!
+              {t('body_community.community10')}
               </p>
             </div>
           </div>
-            <a target='_blank' href='https://t.me/+WgLc5iHWPPU4ODA1'><button className="join-button">Join Now</button></a>
+            <a target='_blank' href='https://t.me/+WgLc5iHWPPU4ODA1'><button className="join-button">{t('body_community.community11')}</button></a>
         </div>
       </div>
     </section >

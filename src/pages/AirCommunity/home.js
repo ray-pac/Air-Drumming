@@ -8,9 +8,10 @@ import Planet_blue from '../../assets/Planets/Planet_blue.png'
 import {Link} from 'react-router-dom'
 import { Container, Row, Col } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { useTranslation } from 'react-i18next';
 
 export default function Main() {
-
+    const { t, i18n } = useTranslation();
     const [ref, inView] = useInView({
         threshold: 0.6, // Trigger when 10% of the component is visible
     });
@@ -24,37 +25,34 @@ export default function Main() {
             <img src={Planet_blue} className='air_blue' />
             <div className='sign-link-main'>
 
-            <h1 className='sign-title'>AIR+ COMMUNITY</h1>
+            <h1 className='sign-title'>{t('body_community.community1')}</h1>
             <div style={{ display: 'flex', justifyContent: "center", marginBottom: 15 }} >
-                    <p className='welcome-air-community'>Welcome to our Air+ Community - where our AIRbassadors (users), AIRtists (music creators),
-                        and AIR partners (brands) connect.
-                    </p>
+                    <p className='welcome-air-community'>{t('body_community.community2')}</p>
                 </div>
                 
                 <div className="community-images" style={{ display: 'flex', justifyContent: 'center' }}>
                     <div className='community_artist' >
                         <div className="community-content">
-                            <h1>AIRTIST</h1>
+                            <h1>{t('body_community.community3')}</h1>
                         </div>
                     </div>
                     <div className='community_bassador' >
                         <div className="community-content">
-                            <h1>AIRBASSADOR</h1>
+                            <h1>{t('body_community.community4')}</h1>
                         </div>
                     </div>
                     <div className='community_partner' >
                         <div className="community-content">
-                            <h1>AIR PARTNER</h1>
+                            <h1>{t('body_community.community5')}</h1>
                         </div>
                     </div>
                 </div>
                 <div style={{ display: 'flex', justifyContent: "center", marginTop: 20 }} >
                     <p className='welcome-air-comment'>
-                        Sign up for our Air Drumming mobile application to access the latest features,
-                        updates, and rewards!
+                    {t('body_community.community6')}
                     </p>
                 </div>
-                <Link to='/contact'><button className='signup-button' >Chat with us</button></Link>
+                <Link to='/contact'><button className='signup-button' >{t('body_community.community7')}</button></Link>
             </div>
         </div>
     );
