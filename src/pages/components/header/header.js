@@ -8,6 +8,7 @@ import { FaListUl } from "react-icons/fa";
 import MenuSharpIcon from '@mui/icons-material/MenuSharp';
 import '../../../assets/css/components/header/header.css'
 import Logo from '../../../assets/Air Drumming Logo/AirDrumming_logo.svg';
+import Audio from '../../../assets/Audio/6303082381980996619.mp3';
 
     const Header = () => {
     const audioRef = useRef(null);
@@ -203,7 +204,7 @@ import Logo from '../../../assets/Air Drumming Logo/AirDrumming_logo.svg';
                 <Link to="/community"><MenuItem onClick={handleClose}>AIR+ Community</MenuItem></Link>
                 <Link to="/contact"><MenuItem onClick={handleClose}>Contact Us</MenuItem></Link>
             </Menu>
-            <audio ref={audioRef} src="/assets/Audio/6303082381980996619.mp3" loop />
+            <audio ref={audioRef} src={Audio} loop />
         </header >
     );
 };
