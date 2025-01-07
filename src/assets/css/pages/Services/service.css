@@ -6,6 +6,7 @@
   }
 
 .service_container {
+    background-image: url("../../../../assets/03_Services Page/addon/services_back.png");
     background-size: 100% 100%;
 }
 

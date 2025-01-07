@@ -4,15 +4,8 @@ import Home from './school/home';
 import Corporate from './corporate';
 import Community from './community';
 import Events from './events';
-import Background from '../../assets/03_Services Page/addon/services_back.png'
 import '../../assets/css/pages/Services/service.css'
 
-const styles = {
-  background: {
-    backgroundImage: `url(${Background})`,
-    backgroundSize: "100% 100%",
-  }
-};
 
 export default function Main() {
   const location = useLocation();
@@ -32,7 +25,7 @@ export default function Main() {
   }, [location]);
 
   return (
-    <div className='service_container' style={styles.background}>
+    <div className='service_container' >
       <section id="home" ref={homeRef}><Home /></section>
       <section id="corporate" ref={corporateRef}><Corporate /></section>
       <section id="community" ref={communityRef}><Community /></section>
